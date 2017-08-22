@@ -914,3 +914,15 @@ Non si tratta di essere Cassandre o teorici del complotto. Né si tratta di esse
 Il faro che ci ha guidati sin qui, quello di prediligere sempre e comunque una scelta di apertura nella tecnologia e di tendenziale condivisione, dove possibile, sembra non aver ancora esaurito la sua luce. Se c'è una cosa su cui mi sento di scommettere è che questa luce ci guiderà ancora per tanto tempo, con buona pace di chi, decenni fa come oggi, pensa di avere la verità in tasca e scuote la testa quando parliamo di questi temi.
 
 La storia ci ha dato ragione in passato, ci darà ragione anche in futuro.
+© 2017 Carlo Piana -- all rights reserved.
+
+I capitoli originali su Tech Economy sono pubblicati con una licenza Creative Commons Attribuzione – Non commerciale – Condividi allo stesso modo 2.5 (CC BY-NC-SA) il cui testo è disponibile a questo indirizzo http://creativecommons.org/licenses/by-nc-sa/2.5/it/legalcode
+
+La pubblicazione sarà effettuata con una licenza che consenta la riproduzione. Ma ancora non ho deciso, e dipende anche dall'eventuale editore che fosse interessato.
+# techeconomy_book
+
+Sono i sorgenti del libro che sto scrivendo.
+
+Sono scritti in Markdown, per la variante di Pandoc, tranne il file metadata.yaml che appunto è in YAML.
+
+Con Pandoc si ricavano ePub, PDF, HTML (e altri formati che a me non interessano, al momento).

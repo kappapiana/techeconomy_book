@@ -1,0 +1,167 @@
+/* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700, 400,200);*/
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(Y_TKV6o8WovbUd3m_X9aAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+/*@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(toadOcfmlt9b38dHJxOBGEMbjGELOEJD5J8DUmxkO-A.ttf) format('truetype');
+}*/
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(toadOcfmlt9b38dHJxOBGLsbIrGiHa6JIepkyt5c0A0.ttf) format('truetype');
+}
+body {
+    margin: auto;
+    max-width: 55em;
+    width: 85%;
+	color: #222;
+    font-size: 1.1em;
+	font-weight: 400;
+    line-height: 140%;
+		text-align: justify;
+    text-justify: inter-word;
+ font-family: "Source Sans Pro", sans-serif; color: #333333; text-rendering: optimizeLegibility; }
+
+a {color: #228;
+	text-decoration: none;}
+
+a:visited {color: #77c;}
+
+a.footnoteRef    {color: #231;
+   text-decoration: none;
+   font-size: 0.8em;}
+
+h1 {line-height: 1.1em;
+	font-weight: 400;
+	font-size: 2.2em;
+  background-color: #B0E0E6;
+  margin-top: 2.5em;
+  padding: 0.4em 0.3em;}
+
+h1.title, h1.subtitle {background: none;
+  padding: inherit; }
+
+h2 {padding: 0.2em 0px 0.4em 0em;
+	font-weight: 400;
+	margin-top: 1em;
+	margin-bottom: -0.1em;}
+
+h2 {font-size: 180%;
+	line-height: 1.2em;
+	border-top-width: 2px;
+	border-top-color: #ccc;
+	border-top-style: solid;
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+	border-bottom-width: 2px; }
+
+h3 {font-size: 120%;
+   margin-bottom: -0.2em;
+   margin-top: 2em;}
+
+b, strong {font-weight: 700;}
+
+blockquote {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 2em;
+  padding-left: 0.5em;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+}
+
+
+  dl {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+     background-color: #efefef;
+
+  }
+
+  dt {
+    font-weight: bold;
+    color: green;
+  }
+  dt:after {
+    content: ":";
+  }
+
+code {background-color: #eaeaee;
+    color:blue;}
+
+pre {margin-left: 1em;}
+
+.header-section-number {
+  font-weight: 500;}
+
+.header-section-number::after {content: " - ";
+}
+
+h1 + p:first-letter {color: blue;
+  font-weight: bold;
+  float: left;
+   font-size: 2.7em;
+   line-height: 1em;
+   padding-top: 0px;
+   padding-right: 8px;
+   padding-left: 0px;
+ }}
+
+/* for prints */
+
+h1, h2, h3, h4, h5 {
+  page-break-after: avoid;
+}
+
+h1 {page-break-before: always;} /*activate only if multi-chapter */
+
+/* end for prints */
+
+.footnotes {color: #1a1a1a;
+	background-color: eee;}
+
+.footnotes ol, .foonotes li {margin: 0.3em 0px 0px -1em; }
+
+/* meta information
+   here we deal with title, author and date special formats */
+
+h2.author {
+	background-color: transparent;
+	font-size: 1.5em;
+	border-bottom: none; }
+
+h3.date {background-color: transparent;
+	font-style: italic;
+	font-size: 1em;
+ }
+
+h1.title {font-size: 2.5em; font-weight: 700;  page-break-before: avoid;}
+
+/* end meta-information */
+
+
+/*Do more with less*/
+/*This is a lesson to learn*/

@@ -1,0 +1,20 @@
+body {
+  counter-reset: paragraph;
+    }
+
+h1 {
+  counter-reset: section;                    /* Set the section counter to 0 */
+}
+
+
+.contract p:before {
+  counter-increment: section;                /* Increment the section counter*/
+  content: counter(paragraph)  "." counter(section) ": "; /* Display the counter */
+}
+
+
+
+.contract h1:before {
+  counter-increment: paragraph;
+  content: "Articolo" counter(paragraph) ": ";
+}
