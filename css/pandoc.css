@@ -1,17 +1,19 @@
 /* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700, 400,200);*/
 
-@font-face {
+/* This seems unnecessary, no Oswald referenced in this CSS
+  @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
   src: local('Oswald Regular'), local('Oswald-Regular'), url(Y_TKV6o8WovbUd3m_X9aAA.ttf) format('truetype');
 }
+
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
   src: local('Oswald Bold'), local('Oswald-Bold'), url(bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
-}
+}*/
 
 /*@font-face {
   font-family: 'Source Sans Pro';
@@ -128,7 +130,7 @@ h1 + p:first-letter {color: blue;
    padding-top: 0px;
    padding-right: 8px;
    padding-left: 0px;
- }}
+ }
 
 /* for prints */
 
