@@ -11,16 +11,20 @@ Per contribuire a modifiche:
 * Installare git
 * creare un fork sulla propria istanza di Github
 
-    git clone <proprio fork>
+```
+git clone <proprio fork>
     
-    git pull
-    
+git pull
+```
+
 * Modificare quanto va modificato con un qualsiasi editor di testi (suggeriamo Atom)
 
-    git commit -a 
+```
+git commit -a 
     
-    git push
-    
+git push
+```
+
 E creare una `pull request` delle modifiche dal proprio fork.
 
 Se siete in grado di farlo direttamente da linea di comando, non vi serve questa spiegazione.
