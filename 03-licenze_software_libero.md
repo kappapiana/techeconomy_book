@@ -11,7 +11,7 @@ Torniamo alla prima risposta. "È software open source".
 
 Uso il titolo di una presentazione che diedi qualche anno fa a Firenze, parafrasando un più noto _pamphlet_[^e840f8c1] di Paolo Rossi (il comico), "Si fa presto a dire open source". Per dire che una cosa è open source, occorrerebbe prima sapere cosa distingue l'open source dal non open source, e il software libero dal non software libero. Cosa distingue il software libero dal software open source, l'abbiamo già detto nelle scorse puntate, è l'approccio filosofico: in termini giuridici, nulla. Le due nomenclature sono operativamente intercambiabili, per cui non ci accapigliamo, ognuno usi quella che preferisce, io preferisco dire "software libero".
 
-[^e840f8c1]: Paolo Rossi, _Si fa presto a dire "pirla"_, Dalai Editore, Milano, 1997. Su Amazon: https://www.amazon.it/Si-fa-presto-dire-pirla/dp/8885988350
+[^e840f8c1]: Paolo Rossi, _Si fa presto a dire "pirla"_, Dalai Editore, Milano, 1997. Su Amazon: <https://www.amazon.it/Si-fa-presto-dire-pirla/dp/8885988350>
 
 Però i due mondi fanno effettivamente riferimento a due differenti **definizioni**. La definizione di software libero è semplice: è software libero il software la cui licenza soddisfa tutte e quattro le libertà del software, di cui abbiamo già detto nel [precedente capitolo](#sec_storia), quando ci siamo occupati della storia del software libero. Se ne manca anche solo una, non è software libero.
 
@@ -31,9 +31,9 @@ OSI ha nel frattempo approvato un centinaio di licenze diverse. Che non esaurisc
 
 Invece abbiamo licenze che in larga parte sono simili tra loro (appartengono solitamente a una delle grandi famiglie, di cui diremo), ma con differenze che possono a volte determinare ambiguità, passare inosservate e -- quel che è peggio -- causare incompatibilità reciproche, soprattutto quando si passa al copyleft. Seguendo le discussioni sulle nuove proposte di licenze all'OSI ci si rende conto che in larga parte l'esigenza che tali licenze soddisfano sono o l'ego di chi le propone, per avere il proprio nome legato a una licenza (che poi non userà quasi nessuno) oppure... l'ego di chi le propone, che pensa che le centinaia di menti che collettivamente hanno sviluppato quelle esistenti e adottate dalla maggior parte del software siano degli incompetenti. Solo in alcuni casi, alcune licenze servono a soddisfare esigenze specifiche e sono in parte giustificabili, nella maggior parte dei casi la mia opinione è che **meno è meglio**. Nel dubbio se usare una licenza e scriverne una, contare fino a diecimila e poi comunque **abbandonare l'idea**.[^16c074d9]
 
-[^16c074d9]:  Parlo come autore di una licenza sottoposta e mai approvata da OSI (la licenza [MXM][8ce587b6], sviluppata con Leonardo Chiariglione per MPEG).
+[^16c074d9]:  Parlo come autore di una licenza sottoposta e mai approvata da OSI (la licenza MXM (<https://www.linuxjournal.com/content/should-open-source-licence-ever-be-patent-agnostic>), sviluppata con Leonardo Chiariglione per MPEG).
 
-[8ce587b6]: https://www.linuxjournal.com/content/should-open-source-licence-ever-be-patent-agnostic "Moody on MXM to OSI"
+[8ce587b6]:  "Moody on MXM to OSI"
 
 ## Le famiglie delle licenze: divisione tra vari livelli di copyleft
 

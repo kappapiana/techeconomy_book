@@ -6,13 +6,13 @@ Ricordo la prima volta che ne sentii parlare. In un trafiletto su qualche ormai 
 
 Per me, giovane praticante avvocato cresciuto in uno studio che faceva della tutela del software uno dei fiori all'occhiello, era cosa inaudita, che ovviamente non avrebbe mai avuto nessun seguito, se non tra questi che sicuramente erano hippy dalla dubbia igiene.
 
-Avevo, in poche parole, avuto un contatto non ravvicinato con il software libero, e se a voi piace, "software open source". Siccome la poca conoscenza è ben più pericolosa di una completa ignoranza, avevo tratto conclusioni che più sbagliate non potevano essere su quale potesse essere il futuro di quell'abominio. Come oggi, a più di vent'anni di differenza, il fatto che ne scriva su queste colonne mi porta a considerare.
+Avevo, in poche parole, avuto un contatto non ravvicinato con il software libero, e se a voi piace, "software open source". Siccome la poca conoscenza è ben più pericolosa di una completa ignoranza, avevo tratto conclusioni che più sbagliate non potevano essere su quale potesse essere il futuro di quell'abominio. Come oggi, a più di vent'anni di distanza, il fatto che ne scriva su queste pagine mi porta a considerare.
 
 ## E l'ignoranza si fece approssimata conoscenza: il misterioso "codice sorgente"
 
 Il primo contatto vero con il software libero fu una distribuzione marchiata Red Hat di GNU/Linux, doveva essere il 1996 o giù di lì.
 
-Flash forward: anno 2000, il Millennium Bug, sul quale il giovane aveva costruito un poco di notorietà, si era dimostrato una bolla di sapone. Delle migliaia di cause che si prospettavano a seguito del malfunzonamento del software con il passaggio al nuovo millennio, neppure una. Nel frattempo però avevo avuto modo di valutare come il fatto di non avere a disposizione il codice sorgente avrebbe potuto trasformare un evento tutto sommato banale -- il fatto di aver utilizzato per definire l'anno con due cifre anziché con quattro -- in una catastrofe profetizzata, tanto da apparire in numerosi film (nessuno memorabile, per la verità).
+Flash forward: anno 2000, il Millennium Bug, sul quale il giovane aveva costruito un poco di notorietà, si era dimostrato una bolla di sapone. Delle migliaia di cause che si prospettavano a seguito del malfunzionamento del software con il passaggio al nuovo millennio, neppure una. Nel frattempo però avevo avuto modo di valutare come il fatto di non avere a disposizione il codice sorgente avrebbe potuto trasformare un evento tutto sommato banale -- il fatto di aver utilizzato per definire l'anno con due cifre anziché con quattro -- in una catastrofe profetizzata, tanto da apparire in numerosi film (nessuno memorabile, per la verità).
 
 Non avere il codice sorgente fa sì che, anche se tu hai pagato profumatamente lo sviluppo del software, il software non sia veramente "tuo". Puoi utilizzarlo così com'è, ma non puoi modificarlo. Per coloro che non sono addentro alla programmazione, il software, ancora adesso, è  sviluppato in questo modo: un programmatore usa un linguaggio di programmazione, che grosso modo sembra inglese. Righe di codice, a-capo, commenti, parentesi di ogni tipo<!--- [FIXME] qui ci va un'immagine?-->. Ma chi sa programmare, sa anche leggere e mettere le mani su quella roba lì. Che si chiama -- appunto -- "codice sorgente".
 
@@ -24,7 +24,7 @@ Ma il codice sorgente non va bene affatto per le macchine. I computer vogliono l
 
 E segreto fu. Il segreto viene tutelato da apposite norme che impediscono di cercare di risalire al codice sorgente. Dunque, questa è una seconda protezione sul software, in aggiunta al copyright.
 
-Intanto particolare setta di avvocati chiamati IP Lawyers, i quali passano il giorno e la notte a inventarsi nuove protezioni, si dissero "ma perché se inventiamo un modo nuovo di far qualcosa con una macchina, possiamo ottenere un brevetto, mentre se inventiamo un modo nuovo di fare qualcosa con un computer, no? Otteniamo un brevetto". Se lo dissero tanto spesso e con tanta convinzione, e lo dissero con altrettanta convinzione ai giudici, che un giorno un giudice diede loro  ragione. E brevetto fu. Ecco la terza protezione che insiste sul software.
+Intanto, una particolare setta di avvocati chiamati "_IP Lawyers_", i quali passano il giorno e la notte a inventarsi nuove protezioni, si dissero "ma perché se inventiamo un modo nuovo di far qualcosa con una macchina, possiamo ottenere un brevetto, mentre se inventiamo un modo nuovo di fare qualcosa con un computer, no? Otteniamo un brevetto". Se lo dissero tanto spesso e con tanta convinzione, e lo dissero con altrettanta convinzione ai giudici, che un giorno un giudice diede loro  ragione. E brevetto fu. Ecco la terza protezione che insiste sul software.
 
 Sui brevetti potremmo fare un lungo discorso, ma ci porterebbe troppo lontano, basti dire che i brevetti sul software, per quanto di dubbia legalità, soprattutto in Europa, esistono e vengono attivamente tutelati in giudizio.
 
