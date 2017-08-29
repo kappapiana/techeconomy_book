@@ -807,7 +807,7 @@ _Per approfondimenti suggerisco la lettura di Simone Aliprandi, Il fenomeno open
 
 # API e nuvole, la faccia chiusa del web {#sec_api}
 
-L'openness ha una faccia oscura, che si fa vedere solo attraverso un messaggero fumoso e impercettibile. &Egrave; il "cloud computing", tanto di moda nei circoli di quelli che parlano di innovazione, non sempre a sproposito. Il cloud, però, non è altro che software dei cui servizi ci avvaliamo tramite interfacce e protocolli via rete. Software che sta da qualche parte, sovente su un computer di qualcun altro, a cui quindi non abbiamo accesso, se non tramite "servizi" che vengono esposti via rete. Internet, nei diagrammi, viene spesso rappresentata come una nuvola, da cui "Cloud". Questi servizi vengono fruiti o direttamente, tramite una pagina web accessibile in un browser, o "dietro le scene", tramite altri protocolli e interfacce in cui sono i computer e i relativi programmi a parlarsi tra loro. Protocolli e interfacce che vanno sotto il nome di "API". Ecco spiegato il titolo, almeno la prima parte.
+L'openness ha una faccia oscura, che si fa vedere solo attraverso un messaggero fumoso e impercettibile. &Egrave; il "cloud computing", tanto di moda nei circoli di quelli che parlano di innovazione, non sempre a sproposito. Il cloud, però, non è altro che software dei cui servizi ci avvaliamo tramite **interfacce e protocolli via rete**. Software che sta da qualche parte, sovente su un computer di qualcun altro, a cui quindi non abbiamo accesso, se non tramite "servizi" che vengono esposti via rete. Questi servizi vengono fruiti o direttamente, tramite una pagina web accessibile in un browser, o "dietro le scene", tramite altri protocolli e interfacce in cui sono i computer e i relativi programmi a parlarsi tra loro. Protocolli e interfacce che vanno sotto il nome di "API". Ecco spiegato il titolo, almeno la prima parte.
 
 ## Un problema di disponibilità
 
@@ -863,7 +863,7 @@ Questo dimostra che la tentazione di usare la posizione di chiusura data dal con
 
 # Nuvole aperte, nuvole chiuse e nuvole nere {#sec_cloud}
 
-Proseguiamo il discorso iniziato &ndash; con particolare riferimento alle [API](#sec_api) e alla loro disponibilità &ndash; sul **cloud computing**, in particolare sul cosiddetto **cloud pubblico**.    
+Proseguiamo il discorso iniziato &ndash; con particolare riferimento alle [API](#sec_api) e alla loro disponibilità &ndash; sul **cloud computing**, in particolare sul cosiddetto **cloud pubblico** e alle relative problematiche concorrenziali e di interoperabilità, per affrontare più in generale le declinazioni e le problematiche di _openness_ nei sistemi cloud.
 
 ## Cos'è il cloud
 
@@ -946,6 +946,9 @@ GNU
 
 API
 : Application Programming Interface. Regole e interfacce stabiliti per interoperare tra due differenti servizi o programmi.
+
+SaaS
+: Software as a Service. Software che non viene eseguito sulla macchina dell'utilizzatore, ma da un terzo su macchine proprie, che ne mette a disposizione i servizi.
 © 2017 Carlo Piana -- all rights reserved.
 
 I capitoli originali su Tech Economy sono pubblicati con una licenza Creative Commons Attribuzione – Non commerciale – Condividi allo stesso modo 2.5 (CC BY-NC-SA) il cui testo è disponibile a questo indirizzo http://creativecommons.org/licenses/by-nc-sa/2.5/it/legalcode
