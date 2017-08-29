@@ -1,7 +1,12 @@
 
 # Una breve storia personale del software libero {#sec_storia}
 
+Abbiamo visto cosa significa "aperto", in generale e le dinamiche che prevengono l'apertura. Abbiamo anche visto le dinamiche che rimuovono le chiusure e fanno di ciò che sarebbe "chiuso" qualcosa di "aperto".
+
+Ora è tempo di applicare le conoscenze appena conseguite. Iniziamo dal campo che ha dato per primo e con maggiore dovizia spunti e strumenti all'apertura dei prodotti intellettuali: il **software**. E cominciamo da come **io** sono giunto a conoscere il software libero. Genesi, capitolo primo.
+
 ## In principio era l'ignoranza
+
 Ricordo la prima volta che ne sentii parlare. In un trafiletto su qualche ormai dimenticata rivista si parlava di alcuni tizi, prevalentemente in ambito universitario (MIT) i quali sostenevano, anatema! che il software dovesse essere libero. E menzionava il nome di questa accozzaglia di matti: la Free Software Foundation.
 
 Per me, giovane praticante avvocato cresciuto in uno studio che faceva della tutela del software uno dei fiori all'occhiello, era cosa inaudita, che ovviamente non avrebbe mai avuto nessun seguito, se non tra questi che sicuramente erano hippy dalla dubbia igiene.
@@ -55,6 +60,6 @@ Nel software, per questa ragione, "copyleft" viene sovente tradotto con "accesso
 
 Per il proprio sistema operativo Stallman non vuole affidarsi alla buona volontà di chi lo modificherà, per ricevere gli sviluppi che altri faranno, come fecero i suoi predecessori. Vuole che ciò sia una precisa condizione, ovvero usa per primo il "copyleft", e inventa la licenza GNU General Public License. Che avrà un successo enorme, tanto da essere applicata a più della metà dei progetti di software libero, e sarà nota sotto il nome più colloquiale di "GPL".
 
-GNU diventerà un sistema operativo di estremo successo quando al kernel originale (la parte che nel sistema operativo si occupa delle funzioni più di base e dell'interazione tra il software e l'hardware) che Stallman aveva sviluppato (Hurd) verrà preferito quello sviluppato da un giovane (allora) studente universitario finlandese, Linus Torvalds, che lo chiamerà "Linux". Il sistema GNU + Linux verrà poi conosciuto più generalmente con il nome del solo kernel, ovvero "Linux". Il successo di questo sistema è tanto enorme quanto in parte misconsciuto. GNU/Linux sarà il sistema operativo che fornirà la spina dorsale di Internet come la conosciamo, su di esso è fondato quasi tutto quello che sostiene Internet  come infrastruttura (server, router, apparati di ogni genere) e come servizi: tutti i social network e quasi tutti i servizi in cloud sono basati sotto qualche forma di GNU/Linux, e Linux in combinazione con una variante di Java chiamata Dalvik sarà meglio nota come "Android".
+GNU diventerà un sistema operativo di estremo successo quando al kernel originale (la parte che nel sistema operativo si occupa delle funzioni più di base e dell'interazione tra il software e l'hardware) che Stallman aveva sviluppato (Hurd) verrà preferito quello sviluppato da un giovane (allora) studente universitario finlandese, Linus Torvalds, che lo chiamerà "Linux". Il sistema GNU + Linux verrà poi conosciuto più generalmente con il nome del solo kernel, ovvero "Linux". Il successo di questo sistema è tanto enorme quanto in parte misconosciuto. GNU/Linux sarà il sistema operativo che fornirà la spina dorsale di Internet come la conosciamo, su di esso è fondato quasi tutto quello che sostiene Internet  come infrastruttura (server, router, apparati di ogni genere) e come servizi: tutti i social network e quasi tutti i servizi in cloud sono basati sotto qualche forma di GNU/Linux, e Linux in combinazione con una variante di Java chiamata Dalvik sarà meglio nota come "Android".
 
 E' stata una rivoluzione nata da una combinazione tra un ricercatore, una stampante e una licenza, che ha cambiato l'informatica per sempre. E lo ha fatto non solo con Linux, ma con una serie ormai quasi infinita che ne ha raccolto il testimone in quasi tutti i campi. Nel prossimo capitolo esamineremo il mondo delle licenze di software libero e le loro varie tipologie.
