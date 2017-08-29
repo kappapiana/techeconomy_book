@@ -10,17 +10,17 @@ Non è un'area del diritto scarsamente presidiata.
 Un libro introduttivo sui concetti di apertura delle licenze per arrivare all'apertura di contenuti -- e di qualsiasi cosa sia ristretta da un diritto di esclusiva su beni immateriali --, scritto in modo semplice, immediato e divulgativo, ma sufficientemente rigoroso, sistematico e coerente, in Italiano sull'openness nel diritto, però, come avrei voluto leggere io vent'anni or sono, non c'è.
 
 Quando la redazione di [Tech Economy][96ddb697] mi ha chiesto di scrivere in materia di software libero sulla rivista online, mi è parso evidente che si poteva colmare la lacuna in maniera efficiente. Ho iniziato pertanto a scrivere alcuni pezzi avendo in mente di raccoglierli definitivamente, con pochi riadattamenti, in un libercolo in cui anche chi è particolarmente digiuno dei concetti di base possa trovare un concreto avviamento alla materia.
-Ho testato dunque il capitolo introduttivo (che è stato anche la prima puntata della mia [serie di articoli][567095f1] Tech Economy) con la mia famiglia, e apparentemente dopo molti anni hanno iniziato a capire ciò di cui parlavo.
+Ho testato dunque il capitolo introduttivo (che è stato anche la prima puntata della mia serie di articoli[^567095f1] Tech Economy) con la mia famiglia, e apparentemente dopo molti anni hanno iniziato a capire ciò di cui parlavo.
 
-  [567095f1]: http://www.techeconomy.it/author/carlo-piana/ "Serie di articoli"
+  [^567095f1]: http://www.techeconomy.it/author/carlo-piana/
 
 Se anche solo due persone, a me particolarmente care, hanno avuto modo di capirci qualcosa, be', allora sono soddisfatto.
 
   [96ddb697]: https://techeconomy.it "TechEconomy"
 
-In questa opera non c'è tutto. Non ho parlato di _open hardware_, per esempio, né di _open science_, argomenti che mi affascinano e che in certo modo ho anche affrontato. Ma ho cercato di trovare i campi di analisi più rilevanti per una (parolona!) "**teoria generale**" del diritto dell'openness. Benché in maniera -- lo ripeto -- divulgativa e non certamente con un'analisi approfondita (rimando ai numerosi contributi nei vari volumi dell'[International Free and Open Source Software Law Review][a5d6f24c] per chi volesse approfondire in maniera più articolata) Questo volevo realizzare, dare alcuni fondamenti teorici comuni e spunti di ragionamento a chi volesse raccogliere il testimone e dare un quadro più completo e definitivo.
+In questa opera non c'è tutto. Non ho parlato di _open hardware_, per esempio, né di _open science_, argomenti che mi affascinano e che in certo modo ho anche affrontato. Ma ho cercato di trovare i campi di analisi più rilevanti per una (parolona!) "**teoria generale**" del diritto dell'openness. Benché in maniera -- lo ripeto -- divulgativa e non certamente con un'analisi approfondita (rimando ai numerosi contributi nei vari volumi dell'International Free and Open Source Software Law Review[^a5d6f24c] per chi volesse approfondire in maniera più articolata) Questo volevo realizzare, dare alcuni fondamenti teorici comuni e spunti di ragionamento a chi volesse raccogliere il testimone e dare un quadro più completo e definitivo.
 
-  [a5d6f24c]: http://ifosslr.org "IFOSSLR"
+  [^a5d6f24c]: http://ifosslr.org "IFOSSLR"
 
 Per il momento, sono soddisfatto del risultato raggiunto. Alle stampe!
 
@@ -88,13 +88,13 @@ Ricordo la prima volta che ne sentii parlare. In un trafiletto su qualche ormai 
 
 Per me, giovane praticante avvocato cresciuto in uno studio che faceva della tutela del software uno dei fiori all'occhiello, era cosa inaudita, che ovviamente non avrebbe mai avuto nessun seguito, se non tra questi che sicuramente erano hippy dalla dubbia igiene.
 
-Avevo, in poche parole, avuto un contatto non ravvicinato con il software libero, e se a voi piace, "software open source". Siccome la poca conoscenza è ben più pericolosa di una completa ignoranza, avevo tratto conclusioni che più sbagliate non potevano essere su quale potesse essere il futuro di quell'abominio. Come oggi, a più di vent'anni di differenza, il fatto che ne scriva su queste colonne mi porta a considerare.
+Avevo, in poche parole, avuto un contatto non ravvicinato con il software libero, e se a voi piace, "software open source". Siccome la poca conoscenza è ben più pericolosa di una completa ignoranza, avevo tratto conclusioni che più sbagliate non potevano essere su quale potesse essere il futuro di quell'abominio. Come oggi, a più di vent'anni di distanza, il fatto che ne scriva su queste pagine mi porta a considerare.
 
 ## E l'ignoranza si fece approssimata conoscenza: il misterioso "codice sorgente"
 
 Il primo contatto vero con il software libero fu una distribuzione marchiata Red Hat di GNU/Linux, doveva essere il 1996 o giù di lì.
 
-Flash forward: anno 2000, il Millennium Bug, sul quale il giovane aveva costruito un poco di notorietà, si era dimostrato una bolla di sapone. Delle migliaia di cause che si prospettavano a seguito del malfunzonamento del software con il passaggio al nuovo millennio, neppure una. Nel frattempo però avevo avuto modo di valutare come il fatto di non avere a disposizione il codice sorgente avrebbe potuto trasformare un evento tutto sommato banale -- il fatto di aver utilizzato per definire l'anno con due cifre anziché con quattro -- in una catastrofe profetizzata, tanto da apparire in numerosi film (nessuno memorabile, per la verità).
+Flash forward: anno 2000, il Millennium Bug, sul quale il giovane aveva costruito un poco di notorietà, si era dimostrato una bolla di sapone. Delle migliaia di cause che si prospettavano a seguito del malfunzionamento del software con il passaggio al nuovo millennio, neppure una. Nel frattempo però avevo avuto modo di valutare come il fatto di non avere a disposizione il codice sorgente avrebbe potuto trasformare un evento tutto sommato banale -- il fatto di aver utilizzato per definire l'anno con due cifre anziché con quattro -- in una catastrofe profetizzata, tanto da apparire in numerosi film (nessuno memorabile, per la verità).
 
 Non avere il codice sorgente fa sì che, anche se tu hai pagato profumatamente lo sviluppo del software, il software non sia veramente "tuo". Puoi utilizzarlo così com'è, ma non puoi modificarlo. Per coloro che non sono addentro alla programmazione, il software, ancora adesso, è  sviluppato in questo modo: un programmatore usa un linguaggio di programmazione, che grosso modo sembra inglese. Righe di codice, a-capo, commenti, parentesi di ogni tipo<!--- [FIXME] qui ci va un'immagine?-->. Ma chi sa programmare, sa anche leggere e mettere le mani su quella roba lì. Che si chiama -- appunto -- "codice sorgente".
 
@@ -106,7 +106,7 @@ Ma il codice sorgente non va bene affatto per le macchine. I computer vogliono l
 
 E segreto fu. Il segreto viene tutelato da apposite norme che impediscono di cercare di risalire al codice sorgente. Dunque, questa è una seconda protezione sul software, in aggiunta al copyright.
 
-Intanto particolare setta di avvocati chiamati IP Lawyers, i quali passano il giorno e la notte a inventarsi nuove protezioni, si dissero "ma perché se inventiamo un modo nuovo di far qualcosa con una macchina, possiamo ottenere un brevetto, mentre se inventiamo un modo nuovo di fare qualcosa con un computer, no? Otteniamo un brevetto". Se lo dissero tanto spesso e con tanta convinzione, e lo dissero con altrettanta convinzione ai giudici, che un giorno un giudice diede loro  ragione. E brevetto fu. Ecco la terza protezione che insiste sul software.
+Intanto, una particolare setta di avvocati chiamati "_IP Lawyers_", i quali passano il giorno e la notte a inventarsi nuove protezioni, si dissero "ma perché se inventiamo un modo nuovo di far qualcosa con una macchina, possiamo ottenere un brevetto, mentre se inventiamo un modo nuovo di fare qualcosa con un computer, no? Otteniamo un brevetto". Se lo dissero tanto spesso e con tanta convinzione, e lo dissero con altrettanta convinzione ai giudici, che un giorno un giudice diede loro  ragione. E brevetto fu. Ecco la terza protezione che insiste sul software.
 
 Sui brevetti potremmo fare un lungo discorso, ma ci porterebbe troppo lontano, basti dire che i brevetti sul software, per quanto di dubbia legalità, soprattutto in Europa, esistono e vengono attivamente tutelati in giudizio.
 
@@ -153,7 +153,7 @@ Torniamo alla prima risposta. "È software open source".
 
 Uso il titolo di una presentazione che diedi qualche anno fa a Firenze, parafrasando un più noto _pamphlet_[^e840f8c1] di Paolo Rossi (il comico), "Si fa presto a dire open source". Per dire che una cosa è open source, occorrerebbe prima sapere cosa distingue l'open source dal non open source, e il software libero dal non software libero. Cosa distingue il software libero dal software open source, l'abbiamo già detto nelle scorse puntate, è l'approccio filosofico: in termini giuridici, nulla. Le due nomenclature sono operativamente intercambiabili, per cui non ci accapigliamo, ognuno usi quella che preferisce, io preferisco dire "software libero".
 
-[^e840f8c1]: Paolo Rossi, _Si fa presto a dire "pirla"_, Dalai Editore, Milano, 1997. Su Amazon: https://www.amazon.it/Si-fa-presto-dire-pirla/dp/8885988350
+[^e840f8c1]: Paolo Rossi, _Si fa presto a dire "pirla"_, Dalai Editore, Milano, 1997. Su Amazon: <https://www.amazon.it/Si-fa-presto-dire-pirla/dp/8885988350>
 
 Però i due mondi fanno effettivamente riferimento a due differenti **definizioni**. La definizione di software libero è semplice: è software libero il software la cui licenza soddisfa tutte e quattro le libertà del software, di cui abbiamo già detto nel [precedente capitolo](#sec_storia), quando ci siamo occupati della storia del software libero. Se ne manca anche solo una, non è software libero.
 
@@ -173,9 +173,9 @@ OSI ha nel frattempo approvato un centinaio di licenze diverse. Che non esaurisc
 
 Invece abbiamo licenze che in larga parte sono simili tra loro (appartengono solitamente a una delle grandi famiglie, di cui diremo), ma con differenze che possono a volte determinare ambiguità, passare inosservate e -- quel che è peggio -- causare incompatibilità reciproche, soprattutto quando si passa al copyleft. Seguendo le discussioni sulle nuove proposte di licenze all'OSI ci si rende conto che in larga parte l'esigenza che tali licenze soddisfano sono o l'ego di chi le propone, per avere il proprio nome legato a una licenza (che poi non userà quasi nessuno) oppure... l'ego di chi le propone, che pensa che le centinaia di menti che collettivamente hanno sviluppato quelle esistenti e adottate dalla maggior parte del software siano degli incompetenti. Solo in alcuni casi, alcune licenze servono a soddisfare esigenze specifiche e sono in parte giustificabili, nella maggior parte dei casi la mia opinione è che **meno è meglio**. Nel dubbio se usare una licenza e scriverne una, contare fino a diecimila e poi comunque **abbandonare l'idea**.[^16c074d9]
 
-[^16c074d9]:  Parlo come autore di una licenza sottoposta e mai approvata da OSI (la licenza [MXM][8ce587b6], sviluppata con Leonardo Chiariglione per MPEG).
+[^16c074d9]:  Parlo come autore di una licenza sottoposta e mai approvata da OSI (la licenza MXM (<https://www.linuxjournal.com/content/should-open-source-licence-ever-be-patent-agnostic>), sviluppata con Leonardo Chiariglione per MPEG).
 
-[8ce587b6]: https://www.linuxjournal.com/content/should-open-source-licence-ever-be-patent-agnostic "Moody on MXM to OSI"
+[8ce587b6]:  "Moody on MXM to OSI"
 
 ## Le famiglie delle licenze: divisione tra vari livelli di copyleft
 
@@ -566,7 +566,7 @@ Il monopolio è limitato in due sensi: non si brevetta un intero prodotto (come 
 
 La limitazione temporale è chiara, ma anche quella sull'oggetto lo è, nella teoria economica. Concentrandoci solo sulla parte che è rilevante al nostro discorso, il fatto che la protezione sia limitata solo alla parte strettamente necessaria a praticare in pace la propria invenzione e nulla più, ovvero non sia debordante ("*overbroad*") serve allo scopo di **incentivare l'ulteriore innovazione**. Se il primo arrivato fosse in grado di ottenere il monopolio su tutto ciò che ha a che fare con la propria invenzione, ben difficilmente un secondo inventore investirebbe nello stesso campo, sapendo di essere alla mercè dell'arbitrio del monopolista. [^watt]
 
-[^watt]: Cosa che accadde ed è molto studiata nel caso dei brevetti di Watt sulla macchina a vapore. Per approfondimenti, si veda il lavoro di Michele Boldrin e David K Levine "Against Intellectual Monopoly" Cambridge University Press 978-0-521-87928-6. L'introduzione è disponibile tramite il [MISES Blog](https://mises.org/library/james-watt-monopolist) https://mises.org/library/james-watt-monopolist
+[^watt]: Cosa che accadde ed è molto studiata nel caso dei brevetti di Watt sulla macchina a vapore. Per approfondimenti, si veda il lavoro di Michele Boldrin e David K Levine "Against Intellectual Monopoly" Cambridge University Press 978-0-521-87928-6. L'introduzione è disponibile tramite il MISES Blog ^[Z<https://mises.org/library/james-watt-monopolist>]
 
 Il gioco concorrenziale che (teoricamente) si crea è anch'esso (sempre in teoria) semplice. Chi volesse fare concorrenza a Tizio ha due strategie fondamentali: pagare il permesso (= licenza) o **trovare un altro modo** di praticare la stessa invenzione ("**_to invent around_**"). Se Tizio chiede troppo come compenso per praticare la propria invenzione, Caio sarà incentivato a trovare una soluzione diversa tra le varie possibili, e dunque creerà magari un modo più intelligente di risolvere lo stesso problema. In questo modo, si lascia spazio al **mercato**, e all'ulteriore innovazione, per cui Tizio tenderà a chiedere un prezzo ragionevole per la licenza; se non lo farà, Caio avrà un'alternativa praticabile, aggirando l'ostacolo della privativa, e in ogni caso si incentiva l'incremento tecnologico. Il gioco qui è a somma positiva e tende a calmierare i prezzi e a incentivare l'ulteriore ricerca.
 
@@ -631,7 +631,7 @@ ND (Non Discriminatory)
 
 Se il principio di non discriminazione dà luogo a pochi dissidi, il concetto di "ragionevole" è fonte sovente di diverse interpretazioni. Va ricordato che le regole sulle licenze dei brevetti "vincolano" (attraverso varie teorie, che omettiamo per brevità) il titolare dei brevetti a rispettare la sua dichiarazione. Ma la genericità di tale affermazione è tale da frustrare sin dall'inizio ogni velleità di contestarla, se non in alcuni casi. [^rand]
 
-[^rand]: Esemplare il caso Apple v. Motorola. Una buona fonte per approfondimenti è la pagina di Wikipedia: https://en.wikipedia.org/wiki/Motorola_Mobility_v._Apple_Inc. Un'altra buona fonte è, a cura della Direzione generale antitrust della Commissione Europea, [Standard-essential patents, in *Competition Policy Brief*, Issue 8, June 2014](http://ec.europa.eu/competition/publications/cpb/2014/008_en.pdf) (http://ec.europa.eu/competition/publications/cpb/2014/008_en.pdf)
+[^rand]: Esemplare il caso Apple v. Motorola. Una buona fonte per approfondimenti è la pagina di Wikipedia: <https://en.wikipedia.org/wiki/Motorola_Mobility_v._Apple_Inc>. Un'altra buona fonte è, a cura della Direzione generale antitrust della Commissione Europea, Standard-essential patents, in *Competition Policy Brief*, Issue 8, June 2014 <http://ec.europa.eu/competition/publications/cpb/2014/008_en.pdf>
 
 Il **fallimento** di tale gioco può avvenire però  quando uno o più titolari di brevetti non siano, almeno formalmente, coinvolti nelle attività di standardizzazione, e dunque non risultino vincolati dalla dichiarazione effettuata all'ente standardizzatore. Nel caso Rambus,[^Rambus] la società è stata accusata di "*patent ambush*", ovvero di aver teso un'imboscata, facendo sì che lo standard implementasse una sua tecnologia, per poi imporre *royalty* eccessive per il permesso di praticarla, senza che contro di essa fosse invocabile un obbligo RAND.  Ma anche nel caso in cui un soggetto abbia effettivamente sottoscritto le condizioni RAND, vi sono spazi per abusi. Un caso piuttosto chiaro (e che richiama il caso Apple v. Motorola) mi è capitato recentemente.
 
@@ -750,7 +750,7 @@ Le interfacce possono essere perfettamente accessibili, ad esempio  nel caso in 
 
 Un caso che ha fatto scuola, e che conosco sufficientemente bene per aver partecipato direttamente ai vari processi alla Corte di Giustizia dell'Unione Europea, è il [caso Microsoft]( https://fsfe.org/activities/ms-vs-eu/ms-vs-eu.it.html). Parlarne compiutamente sarebbe troppo lungo, ma il caso verteva sulla possibilità che un operatore indipendente reimplementasse i protocolli e le interfacce di rete dei sistemi Microsoft Windows, facendo "finta" di essere dall'altra parte un sistema Windows. Le API dei sistemi di rete di Windows non sono pubbliche, a differenza delle API che consentono ai programmi di interfacciarsi con il sistema operativo locale: esse sono (erano) tenute segrete, almeno da una certa data in poi (per coincidenza, più o meno da quando Microsoft era diventata "dominante" nei sistemi "workgroup").
 
-Un sistema operativo diverso, per esempio Linux, non aveva dunque la possibilità di "inserirsi"  in una rete Windows. Non poteva fare il server in una rete di client Windows, non poteva fare il server in un gruppo di server Windows, non poteva fare il client in una rete di server e client Windows, se non tramite protocolli diversi e meno adatti. Era nella stessa situazione di un cliente in un caffè francese che non sapeva parlare francese, aveva i soldi, ma non sapeva come ordinare qualcosa (né esattamente cosa ordinare). La metafora viene da una [descrizione](https://www.samba.org/ftp/tridge/misc/french_cafe.txt)  su come è  nato il suo progetto [Samba](https://www.samba.org/) .
+Un sistema operativo diverso, per esempio Linux, non aveva dunque la possibilità di "inserirsi"  in una rete Windows. Non poteva fare il server in una rete di client Windows, non poteva fare il server in un gruppo di server Windows, non poteva fare il client in una rete di server e client Windows, se non tramite protocolli diversi e meno adatti. Era nella stessa situazione di un cliente in un caffè francese che non sapeva parlare francese, aveva i soldi, ma non sapeva come ordinare qualcosa (né esattamente cosa ordinare). La metafora viene da una descrizione dell'autore ^<https://www.samba.org/ftp/tridge/misc/french_cafe.txt>] su come è  nato il suo progetto Samba^[<https://www.samba.org/>] .
 
 Samba è una reimplementazione dei servizi di rete di Windows, nata dal protocolo SMB (da cui il nome "Samba") ad opera di Andrew "Tridge" Tridgell, una delle persone più geniali che abbia mai conosciuto. Per aggirare il segreto che a un certo punto era sceso sui protocolli nelle nuove versioni della parte di servizi di workgroup server (condivisione di file, servizi di autenticazione e stampa), egli si mise ad "annusare" il traffico di rete tra due macchine Windows, per scoprire &ndash; riusiamo l'analogia &ndash; come si chiama quel pezzo di pane lungo e strano, o quella bevanda in quella tazza, come si fa una domanda invece di un'affermazione, cercando di capire i pezzi della "lingua" che compone il protocollo, il ruolo di essi, la giusta sequenza, come combinarli per fare una domanda e per dare una risposta e così via. Fino a creare un componente che, visto dalla parte del server "Windows", sembrasse un altro Windows. E poi sostituire la macchina Windows con Samba, per vedere i messaggi di errore generati intenzionalmente e imparare ancora di più.
 
@@ -871,7 +871,7 @@ In particolarmente ci occupiamo di "**Software as a Service**" (SaaS) e di "**Pl
 ## Le libertà del cloud
 
 Nel cloud, e da qui avanti useremo questo termine per intendere solo PaaS e SaaS, tutto quello che abbiamo detto in precedenza in termini di [openness](#sec_aperto) nel [software](#sec_licenze) **non vale**. Nel software ottenuto via cloud, infatti, non vi è distribuzione di software, ma soltanto un'esposizione via rete dei servizi che il fornitore decide di mettere a disposizione, e solo con le interfacce e i protocolli da questi predisposti. Pertanto, il "cliente" non può certamente beneficiare delle
-quattro libertà^[https://www.gnu.org/philosophy/free-sw.it.html]: non può usare il software, se non per quello che gli è consentito dal fornitore; non può distribuire il software, perché non lo riceve lui stesso; non può studiare né modificare il software, perché non ha né il codice oggetto, né il codice sorgente; non può infine distribuire copie modificate, perché non le può modificare.
+quattro libertà^[<https://www.gnu.org/philosophy/free-sw.it.html>]: non può usare il software, se non per quello che gli è consentito dal fornitore; non può distribuire il software, perché non lo riceve lui stesso; non può studiare né modificare il software, perché non ha né il codice oggetto, né il codice sorgente; non può infine distribuire copie modificate, perché non le può modificare.
 
 Con una disponibilità di banda sempre più elevata a costi sempre più bassi, lo spostamento di un sempre maggior numero di servizi dal software gestito in locale a software gestito in remoto via Internet, dunque "nella nuvola", diventa un paradigma con il quale fare i conti, ma verso il quale gli strumenti ormai consolidati e che abbiamo analizzato in precedenza hanno poco impatto.
 
@@ -896,15 +896,15 @@ L'interoperabilità deve essere valutata sia durante la fase di conduzione *norm
 
 L'interoperabilità in fase di migrazione, invece, consente di esportare e importare sia i dati che i servizi (il concetto di migrazione dei servizi può sembrare ostico, ma è una cosa abbastanza naturale) senza perdita di fedeltà né nei dati, né nella _business logic_ associata ai servizi. Nei costi di migrazione da considerare è ovviamente da comprendere quello di indisponibilità del sistema nella fase di migrazione (totale o parziale). È appunto di questa situazione che abbiamo parlato nel punto precedente.
 
-Certo, non  sarà possibile ottenere una piena interoperabilità e migrabilità sulla base di interfacce e soluzioni di interscambio valide per tutti, ma sempre di più si stanno affacciando tecnologie mature ed esempi di successo di approcci basati su interfacce standard e persino open source nei servizi cloud. La loro adozione diretta è una soluzione per determinare l'interoperabilità, certo, ma la presenza di tali iniziative fa sì che ci sia un sistema (o più sistemi) di riferimento verso i quali i produttori di soluzioni proprietarie possono creare interfacce. Una di queste soluzioni è il progetto [Open Stack][5aaff445].  
+Certo, non  sarà possibile ottenere una piena interoperabilità e migrabilità sulla base di interfacce e soluzioni di interscambio valide per tutti, ma sempre di più si stanno affacciando tecnologie mature ed esempi di successo di approcci basati su interfacce standard e persino open source nei servizi cloud. La loro adozione diretta è una soluzione per determinare l'interoperabilità, certo, ma la presenza di tali iniziative fa sì che ci sia un sistema (o più sistemi) di riferimento verso i quali i produttori di soluzioni proprietarie possono creare interfacce. Una di queste soluzioni è il progetto Open Stack[^5aaff445].  
 
-  [5aaff445]: https://www.openstack.org/ "Open Stack"
+  [^5aaff445]: <https://www.openstack.org/> "Open Stack"
 
 ## Sicurezza e privacy
 
-Mentre scrivevo queste righe sul post originale, arrivò la notizia che Amazon (AWS) stava [sperimentando][3734bd6d] estese interruzioni del servizio. Come noto, sui servizi di Amazon sono basati  migliaia di siti di tutti i tipi. Un adagio vuole che non si mettano tutte le uova nello stesso cesto, ma è esattamente ciò che stiamo facendo. Certo, è conveniente. Certo, è comodo. Certo, è sicuro. Dipende però da ciò che si considera "sicuro". La sicurezza non è una dimensione lineare, è un insieme di fattori che vanno bilanciati. Si suole dire che la sicurezza di un sistema è simile alla robustezza di una catena: si misura dal più debole dei suoi anelli.
+Mentre scrivevo queste righe sul post originale, arrivò la notizia che Amazon (AWS) stava sperimentando[^3734bd6d] estese interruzioni del servizio. Come noto, sui servizi di Amazon sono basati  migliaia di siti di tutti i tipi. Un adagio vuole che non si mettano tutte le uova nello stesso cesto, ma è esattamente ciò che stiamo facendo. Certo, è conveniente. Certo, è comodo. Certo, è sicuro. Dipende però da ciò che si considera "sicuro". La sicurezza non è una dimensione lineare, è un insieme di fattori che vanno bilanciati. Si suole dire che la sicurezza di un sistema è simile alla robustezza di una catena: si misura dal più debole dei suoi anelli.
 
-  [3734bd6d]: http://www.theverge.com/2017/2/28/14765042/amazon-s3-outage-causing-trouble "Amazon down"
+  [^3734bd6d]: <http://www.theverge.com/2017/2/28/14765042/amazon-s3-outage-causing-trouble> "Amazon down"
 
 Con la concentrazione di servizi e funzioni ("_workload_"), si fa esattamente questo: si mettono un sacco di uova in uno stesso cesto. Il problema è che quando i sistemi su cui questo cesto si fonda si interrompono, un pezzo rilevante di Internet se ne va a fare un giro per un po'. E con esso un sacco di gente che ci lavora sopra. Il rischio di cui parliamo è dunque quello di **indisponibilità** (_business continuity_), che è un rischio esattamente come lo è quello di perdita e di diffusione involontaria di dati.
 
@@ -945,6 +945,29 @@ La pubblicazione sarà effettuata con una licenza che consenta la riproduzione. 
 
 Sono i sorgenti del libro che sto scrivendo.
 
-Sono scritti in Markdown, per la variante di Pandoc, tranne il file metadata.yaml che appunto è in YAML.
+Sono scritti in **Markdown**, per la variante di **Pandoc**, tranne il file metadata.yaml che appunto è in YAML (non toccatelo se non sapete cosa fate).
 
 Con Pandoc si ricavano ePub, PDF, HTML (e altri formati che a me non interessano, al momento).
+
+Per contribuire a modifiche: 
+
+* Installare git
+* creare un fork sulla propria istanza di Github
+
+```
+git clone <proprio fork>
+    
+git pull
+```
+
+* Modificare quanto va modificato con un qualsiasi editor di testi (suggeriamo Atom)
+
+```
+git commit -a 
+    
+git push
+```
+
+E creare una `pull request` delle modifiche dal proprio fork.
+
+Se siete in grado di farlo direttamente da linea di comando, non vi serve questa spiegazione.
