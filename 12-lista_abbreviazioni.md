@@ -9,3 +9,6 @@ FSF
 
 GNU
 : GNU's Not Unix. Progetto di Software Libero di FSF per la creazione di un sistema operativo UNIX-like senza dipendenze da software proprietario. L'acronimo è evidentemente ricorsivo.
+
+API
+: Application Programming Interface. Regole e interfacce stabiliti per interoperare tra due differenti servizi o programmi.
