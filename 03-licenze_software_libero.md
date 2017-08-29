@@ -1,4 +1,3 @@
-
 # Le licenze di software libero (open source) {#sec_licenze}
 
 A volte alla domanda "sotto quale licenza è questo programma?" si sente rispondere "come, che licenza: open source". Il che è come rispondere "nome maschile" alla domanda "come ti chiami?". Come direbbero i francesi "_vive la  petite différence_!"
