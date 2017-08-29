@@ -1,7 +1,7 @@
 
 # Nuvole aperte, nuvole chiuse e nuvole nere {#sec_cloud}
 
-Proseguiamo il discorso iniziato &ndash; con particolare riferimento alle [API](#sec_api) e alla loro disponibilità &ndash; sul **cloud computing**, in particolare sul cosiddetto **cloud pubblico**.    
+Proseguiamo il discorso iniziato &ndash; con particolare riferimento alle [API](#sec_api) e alla loro disponibilità &ndash; sul **cloud computing**, in particolare sul cosiddetto **cloud pubblico** e alle relative problematiche concorrenziali e di interoperabilità, per affrontare più in generale le declinazioni e le problematiche di _openness_ nei sistemi cloud.
 
 ## Cos'è il cloud
 
