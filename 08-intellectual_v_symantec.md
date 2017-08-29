@@ -18,7 +18,8 @@ Fin qui niente di innovativo, si tratta dell'applicazione di una serie di senten
 
 Ciò che è innovativo, che non si era mai visto, è un giudice che si scaglia lancia in resta contro la stessa idea che possano essere concessi brevetti sul software, cosa che la Corte Suprema aveva sempre accuratamente evitato di fare quando è stata richiesta di farlo e poteva farlo.
 
-##*Dissenting* e *concurring opinion*
+## *Dissenting* e *concurring opinion*
+
 Le sentenza USA hanno questa peculiarità: sono delle "*opinion*" (opinioni, pareri) in cui i giudici affrontano in maniera molto elaborata e piuttosto dottrinale i punti giuridici discussi, in riferimento ai precedenti. I giudici sono infatti molto attenti a discutere espressamente i precedenti in quanto questi, sulla base del principio *stare decisis* ("ci si attenga ai precedenti"), essi contribuiscono a costituire la  legge per tutti i casi simili, principio fondante della *Common Law*, a cui il sistema giuridico USA si attiene. Dipartire senza una valida ragione da precedenti sufficientemente autorevoli costituisce quella che da noi si chiamerebbe una vera e propria violazione di legge.
 
 Le sentenze sono elaborate collegialmente sulla base di una votazione che può essere unanime o con giudici dissenzienti. Sulla base della decisione, uno dei giudici è chiamato a esprimere l'intenzione della corte, redigendo materialmente la parte motivazionale, ovvero l'*opinion*, che ovviamente sarà coerente con la decisione presa. Così nella sentenza si troveranno tutti i punti fondamentali che hanno guidato il giudice e che guideranno altri giudici di quel distraetto ed eventualmente di altri distretti nella soluzione di casi simili.
@@ -29,7 +30,8 @@ La bellezza e stranezza del sistema americano non si ferma qui: anche chi vota a
 
 Molto spesso le novità più interessanti nella giurisprudenza vengono appunto dalle opinioni dissenzienti e da quelle *concurring*.
 
-##Il caso contro i brevetti software del Giudice  Mayer
+## Il caso contro i brevetti software del Giudice  Mayer
+
 Mayer si spinge più in là dei suoi colleghi. Dice che è ora di far scendere un pietoso velo sui brevetti che ricadono su "semplice" software che fa riferimento a computer generici, e lo fa sotto due speciali argomenti: il diritto di esprimere liberamente le proprie opinioni (Primo Emendamento alla Costituzione USA); una esenzione "per categoria" del software dall'ambito della protezione brevettuale.
 
 La parte sul **diritto di parola** (*Freedom of Speech*, uno dei più sacri, non solo perché oggetto del primo emendamento), è molto interessante, ma per la sua peculiarità è anche la più legata alle peculiarità della giurisdizione. Il secondo, riguardante l'esenzione del software dalla brevettabilità come categoria in quanto per natura **materia astratta**, invece si applica pari-pari a tutti i luoghi, compreso il territorio europeo, dove i brevetti software sono concessi a piene mani. È importante per la nostra analisi, in generale, perché coglie una caratteristica importante del software: esso è una serie di algoritmi, un'idea astratta, che tecnicamente può essere realizzata saldando circuiti fatti da semiconduttori, scrivendo bit su un supporto magnetico, ma anche prendendo una penna e scrivendo il codice sulla carta. Difficile, lungo, complesso, ma non impossibile. Mentre di un farmaco posso scrivere la *formula* su un pezzo di carta, ma per realizzarlo mi ci vuole un laboratorio. Di un nuovo materiale a memoria di forma posso scrivere il processo per ottenerlo da materie prime, ma mi serve un impianto per crearlo. Di un microprocessore posso disegnare su carta la topografia con gli elementi e le connessioni, ma mi serve una fabbrica da cento milioni di Dollari per crearlo. Il software no, quello che scrivo sulla carta **_è_** l'oggetto della protezione, **_è_** il software.
