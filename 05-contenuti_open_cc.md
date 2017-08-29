@@ -1,7 +1,7 @@
 
 # I contenuti open e le Creative Commons {#sec_commons}
 
-<!-- la parte sopra è titolo, se uniti i  paragrafi va trasformata in intestazione di primo livello -->
+
 Il software ha dato e continua a dare all'analisi dell'open-qualcosa un contributo essenziale e fondamentale, vuoi perché per primo ha sviluppato una serie coerente e completa di licenze, sia perché l'applicazione delle licenze di software libero addirittura è avvenuta prima della formalizzazione della protezione del software nell'ambito del diritto d'autore, per non parlare del diritto dei brevetti, che è arrivato molto tardi in tale settore.
 
 Una grande popolarità ha però investito da parecchi anni un settore totalmente diverso dal software, ovvero quello più classico dei *contenuti creativi* (usiamo per convenzione “contenuti creativi” o “autorali” per letteratura, musica, fotografia, pittura, cinematografia, eccetera). Le licenze di software libero sono state pensate per il software e mal si adattano alle opere creative. Da un lato le licenze di software si soffermano su questioni tecniche, come la distinzione tra codice sorgente e codice oggetto, che in campo autorale non hanno senso. Dall'altro, per la natura stessa del software, parlano sostanzialmente di distribuzione file di dati, mentre i contenuti creativi hanno molte più e diverse forme di fruizione e distribuzione, e una serie di diritti aggiuntivi e connessi che non si riscontrano nel software.
@@ -10,7 +10,9 @@ Tolte queste differenze, comunque, parlando di openness nei contenuti creativi, 
 
 ## Le Creative Commons: una famiglia di licenze "open" (ma anche non) per i contenuti creativi
 
-Le Creative Commons sono una famiglia di licenze concepite da un gruppo di giuristi guidati da un professore di Harward, [Lawrence Lessig](https://en.wikipedia.org/wiki/Lawrence_Lessig/), precisamente per portare nel campo dei contenuti creativi gli stessi principi del software libero. Lessig ha non solo creato le licenze, ma anche una [ente nonprofit](http://creativecommons.org/) con lo stesso nome, che si occupa di gestire e creare nuove versioni della licenza.
+Le Creative Commons sono una famiglia di licenze concepite da un gruppo di giuristi guidati da un professore di Harward, Lawrence Lessig^[<https://en.wikipedia.org/wiki/Lawrence_Lessig/>]
+, precisamente per portare nel campo dei contenuti creativi gli stessi principi del software libero. Lessig ha non solo creato le licenze, ma anche un ente nonprofit^[<http://creativecommons.org/>]
+ con lo stesso nome, che si occupa di gestire e creare nuove versioni della licenza.
 
 Attualmente le licenze Creative Commons sono giunte alla **versione 4**, la prima che comprende espressamente tra i diritti concessi anche quello "*sui generis*" sui database, di cui parleremo quando ci occuperemo di open data, nonché la prima a non avere differenti **versioni nazionali** (esiste solo la versione "internazionale").
 
@@ -25,7 +27,7 @@ Così, se troviamo l'indicazione "CC by-SA" sapremo che si tratta di una Commons
 
 Una caratteristica importante delle licenze è che sono **compatibili verso il futuro**, ovvero, contengono una clausola implicita grazie alla quale le opere cui sono soggette vengono sì licenziate in una determinata versione, ma possono essere distribuite rispettando le condizioni di una versione successiva che abbia gli stessi elementi fondamentali. Anche la licenza Mozilla per il software (MPL) ha una clausola molto simile, così come la GNU GPL, che però la presenta in modo opzionale.
 
-Creative Commons fornisce anche un **insieme di elementi identificativi grafici** (in diverse funzioni) che rende immediatamente visibile a un essere umano la tipologia di licenza e il fatto che "alcuni diritti sono riservati" (ma non tutti). [Fornisce](http://creativecommons.org/choose/) anche un **codice HTML-RDF** per far sì che anche un computer e soprattutto un motore di ricerca possa comprendere automaticamente le condizioni di licenza e consentire rispettarne le condizioni di attribuzione in modo altrettanto automatico (vedi sotto).
+Creative Commons fornisce anche un **insieme di elementi identificativi grafici** (in diverse funzioni) che rende immediatamente visibile a un essere umano la tipologia di licenza e il fatto che "alcuni diritti sono riservati" (ma non tutti). Fornisce^[<http://creativecommons.org/choose/>] anche un **codice HTML-RDF** per far sì che anche un computer e soprattutto un motore di ricerca possa comprendere automaticamente le condizioni di licenza e consentire rispettarne le condizioni di attribuzione in modo altrettanto automatico (vedi sotto).
 
 ## Attribution (by)
 
@@ -44,18 +46,20 @@ Inoltre deve essere indicato che e in che misura (se fatto e se possibile) il ma
 
 L'attribuzione si estende in particolar modo anche alla menzione della licenza. Ecco perché è un elemento essenziale della licenza stessa.
 
-Una condizione particolare, presente in tutte le licenze Creative Commons e che costituisce una vera e propria clausola di copyleft (vedi [articolo introduttivo](http://www.techeconomy.it/2015/09/11/brevi-cenni-sulluniverso-aperto/), è quella per cui non è possibile apporre, né all'opera originale, né ad opere derivate, **ulteriori restrizioni tecnologiche** che limitino i diritti e le facoltà di utilizzo presso il pubblico. Ciò espressamente comprende misure tecnologiche, ovvero **DRM** (Digital Rights Management), strumenti anti-copia o che limitino in altro modo la possibilità di fruire liberamente dei contenuti.
+Una condizione particolare, presente in tutte le licenze Creative Commons e che costituisce una vera e propria clausola di copyleft (vedi il [capitolo introduttivo](#sec_aperto), è quella per cui non è possibile apporre, né all'opera originale, né ad opere derivate, **ulteriori restrizioni tecnologiche** che limitino i diritti e le facoltà di utilizzo presso il pubblico. Ciò espressamente comprende misure tecnologiche, ovvero **DRM** (Digital Rights Management), strumenti anti-copia o che limitino in altro modo la possibilità di fruire liberamente dei contenuti.
 
 
 ## Share alike (SA)
 
 La clausola Share Alike, ("condividi allo stesso modo", ma tradotta anche più semplicemente “stessa licenza”) è la condizione di principale **copyleft** nelle Creative Commons. Significa che ogni *opera derivata* deve essere obbligatoriamente licenziata sotto la stessa licenza o una licenza Creative Commons successiva con gli stessi elementi di quella "inbound".
 
-Semplice, vero? Mica tanto. Come per il software, anche per i contenuti artistici a volte è difficile capire cosa sia un'opera derivata oppure no. Per fare un esempio, una recente [sentenza](http://www.mysolutionpost.it/blogs/it-law/piana/2015/09/creative-commons.aspx) negli Stati Uniti ha ritenuto che la clausola Share Alike non costringe l'editore di un atlante a rilasciare l'atlante stesso sotto condizioni CC by-SA qualora sia stata usata per la copertina una foto altrui licenziata (su Flickr) sotto tale licenza, in quanto non si tratta di opera derivata, ma di semplice aggregato. Per avere un'opera derivata occorre che il materiale di provenienza sia trasformato, adattato o tradotto in maniera che fosse inscindibile con l'opera derivata, ma si è limitato a poche modifiche che non hanno alterato la natura della foto e richieste dalle tecniche di stampa.
+Semplice, vero? Mica tanto. Come per il software, anche per i contenuti artistici a volte è difficile capire cosa sia un'opera derivata oppure no. Per fare un esempio, una recente sentenza[^037efe3d] negli Stati Uniti ha ritenuto che la clausola Share Alike non costringe l'editore di un atlante a rilasciare l'atlante stesso sotto condizioni CC by-SA qualora sia stata usata per la copertina una foto altrui licenziata (su Flickr) sotto tale licenza, in quanto non si tratta di opera derivata, ma di semplice aggregato. Per avere un'opera derivata occorre che il materiale di provenienza sia trasformato, adattato o tradotto in maniera che fosse inscindibile con l'opera derivata, ma si è limitato a poche modifiche che non hanno alterato la natura della foto e richieste dalle tecniche di stampa.
+
+[^037efe3d]: vedi il mio commento su MySolutionpost "Arriva una sentenza americana sulle Creative Commons (ma ci dice cose che sappiamo già)"  <http://www.mysolutionpost.it/blogs/it-law/piana/2015/09ve/creative-commons.aspx>
 
 Un caso è abbastanza chiaro: se immagini in movimento vengono poste in sincrono con un contenuto licenziato sotto condizioni Share Alike, per rispettare la licenza occorre che l'insieme venga licenziato allo stesso modo.
 
-Con la Share Alike termina anche il novero delle clausole che &ndash; fatte le dovute correzioni &ndash; corrispondono alle quattro libertà del software libero, che vengono da Creative Commons contrassegnate come "Free Culture", ovvero che assicurino la libertà di riutilizzo pieno e illimitato dei contenuti in modo creativo e trasformativo. Le altre due condizioni, infatti, costituiscono una restrizione: una degli scopi di utilizzo, l'altra delle modalità di utilizzo. La definizione di Free Culture si trova in [Freedomdefined.org](http://freedomdefined.org/Definition).
+Con la Share Alike termina anche il novero delle clausole che &ndash; fatte le dovute correzioni &ndash; corrispondono alle quattro libertà del software libero, che vengono da Creative Commons contrassegnate come "Free Culture", ovvero che assicurino la libertà di riutilizzo pieno e illimitato dei contenuti in modo creativo e trasformativo. Le altre due condizioni, infatti, costituiscono una restrizione: una degli scopi di utilizzo, l'altra delle modalità di utilizzo. La definizione di Free Culture si trova in Freedomdefined.org^[<http://freedomdefined.org/Definition>].
 
 ## Non Commercial (NC)
 
@@ -104,21 +108,25 @@ Perché tale esclusione? Che io sia dannato se lo so. Chiedete a loro. Seriament
 
 > No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
 
-Il che sembra voler dire che tali diritti possono essere sempre utilizzati anche per l'oggetto della rinuncia, anche se sembra un controsenso quanto meno per i brevetti (per i marchi, invece, ha senso, ne ho già parlato nella puntata d'esordio, i marchi non interferiscono con la creazione di commons intellettuali!).
+Il che sembra voler dire che tali diritti possono essere sempre utilizzati anche per l'oggetto della rinuncia, anche se sembra un controsenso quanto meno per i brevetti (per i marchi, invece, ha senso, ne ho già parlato nel [capitolo d'esordio](#sec_aperto), i marchi non interferiscono con la creazione di commons intellettuali!).
 
 ## Come applicare la licenza a un contenuto[^ali]
 
-La prassi più diffusa e consigliabile è quella di aggiungere un chiaro disclaimer con il nome esteso della licenza e l'indirizzo web in cui è disponibile il testo integrale della licenza. Nel caso di opere in formato digitale e diffuse tramite internet il tutto risulta particolarmente facile, dato che è sufficiente aggiungere una nota nella pagina web in cui “risiede” il file dell'opera creativa. Il sito ufficiale di Creative Commons (come già accennato) offre un utile widget che, attraverso una serie di domande, guida l'utente nella scelta della licenza più opportuna e genera automaticamente il codice html con il disclaimer e il link alla licenza. Ancora, come già accennato, il codice fornito da Creative Commons ha anche la funzione di metatag, cioè inserisce nel codice sorgente della pagina web delle informazioni aggiuntive sul tipo di licenza scelta ma anche sull'autore e sul tipo di opera; queste informazioni, rispettando gli standard del cosiddetto “web semantico”, permettono ai motori di ricerca di reperire più facilmente ed efficacemente le opere (HTML-RDF).
+La prassi più diffusa e consigliabile è quella di aggiungere un chiaro disclaimer con il nome esteso della licenza e l'indirizzo web in cui è disponibile il testo integrale della licenza. Nel caso di opere in formato digitale e diffuse tramite internet il tutto risulta particolarmente facile, dato che è sufficiente aggiungere una nota nella pagina web in cui “risiede” il file dell'opera creativa. Il sito ufficiale di Creative Commons (come già accennato) offre un utile widget che, attraverso una serie di domande, guida l'utente nella scelta della licenza più opportuna e genera automaticamente il codice HTML con il disclaimer e il link alla licenza. Ancora, come già accennato, il codice fornito da Creative Commons ha anche la funzione di metatag, cioè inserisce nel codice sorgente della pagina web delle informazioni aggiuntive sul tipo di licenza scelta ma anche sull'autore e sul tipo di opera; queste informazioni, rispettando gli standard del cosiddetto “web semantico”, permettono ai motori di ricerca di reperire più facilmente ed efficacemente le opere (HTML-RDF).
 
 Se invece l'opera viene distribuita su supporto fisico, il disclaimer può essere apposto dove normalmente si trovano i dati di edizione e produzione dell'opera; per esempio nel colophon di un libro, nel booklet di un CD musicale, nella cover di un DVD video.
 
 ## Conclusioni
 
-Le Creative Commons sono le licenze dominanti dei contenuti creativi. Hanno assunto una forza tale che sono il golden standard per ogni rilascio pubblico, tanto che sono usate dai più affermati servizi online: da Flickr (foto) a Wikipedia, da OpenStreetMap a La Stampa, da Jamendo (musica) a Vimeo (video) ed è possibile ricercare contenuti espressamente sotto tali licenza su svariati servizi di ricerca, incluso Google (e ovviamente, con un meta-crawler, su [Creative Commons](http://search.creativecommons.org/).
+Le Creative Commons sono le licenze dominanti dei contenuti creativi. Hanno assunto una forza tale che sono il golden standard per ogni rilascio pubblico, tanto che sono usate dai più affermati servizi online: da Flickr (foto) a Wikipedia, da OpenStreetMap a La Stampa, da Jamendo (musica) a Vimeo (video) ed è possibile ricercare contenuti espressamente sotto tali licenza su svariati servizi di ricerca, incluso Google (e ovviamente, con un meta-crawler, su Creative Commons^[<http://search.creativecommons.org/>]).
 
-Per approfondimenti consiglio la lettura di un manuale per non addetti ai lavori (legali), scritto da Simone Aliprandi e rilasciato, *ça va sans dire!* sotto licenza Creative Commons: [Creative Commons: manuale operativo](http://www.aliprandi.org/manuale-cc/). Oppure, se preferite un video a un testo, il buon Simone ha realizzato anche un’utile e godibile [videolezione](http://aliprandi.blogspot.it/2015/11/creative-commons-introduzione-andrialearning.html).
+Per approfondimenti consiglio la lettura di un manuale per non addetti ai lavori (legali), scritto da Simone Aliprandi e rilasciato, *ça va sans dire!* sotto licenza Creative Commons: Creative Commons: manuale operativo[^3d4d7831]. Oppure, se preferite un video a un testo, il buon Simone ha realizzato anche un’utile e godibile videolezione[^874445b8].
+
+[^3d4d7831]: <http://www.aliprandi.org/manuale-cc/>
+
+[^874445b8]: <http://aliprandi.blogspot.it/2015/11/creative-commons-introduzione-andrialearning.html>
 
 Avete molto da vedere, ascoltare, usare. Buon divertimento!
 
 
-[^ali]: Paragrafo adattato da Simone Aliprandi, [Le licenze open content: capirle e usarle correttamente](http://aliprandi.blogspot.it/2015/11/licenze-open-content-capirle-usale.html), CC by-SA 4.0.
+[^ali]: Paragrafo adattato da Simone Aliprandi, Le licenze open content: capirle e usarle correttamente <http://aliprandi.blogspot.it/2015/11/licenze-open-content-capirle-usale.html>, CC by-SA 4.0.

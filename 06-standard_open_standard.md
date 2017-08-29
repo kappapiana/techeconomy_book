@@ -1,12 +1,13 @@
 
 # Standard e open standard, il diavolo si annida nei dettagli {#sec_open_standard}
 
-<!-- la parte sopra è titolo, se uniti i  paragrafi va trasformata in intestazione di primo livello -->
+
 > "_Sono uomo di mondo, ho fatto tre anni di militare a Cuneo_"  -- Principe Antonio De Curtis (in arte Totò)
 
 Come il più noto commediante italiano, anch'io ho fatto la mia parte per servire la Patria in quel della Provincia Granda, anche se solo per qualche settimana. Lì ho imparato che senza gli standard[^1], in ambito militare le cose si possono fare veramente difficili. Cominciamo con "*Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sigma, Tango, Uniform, Victor, Whisky, X-ray, Yankee, Zulu*". È l'ABC degli standard, anzi, lo standard dell'ABC. È l'alfabeto fonetico, [standard NATO][nato]. Se non lo conosci a memoria, non puoi comunicare via radio; così è per quasi tutto quanto accade nella vita militare: se sei un militare non hai spazio per ambiguità. Dai gradi (per sapere chi comanda su chi) fino al calibro delle pallottole, tutto è [standard][standard].
 
-[^1]:  Per ulteriori letture in tema di standard, vedi i vari contributi su Techeconomy da parte, tra gli altri, di [Italo Vignoli](http://www.techeconomy.it/author/italo-vignoli/). Vedi anche di Simone Aliprandi "[Apriti Standard](http://www.aliprandi.org/apriti-standard/)".
+[^1]:  Per ulteriori letture in tema di standard, vedi i vari contributi su Techeconomy da parte, tra gli altri, di
+Italo Vignoli <http://www.techeconomy.it/author/italo-vignoli/>. Vedi anche di Simone Aliprandi  "Apriti Standard" <http://www.aliprandi.org/apriti-standard/>
 
 "Standard", effettivamente, viene dal francese antico "*estandart*" o "*estandard*", stendardo, bandiera, che in effetti richiama i campi di battaglia e gli eserciti schierati in file ordinate. Ma sbaglieremmo a pensare che solo in ambito militare esistono standard. Come misuriamo il tempo dipende da uno standard, come *scriviamo* il tempo dipende da uno standard. Come misuriamo qualsiasi cosa dipende da uno standard. È importante ovviamente che le misure siano conosciute e che qualsiasi necessità di conversione tra uno standard e l'altro sia precisa e dichiarata, altrimenti succedono disastri. Se non dico che l'ora in cui fisso una conferenza telefonica corro al massimo il rischio di perdere qualche partecipante; ma se non dico che una pressione è in libbre per pollici quadrati e l'altro pensa che sia (come dovrebbe) in kilogrammi per metro quadro, succedono disastri ben peggiori. Nel 1999 il [Mars Polar Orbiter](https://it.wikipedia.org/wiki/Mars_Climate_Orbiter) si schiantò al suolo perché alcuni dati di volo vennero inviati in libbre/secondo invece che in newton/secondo, buttando a mare quasi 330 milioni di Dollari USA.  La stessa cosa capiterebbe anche a noi se nell'aviazione non ci fossero centinaia di standard, da quelli di sicurezza a quelli sulla navigazione e ai sistemi di identificazione e atterraggio.
 
@@ -14,7 +15,7 @@ Quasi tutto ciò che facciamo, in realtà, si basa sugli standard. È standard l
 
 ## C'è standard e open standard
 
-Chi fa gli standard? Fornire una risposta a questa domanda è praticamente impossibile. Abbiamo standard formali e standard informali (la posta elettronica e molti degli standard di Internet sono delle RFC, mai adottati formalmente e gestiti in larga parte dall'[IETF](https://ietf.org/)). Esistono poi enti di standardizzazione formale "istituzionali" a livello nazionale (ad esempio UNI in Italia, DIN in Germania, BSI nel Regno Unito, ANSI negli Stati Uniti), a livello europeo (ETSI, CEN), e internazionale (ISO, ITU, IEC). E poi vi sono quelli su base consortile (OASIS, ECMA, Bluetooth, W3C). Un bel guazzabuglio.
+Chi fa gli standard? Fornire una risposta a questa domanda è praticamente impossibile. Abbiamo standard formali e standard informali (la posta elettronica e molti degli standard di Internet sono delle RFC, mai adottati formalmente e gestiti in larga parte dall'IETF^[<https://ietf.org/>]). Esistono poi enti di standardizzazione formale "istituzionali" a livello nazionale (ad esempio UNI in Italia, DIN in Germania, BSI nel Regno Unito, ANSI negli Stati Uniti), a livello europeo (ETSI, CEN), e internazionale (ISO, ITU, IEC). E poi vi sono quelli su base consortile (OASIS, ECMA, Bluetooth, W3C). Un bel guazzabuglio.
 
 Ma a noi, in questa sede, non importa più di tanto come gli standard sono formati e da chi (se non quando succede un problema, come vedremo poi con il famigerato OOXML). Ci importa sapere **cosa accomuna** gli standard. Tutti gli standard, ufficiali e formalizzati (de jure) o non ufficiali e informali (de facto) si caratterizzano per essere una **norma**, e infatti un sinonimo dell'attività di creazione degli standard è "normazione" e così si specificano gli enti che se ne occupano. Si tratta di un norma di per sé **non cogente**, se non quando vi fa espresso riferimento una legge o un atto normativo dello stato o internazionale. Gli standard vengono rispettati perché e in quanto sono diffusamente adottati e non adottarli comporta problemi difficilmente insuperabili. La norma diventa "cogente" se non posso fare altrimenti che seguirla, salvo trovarmi a mal partito (o peggio, violare la legge).   Se entro in un ristorante francese e non so il francese, probabilmente non mangio, o corro il rischio di mangiare cose che non volevo.
 
@@ -54,7 +55,8 @@ Uno standard dovrebbe essere il tecnologicamente neutro possibile, ovvero non pr
 
 Siccome uno standard diventerà una norma, e soprattutto negli standard tecnologici più uno standard è utilizzato, più tende ad essere utilizzato (effetto di rete) a prescindere anche da quanto merito tecnico esso abbia, sono ovvie le interazioni tra standard e **concorrenza**. Pertanto, per quanto possibile, gli standard dovrebbero essere privi di condizioni legali che tendano a privilegiare le offerte di alcuni a scapito di altri, e soprattutto dovrebbero evitare quella che si chiama "*patent holdup*", ovvero la posizione di supremazia di chi ha brevetti essenziali per l'implementazione di uno standard.[^md]
 
-[^md]: Per un'ottima analisi, si veda Dolmans, Maurits (2010) 'A Tale of Two Tragedies – A plea for open standards, and some comments on the RAND report', IFOSS L. Rev., 2(2), pp 115 – 138 [DOI: 10.5033/ifosslr.v2i2.46](http://dx.doi.org/10.5033/ifosslr.v2i2.46) con una mia introduzione.
+[^md]: Per un'ottima analisi, si veda Dolmans, Maurits (2010) 'A Tale of Two Tragedies – A plea for open standards, and some comments on the RAND report', IFOSS L. Rev., 2(2), pp 115 – 138
+DOI: 10.5033/ifosslr.v2i2.46 (<http://dx.doi.org/10.5033/ifosslr.v2i2.46>) con una mia introduzione.
 
 E qui, sovente, casca l'asino. In difetto di una precisa politica che consenta l'utilizzo degli standard a tutti, indipendentemente dal modello di business e di licenze, occorre che vi siano chiare regole sia per chi contribuisce agli standard (dichiarare l'esistenza di propri brevetti, impegnarsi a licenziarli sotto determinate regole), sia per chi approfitta delle lacune o delle imprecisioni degli enti di standardizzazione per porsi in posizione di controllo, spesso identica a quella dei famigerati *troll*.
 
@@ -70,13 +72,14 @@ Andiamo in ordine sparso. Il primo peccato capitale è che si tratta di uno stan
 
 Lo standard poi si limita a riflettere pari-pari il comportamento delle applicazioni di Microsoft, non a descrivere le funzioni in astratto e a risolverle in modo astratto e imparziale. Arriva persino a codificare gli errori, fenomenale fu quello di ripetere l'omissione dell'anno non bisestile negli anni zero dei secoli non divisibili per quattrocento, che è la modalità in cui si contano le date nel calendario Gregoriano (che è anch'esso uno standard: ISO 8601.[^date] Ciò solo per un *bug* mai corretto di Microsoft Excel.
 
-[^date]: Per un'interessante disamina, se interessati, si può consultare la pagina di [Wikipedia](https://it.wikipedia.org/wiki/ISO_8601).
+[^date]: Per un'interessante disamina, se interessati, si può consultare la pagina di
+Wikipedia <https://it.wikipedia.org/wiki/ISO_8601>.
 
 Lo standard venne proposto con una procedura accelerata ("*Fast Track*") nonostante ci fossero molte perplessità sull'esperibilità di tale procedura e in vari enti nazionali (ISO è un ente "federato" in cui partecipano gli enti nazionali, in Italia l'ente nazionale competente era Uninfo, in seno a UNI) si sollevarono centinaia di osservazioni, che vennero risolte in modo molto grossolano in un "*Ballot Resolution Meeting*" in quel di Ginevra, segno che lo standard doveva essere approvato più o meno ad ogni costo. Le stesse procedure nazionali lasciarono molti perplessi, me compreso. In Italia, ad esempio, nei mesi precedenti alla votazione, si osservò un'impennata di iscrizioni ad Uninfo a cui molti hanno attribuito un significato preciso: quello di un tentativo di modificare gli equilibri in gioco per far passare (o non passare, ma in misura assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti (se mai qualcuno) ha letto integralmente.
 
 Ma al di là di tali episodi, su cui ognuno manterrà le proprie opinioni, è il concetto stesso che si possa standardizzare a partire da un'applicazione singola per creare uno standard che non è condiviso, ma replica in maniera ossessivamente pedissequa ciò che fa un'applicazione, a detrimento di tutte le altre, a fare a pugni con la stessa concezione di standard. Il fatto che il principale sponsor di quello standard fosse una società che proprio in quel periodo era stata condannata per condotte abusive esattamente per la creazione di standard di fatto usati in modo anticoncorrenziale, anche se in ambiti non sovrapponibili, lascia alquanto perplessi circa tale standard.
 
-Non che gli altri siano indenni da critiche. Lo vedremo nella prossima puntata.
+Non che gli altri siano indenni da critiche. Lo vedremo nel prossimo capitolo.
 
 <!-- QUI METTIAMO ALCUNI LINK CHE SERVONO SOPRA-->
 
