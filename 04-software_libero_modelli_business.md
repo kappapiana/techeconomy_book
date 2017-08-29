@@ -87,10 +87,13 @@ Allo stesso nel caso di un operatore  che realizza software open core, in dual l
 
 Sarà possibile anche per il concorrente distribuire la versione community della propria controparte? La risposta è tendenzialmente negativa.
 
-Il principio di esaurimento prevede che il marchio (ma anche il copyright) non possa essere utilizzato per controllare l'ulteriore diffusione di un prodotto da parte di chi ne abbia acquistato una copia. Una volta acquistata tale copia, essa può dunque essere rivenduta (vedi la sentenza UsedSoft per il copyright). È piuttosto evidente però nel caso di una licenza di software libero, chi acquisisce la copia non abbia solo il diritto di usare quella copia, ma abbia molti diritti ulteriori. Facendo circolare copie del prodotto originale, non sta "rivendendo" la propria copia, non sta dunque ri-distribuendo un singolo individuo della specie, ma sta facendo un'attività di creazione e distribuzione di prodotti "nuovi" (le virgolette sono d'obbligo), attività che deve essere autorizzata dal titolare del marchio.
+Il principio di esaurimento prevede che il marchio (ma anche il copyright) non possa essere utilizzato per controllare l'ulteriore diffusione di un prodotto da parte di chi ne abbia acquistato una copia. Una volta acquistata tale copia, essa può dunque essere rivenduta (vedi la sentenza UsedSoft[^58a4fa57] per il copyright). È piuttosto evidente però nel caso di una licenza di software libero, chi acquisisce la copia non abbia solo il diritto di usare quella copia, ma abbia molti diritti ulteriori. Facendo circolare copie del prodotto originale, non sta "rivendendo" la propria copia, non sta dunque ri-distribuendo un singolo individuo della specie, ma sta facendo un'attività di creazione e distribuzione di prodotti "nuovi" (le virgolette sono d'obbligo), attività che deve essere autorizzata dal titolare del marchio.
+
+[^58a4fa57]: Caso causa C‑128/11, UsedSoft GmbH contro Oracle International Corp.,
+ <http://curia.europa.eu/juris/document/document.jsf?docid=124564&doclang=IT>
 
 ## Conclusioni
 
 Abbiamo solo scalfito la superficie, i modelli di business ottenibili dal software libero sono molteplici e le combinazioni infinite. Non abbiamo trattato dei modelli che usano il software per vendere hardware, o per popolare la propria offerta in cloud, non trattandosi di modelli in cui il software distribuito è la pietanza principale. Ma è un modello che non può essere sottaciuto, in un mondo in cui alcune delle più grandi società del mondo si basano quasi esclusivamente su software libero utilizzato per il cloud, da Amazon a Facebook, da eBay a Google.
 
-Nota: nell'articolo sono stati utilizzati nomi di operatori commerciali e prodotti. Alcuni di essi sono o sono stati miei clienti. Nessuna delle valutazioni operate sul loro business model riflette conoscenze segrete o deve essere attribuita ai rispettivi operatori.
+> Nota: nell'articolo sono stati utilizzati nomi di operatori commerciali e prodotti. Alcuni di essi sono o sono stati miei clienti. Nessuna delle valutazioni operate sul loro business model riflette conoscenze segrete o deve essere attribuita ai rispettivi operatori.
