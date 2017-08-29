@@ -15,12 +15,12 @@
   src: local('Oswald Bold'), local('Oswald-Bold'), url(bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }*/
 
-/*@font-face {
+@font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 200;
   src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(toadOcfmlt9b38dHJxOBGEMbjGELOEJD5J8DUmxkO-A.ttf) format('truetype');
-}*/
+}
 
 @font-face {
   font-family: 'Source Sans Pro';
