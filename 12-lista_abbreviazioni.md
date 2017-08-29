@@ -12,3 +12,6 @@ GNU
 
 API
 : Application Programming Interface. Regole e interfacce stabiliti per interoperare tra due differenti servizi o programmi.
+
+SaaS
+: Software as a Service. Software che non viene eseguito sulla macchina dell'utilizzatore, ma da un terzo su macchine proprie, che ne mette a disposizione i servizi.
