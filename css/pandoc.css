@@ -160,7 +160,7 @@ h3.date {background-color: transparent;
 	font-size: 1em;
  }
 
-h1.title {font-size: 2.5em; font-weight: 700;  page-break-before: avoid;}
+h1.title, h1.subtitle {font-size: 2.5em; font-weight: 700;  page-break-before: avoid;}
 
 /* end meta-information */
 
