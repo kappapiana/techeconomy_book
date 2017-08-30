@@ -122,7 +122,9 @@ pre {margin-left: 1em;}
 .header-section-number::after {content: " - ";
 }
 
-h1 + p:first-letter {color: #799A9E;
+/*Dropcap, also when there is a quotation at the beginning of the chapter */
+
+h1 + p:first-letter, h1 + blockquote + p:first-letter  {color: #799A9E;
   font-weight: bold;
   float: left;
    font-size: 2.7em;
@@ -132,9 +134,6 @@ h1 + p:first-letter {color: #799A9E;
    padding-left: 0px;
  }
 
-/*this is to have a dropcap after a quotation */
-
-h1 + blockquote + p:first-letter {color: red;}
 
 
 /* for prints */
