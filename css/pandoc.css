@@ -132,6 +132,11 @@ h1 + p:first-letter {color: #799A9E;
    padding-left: 0px;
  }
 
+/*this is to have a dropcap after a quotation */
+
+h1 + blockquote + p:first-letter {color: red;}
+
+
 /* for prints */
 
 h1, h2, h3, h4, h5 {
