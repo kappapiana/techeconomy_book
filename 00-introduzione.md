@@ -11,7 +11,7 @@ Un libro introduttivo sui concetti di apertura delle licenze per arrivare all'ap
 
 [^16cf5750]: A discussion of the different software licensing regimes, Briefing note to the European Parliament, JURI Committee, workshop “legal aspects of free and open source software”, Compilation of briefing notes. Disponibile a: <http://www.europarl.europa.eu/document/activities/cont/201307/20130702ATT69002/20130702ATT69002EN.pdf>
 
-Quando la redazione di [Tech Economy][96ddb697] mi ha chiesto di scrivere in materia di software libero sulla rivista online, mi è parso evidente che si poteva colmare la lacuna in maniera efficiente. Ho iniziato pertanto a scrivere alcuni pezzi avendo in mente di raccoglierli definitivamente, con pochi riadattamenti, in un libercolo in cui anche chi è particolarmente digiuno dei concetti di base possa trovare un concreto avviamento alla materia.
+Quando la redazione di [Tech Economy][96ddb697] mi ha chiesto di (scrivere in materia di software libero sulla rivista online, mi è parso evidente che si poteva colmare la lacuna in maniera efficiente. Ho iniziato pertanto a scrivere alcuni pezzi avendo in mente di raccoglierli definitivamente, con pochi riadattamenti, in un libercolo in cui anche chi è particolarmente digiuno dei concetti di base possa trovare un concreto avviamento alla materia.
 Ho testato dunque il capitolo introduttivo (che è stato anche la prima puntata della mia serie di articoli[^567095f1]) con la mia famiglia, e apparentemente dopo molti anni hanno iniziato a capire di cosa mi occupo e cosa ogni tanto cerco di discutere con loro.
 
   [^567095f1]: http://www.techeconomy.it/author/carlo-piana/
