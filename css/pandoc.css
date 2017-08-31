@@ -42,7 +42,7 @@ body {
 	color: #222;
     font-size: 1.1em;
 	font-weight: 400;
-    line-height: 140%;
+    line-height: 1.5em;
 		text-align: justify;
     text-justify: inter-word;
  font-family: "Source Sans Pro", sans-serif; color: #333333; text-rendering: optimizeLegibility; }
@@ -122,7 +122,9 @@ pre {margin-left: 1em;}
 .header-section-number::after {content: " - ";
 }
 
-h1 + p:first-letter {color: #799A9E;
+/*Dropcap, also when there is a quotation at the beginning of the chapter */
+
+h1 + p:first-letter, h1 + blockquote + p:first-letter  {color: #799A9E;
   font-weight: bold;
   float: left;
    font-size: 2.7em;
@@ -131,6 +133,8 @@ h1 + p:first-letter {color: #799A9E;
    padding-right: 8px;
    padding-left: 0px;
  }
+
+
 
 /* for prints */
 

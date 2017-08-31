@@ -1,6 +1,8 @@
 
 # Lista delle abbreviazioni {-}
 
+<!-- ***Importante***: Non usare reflow qui! -->
+
 (GNU) GPL
 : GNU General Public License. La principale e più famosa licenza copyleft, gestita dalla FSF, oggi alla Versione 3.
 
@@ -15,3 +17,6 @@ API
 
 SaaS
 : Software as a Service. Software che non viene eseguito sulla macchina dell'utilizzatore, ma da un terzo su macchine proprie, che ne mette a disposizione i servizi.
+
+(F)(Z)RAND
+: (Free) (Zero Royalty) Reasonable And Non Discriminatory (licensing). Impegno a rilasciare licenze di brevetti in maniera non discriminatoria e ragionevole, adottato in varia forma dai vari consorzi di sviluppo di standard. Vedi [discussione](#sec_rand)

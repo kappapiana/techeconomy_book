@@ -12,7 +12,7 @@ Uso il titolo di una presentazione che diedi qualche anno fa a Firenze, parafras
 
 [^e840f8c1]: Paolo Rossi, _Si fa presto a dire "pirla"_, Dalai Editore, Milano, 1997. Su Amazon: <https://www.amazon.it/Si-fa-presto-dire-pirla/dp/8885988350>
 
-Però i due mondi fanno effettivamente riferimento a due differenti **definizioni**. La definizione di software libero è semplice: è software libero il software la cui licenza soddisfa tutte e quattro le libertà del software, di cui abbiamo già detto nel [precedente capitolo](#sec_storia), quando ci siamo occupati della storia del software libero. Se ne manca anche solo una, non è software libero.
+Però i due mondi fanno effettivamente riferimento a due differenti **definizioni**. La definizione di software libero è semplice: è software libero il software la cui licenza soddisfa tutte e quattro le [libertà del software](#sec_quattro_liberta), di cui abbiamo già detto nel precedente capitolo, quando ci siamo occupati della storia del software libero. Se ne manca anche solo una, non è software libero.
 
 ## La Open Source Definition
 
@@ -26,7 +26,7 @@ Debian, appunto, è una distribuzione, che si caratterizza per due aspetti: un p
 
 ## Proliferazione
 
-OSI ha nel frattempo approvato un centinaio di licenze diverse[^93f0b588]. Che non esauriscono affatto l'orizzonte delle licenze possibili. È un numero enorme, ed averne così tante è un problema. Se avessimo poche licenze, con clausole in gran parte identiche e qualche clausola difforme, costruire una interpretazione solida e affidabile, che ricostruisca con una certa qual certezza le conseguenze giuridiche di ciascuna licenza e le condizioni alle quali tali licenze possano essere usate assieme, avremmo un mondo più semplice.
+OSI ha nel frattempo approvato qualcosa meno di un centinaio di licenze diverse[^93f0b588]. Che non esauriscono affatto l'orizzonte delle licenze possibili ed esistenti (ed usate). È un numero enorme, ed averne così tante è un problema. Se avessimo poche licenze, con clausole in gran parte identiche e qualche clausola difforme, costruire una interpretazione solida e affidabile, che ricostruisca con una certa qual certezza le conseguenze giuridiche di ciascuna licenza e le condizioni alle quali tali licenze possano essere usate assieme, avremmo un mondo più semplice.
 
 [^93f0b588]: Per la precisione 80 licenze "_current_", più 15 ritirate.  <https://opensource.org/licenses/alphabetical>
 
@@ -40,7 +40,7 @@ Invece abbiamo licenze che in larga parte sono simili tra loro (appartengono sol
 
 Dicevo, esistono grandi famiglie di licenze, che coprono da sole la gran parte del software. Il resto è "coda lunga" (long tail), traducibile anche con "rumore di fondo": poco rilevante, ma sempre rumore.
 
-Uno degli aspetti più importanti delle licenze, il primo che ricerco in una nuova licenza, è: "quanto copyleft?". Solitamente si definiscono tre livelli di copyleft, nel software: **copyleft forte, copyleft debole, nessun copyleft** (a volte anche "_network copyleft_"). Nessuno è in grado di definire con precisione dove inizia uno e finisce l'altro, teniamo queste distinzioni come categorie di massima.
+Uno degli aspetti più importanti delle licenze, il primo che ricerco in una nuova licenza, è: "quanto copyleft?". Solitamente si definiscono tre livelli di copyleft, nel software: **copyleft forte, copyleft debole, nessun copyleft** (alle tre, si aggiunga anche il cosiddetto "_network copyleft_", ne parleremo più avanti). Nessuno è in grado di definire con precisione dove inizia uno e finisce l'altro, teniamo queste distinzioni come categorie di massima.
 
 ## Licenze non copyleft
 
@@ -50,9 +50,9 @@ In tali licenze, che per la tradizione storica vengono anche dette "accademiche"
 
 Alle accademiche si accompagna un'altra licenza molto utilizzata, la **Apache Public License**, licenza usata dalla Apache Software Foundation, che si occupa del più famoso e utilizzato server web. La Apache, al contrario delle accademiche, è una licenza lunga, che comprende anche una clausola di risoluzione nel caso di uso aggressivo dei brevetti da parte di un licenziatario.
 
-## Licenze di copyeft forte
+## Licenze di copyleft forte
 
-All'altro estremo abbiamo il **copyleft forte**. Tendenzialmente una licenza di copyleft forte tende a estendere il suo effetto vincolante il più possibile a qualunque "opera derivata" di software copyleft. L'estensione di tale effetto è una delle materie su cui sorgono più spesso le discussioni più accese tra coloro che si occupano della nostra materia. Il copyleft forte richiede anche una struttura normativa più complessa e stringente, perché essendo "restrittivo" (nel senso, tende a imporre condizioni più stringenti ed effettive al fine di mantenere le libertà del software), richiede che tutti i "buchi" siano tappati, tutte le scappatoie siano evitate, in modo che il copyleft forte, e il tentativo di tenere il software un "commons" resista a chi cerca di evitarlo. Creare una licenza di copyelft forte è molto difficile, crearne una fatta bene è cosa a portata di ben pochi.
+All'altro estremo abbiamo il **copyleft forte**. Tendenzialmente una licenza di copyleft forte tende a estendere il suo effetto vincolante il più possibile a qualunque "opera derivata" di software copyleft. L'estensione di tale effetto è una delle materie su cui sorgono più spesso le discussioni più accese tra coloro che si occupano della nostra materia. Il copyleft forte richiede anche una struttura normativa più complessa e stringente, perché essendo "restrittivo" (nel senso, tende a imporre condizioni più stringenti ed effettive al fine di mantenere le libertà del software), richiede che tutti i "buchi" siano tappati, tutte le scappatoie siano evitate, in modo che il copyleft forte, e il tentativo di tenere il software un "commons" resista a chi cerca di evitarlo. Creare una licenza di copyleft forte è molto difficile, crearne una fatta bene è cosa a portata di ben pochi.
 
 Siccome le licenze di copyleft forte hanno condizioni più stringenti e peculiari, è molto facile che licenze di copyleft forte siano incompatibili con qualsiasi altra licenza di copyleft forte, dimodoché combinare software sotto due licenze di copyleft forte è in pratica impossibile. Anche combinare copyleft forte con copyleft debole, e a volte anche con non copyleft, si rivela sovente impossibile. Se non si possono rispettare le condizioni di licenza --tutte le condizioni -- non si può usare il software, non si possono trarre opere derivate.
 

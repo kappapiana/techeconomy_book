@@ -16,7 +16,7 @@ Le Creative Commons sono una famiglia di licenze concepite da un gruppo di giuri
 
 Attualmente le licenze Creative Commons sono giunte alla **versione 4**, la prima che comprende espressamente tra i diritti concessi anche quello "*sui generis*" sui database, di cui parleremo quando ci occuperemo di open data, nonché la prima a non avere differenti **versioni nazionali** (esiste solo la versione "internazionale").
 
-Parliamo di licenze al **plurale** perché non vi è una sola licenza, ma ve ne sono molte. Come nei giochi delle costruzioni, abbiamo elementi che possono combinarsi tra loro per creare una licenza con determinate caratteristiche. E poi abbiamo la **CC zero** di cui parleremo più avanti. Tali elementi sono (nome esteso e tra parentesi la sigla):
+Parliamo di licenze al **plurale** perché non vi è una sola licenza, ma ve ne sono molte. Come nei giochi delle costruzioni, abbiamo elementi che possono combinarsi tra loro per creare una licenza con determinate caratteristiche. E poi abbiamo la **CC0** di cui parleremo più avanti. Tali elementi sono (nome esteso e tra parentesi la sigla):
 
 *   "Attribution" (by)
 *   "Non commercial" (NC)
@@ -31,7 +31,7 @@ Creative Commons fornisce anche un **insieme di elementi identificativi grafici*
 
 ## Attribution (by)
 
-Tutte le licenze Creative Commons prevedono questa clausola. Dunque tutte le licenze che troverete in giro saranno CC by o CC by-qualcosa. Dunque la CC by è la forma più semplice e insieme più liberale delle licenze, nel senso che non ha condizioni di copyleft. In tal senso è molto simile, operativamente, a una licenza BSD o MIT. Il materiale CC-by può dunque essere utilizzato per scopi commerciali, modificato, adattato, incluso in materiale proprietario, purché venga rispettata l'attribuzione originale.
+Tutte le licenze Creative Commons prevedono questa clausola (tranne la CC0, che è un caso a parte). Dunque tutte le licenze che troverete in giro saranno CC by (solo attribuzione) o CC by-qualcosa (attribuzione più qualche altra condizione). Dunque la CC by è la forma più semplice e insieme più liberale delle licenze, nel senso che non ha (quasi del tutto, ma non del tutto!) condizioni di copyleft. In tal senso è molto simile, operativamente, a una licenza BSD o MIT. Il materiale CC-by può dunque essere utilizzato per scopi commerciali, modificato, adattato, incluso in materiale proprietario, purché venga rispettata l'attribuzione originale.
 
 Chi conosce il diritto d'autore nostrano si potrebbe aspettare che tale elemento sia imposto dall'inalienabilità del **diritto morale** di essere riconosciuto autore. In parte sì, ma *molto* in parte.  Intanto, tale diritto morale non esiste in tutte le giurisdizioni: ad esempio né negli Stati Uniti né in Gran Bretagna esso non è presente. Inoltre, l'attribuzione può indicare l’autore, ma non sempre ciò è vero.  Spesso viene indicata una società o un ente: quella è l'attribuzione che deve essere rispettata, anche se ovviamente, trattandosi di un diritto personale, non cedibile, ma solo esercitabile in via ereditaria  da ascendenti e discendenti diretti, non può essere una ente giuridico "l'autore".  Anche qui ho avuto modo di discettare con una visione totalmente errata della clausola "attribution" in materia di open data, ne parleremo a tempo debito. Ricordo infine che il diritto morale di essere riconosciuto autore, nel nostro diritto, non richiede comunque un'attribuzione esplicita della paternità, ma soltanto di non negarla quando venga rivendicata, ovvero di non attribuire l’opera a se stessi o a una persona diversa dall’autore, oppure, ancora, di non rimuovere degli elementi identificativi che siano stati apposti a tal fine.
 
@@ -47,7 +47,6 @@ Inoltre deve essere indicato che e in che misura (se fatto e se possibile) il ma
 L'attribuzione si estende in particolar modo anche alla menzione della licenza. Ecco perché è un elemento essenziale della licenza stessa.
 
 Una condizione particolare, presente in tutte le licenze Creative Commons e che costituisce una vera e propria clausola di copyleft (vedi il [capitolo introduttivo](#sec_aperto), è quella per cui non è possibile apporre, né all'opera originale, né ad opere derivate, **ulteriori restrizioni tecnologiche** che limitino i diritti e le facoltà di utilizzo presso il pubblico. Ciò espressamente comprende misure tecnologiche, ovvero **DRM** (Digital Rights Management), strumenti anti-copia o che limitino in altro modo la possibilità di fruire liberamente dei contenuti.
-
 
 ## Share alike (SA)
 
