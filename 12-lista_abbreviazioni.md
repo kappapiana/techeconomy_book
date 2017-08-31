@@ -1,6 +1,8 @@
 
 # Lista delle abbreviazioni {-}
 
+<!-- ***Importante***: Non usare reflow qui! -->
+
 (GNU) GPL
 : GNU General Public License. La principale e più famosa licenza copyleft, gestita dalla FSF, oggi alla Versione 3.
 
