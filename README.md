@@ -6,22 +6,23 @@ Sono scritti in **Markdown**, per la variante di **Pandoc**, tranne il file meta
 
 Con Pandoc si ricavano ePub, PDF, HTML (e altri formati che a me non interessano, al momento).
 
-Per contribuire a modifiche: 
+Per contribuire a modifiche:
 
+* Leggete il file copying, che contiene informazioni sulla licenza
 * Installare git
 * creare un fork sulla propria istanza di Github
 
 ```
 git clone <proprio fork>
-    
+
 git pull
 ```
 
 * Modificare quanto va modificato con un qualsiasi editor di testi (suggeriamo Atom)
 
 ```
-git commit -a 
-    
+git commit -a
+
 git push
 ```
 
