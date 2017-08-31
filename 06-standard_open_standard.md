@@ -1,5 +1,4 @@
-# Standard e open standard, il diavolo si annida nei dettagli
-# {#sec_open_standard}
+# Standard e open standard, il diavolo si annida nei dettagli {#sec_open_standard}
 
 > "_Sono uomo di mondo, ho fatto tre anni di militare a Cuneo_"  -- Principe
 Antonio De Curtis (in arte Totò)
