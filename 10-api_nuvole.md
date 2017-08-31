@@ -19,7 +19,7 @@ principalmente dalla "chiusura" data da diritti di privativa (diritto d'autore,
 brevetti, diritto _sui generis_ del database). In certi casi, come per il
 software distribuito come codice oggetto, la mancanza di accesso al codice
 sorgente impedisce un'adeguata modificabiltà (dunque adattabilità) del software.
-Mancanza tutelata dal diritto attraverso la tutela del segreto (il codice
+Mancanza tutelata dal diritto attraverso la inviolabilità del segreto (il codice
 sorgente è considerato segreto, cercare di rivelarlo tramite decompilazione è
 generalmente vietato, salve eccezioni: una di queste è appunto la ricerca
 dell'interoperabilità, di cui diremo oltre). Nel caso di software accessibile
@@ -58,13 +58,13 @@ e di ordine giuridico (copyright e brevetti, in primo luogo).
 
 Le interfacce possono essere perfettamente accessibili, ad esempio  nel caso in
 cui il software sia tutto locale e le API siano "esposte" (ovvero non serva una
-chiave o un altro componente per interagire), ma essere sconosciuta la lingua
+chiave o un altro componente per interagire), ma essere **sconosciuta la lingua**
 che parlano.
 
 Un caso che ha fatto scuola, e che conosco sufficientemente bene per aver
 partecipato direttamente ai vari processi alla Corte di Giustizia dell'Unione
-Europea, è il [caso Microsoft](
-https://fsfe.org/activities/ms-vs-eu/ms-vs-eu.it.html). Parlarne compiutamente
+Europea, è il caso Microsoft^[Caso T-201/04, vedi per approfondimenti
+<https://fsfe.org/activities/ms-vs-eu/ms-vs-eu.it.html>]. Parlarne compiutamente
 sarebbe troppo lungo, ma il caso verteva sulla possibilità che un operatore
 indipendente reimplementasse i protocolli e le interfacce di rete dei sistemi
 Microsoft Windows, facendo "finta" di essere dall'altra parte un sistema
@@ -80,12 +80,12 @@ client Windows, non poteva fare il server in un gruppo di server Windows, non
 poteva fare il client in una rete di server e client Windows, se non tramite
 protocolli diversi e meno adatti. Era nella stessa situazione di un cliente in
 un caffè francese che non sapeva parlare francese, aveva i soldi, ma non sapeva
-come ordinare qualcosa (né esattamente cosa ordinare). La metafora viene da una
-descrizione dell'autore
-^<https://www.samba.org/ftp/tridge/misc/french_cafe.txt>] su come è  nato il suo
-progetto Samba^[<https://www.samba.org/>] .
+come ordinare qualcosa (né esattamente cosa ordinare).
+^[La metafora viene da una
+descrizione dell'autore, Andrew Tridgell su come è  nato  <https://www.samba.org/ftp/tridge/misc/french_cafe.txt> il suo
+progetto Samba (<https://www.samba.org/>)] .
 
-Samba è una reimplementazione dei servizi di rete di Windows, nata dal protocolo
+Samba è una reimplementazione dei servizi di rete di Windows, nata dal protocollo
 SMB (da cui il nome "Samba") ad opera di Andrew "Tridge" Tridgell, una delle
 persone più geniali che abbia mai conosciuto. Per aggirare il segreto che a un
 certo punto era sceso sui protocolli nelle nuove versioni della parte di servizi
@@ -111,7 +111,7 @@ concorrenti, che interrompesse la piena interoperabilità. La condanna a fornire
 ai concorrenti complete e tempestive informazioni sui protocolli è stata
 confermata dal tribunale europeo.
 
-## I brevetti
+## I brevetti <!-- FIXME ci manca un pezzo???? --> 
 
 Risolta la parte sui brevetti, il Team Samba (e io per loro) si è ritrovato
 nella situazione di avere pieno accesso alle specifiche dei protocolli di
@@ -128,7 +128,7 @@ protezione dei brevetti. Nel caso di Microsoft i brevetti  facevano comunque
 parte del pacchetto-condanna, ma sono poi stati concessi in larga parte sotto
 [l'Open Specification Promise](
 https://en.m.wikipedia.org/wiki/Microsoft_Open_Specification_Promise), un
-impegno a non utillizzarli "aggressivamente", il che ha effetti simili a una
+impegno a non utilizzarli "aggressivamente", il che ha effetti simili a una
 licenza generale. Alcuni protocolli, tuttavia, rimangono fuori, come ad esempio
 Active Sync, un protocollo che consente di sincronizzare informazioni tra device
 differenti. Altri casi potrebbero essere rilevanti.
