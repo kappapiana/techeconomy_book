@@ -176,9 +176,8 @@ ottenere il permesso da qualcuno per utilizzare tutta o parte della tecnologia
 necessaria.
 
 **Condizione necessaria e sufficiente** per implementare uno standard dovrebbe
-**essere necessario unicamente conoscere lo standard (e gli standard di
-**riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo
-**"*delivery*",
+essere necessario unicamente conoscere lo standard (e gli standard di
+riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo"*delivery*",
 
 ## Standard e brevetti: questo matrimonio non s'ha da fare (rinvio)
 
