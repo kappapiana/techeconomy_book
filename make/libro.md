@@ -469,87 +469,277 @@ Avete molto da vedere, ascoltare, usare. Buon divertimento!
 
 
 [^ali]: Paragrafo adattato da Simone Aliprandi, Le licenze open content: capirle e usarle correttamente <http://aliprandi.blogspot.it/2015/11/licenze-open-content-capirle-usale.html>, CC by-SA 4.0.
+# Standard e open standard, il diavolo si annida nei dettagli
+# {#sec_open_standard}
 
-# Standard e open standard, il diavolo si annida nei dettagli {#sec_open_standard}
+> "_Sono uomo di mondo, ho fatto tre anni di militare a Cuneo_"  -- Principe
+Antonio De Curtis (in arte Totò)
 
+Come il più noto commediante italiano, anch'io ho fatto la mia parte per servire
+la Patria in quel della Provincia Granda, anche se solo per qualche settimana.
+Lì ho imparato che senza gli standard[^1], in ambito militare le cose si possono
+fare veramente difficili. Cominciamo con "*Alfa, Bravo, Charlie, Delta, Echo,
+Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa,
+Quebec, Romeo, Sigma, Tango, Uniform, Victor, Whisky, X-ray, Yankee, Zulu*". È
+l'ABC degli standard, anzi, lo standard dell'ABC. È l'alfabeto fonetico,
+[standard NATO][nato]. Se non lo conosci a memoria, non puoi comunicare via
+radio; così è per quasi tutto quanto accade nella vita militare: se sei un
+militare non hai spazio per ambiguità. Dai gradi (per sapere chi comanda su chi)
+fino al calibro delle pallottole, tutto è [standard][standard].
 
-> "_Sono uomo di mondo, ho fatto tre anni di militare a Cuneo_"  -- Principe Antonio De Curtis (in arte Totò)
+[^1]:  Per ulteriori letture in tema di standard, vedi i vari contributi su
+Techeconomy da parte, tra gli altri, di Italo Vignoli
+<http://www.techeconomy.it/author/italo-vignoli/>. Vedi anche di Simone
+Aliprandi  "Apriti Standard" <http://www.aliprandi.org/apriti-standard/>
 
-Come il più noto commediante italiano, anch'io ho fatto la mia parte per servire la Patria in quel della Provincia Granda, anche se solo per qualche settimana. Lì ho imparato che senza gli standard[^1], in ambito militare le cose si possono fare veramente difficili. Cominciamo con "*Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sigma, Tango, Uniform, Victor, Whisky, X-ray, Yankee, Zulu*". È l'ABC degli standard, anzi, lo standard dell'ABC. È l'alfabeto fonetico, [standard NATO][nato]. Se non lo conosci a memoria, non puoi comunicare via radio; così è per quasi tutto quanto accade nella vita militare: se sei un militare non hai spazio per ambiguità. Dai gradi (per sapere chi comanda su chi) fino al calibro delle pallottole, tutto è [standard][standard].
+"Standard", effettivamente, viene dal francese antico "*estandart*" o
+"*estandard*", stendardo, bandiera, che in effetti richiama i campi di battaglia
+e gli eserciti schierati in file ordinate. Ma sbaglieremmo a pensare che solo in
+ambito militare esistono standard. Come misuriamo il tempo dipende da uno
+standard, come *scriviamo* il tempo dipende da uno standard. Come misuriamo
+qualsiasi cosa dipende da uno standard. È importante ovviamente che le misure
+siano conosciute e che qualsiasi necessità di conversione tra uno standard e
+l'altro sia precisa e dichiarata, altrimenti succedono disastri. Se non dico che
+l'ora in cui fisso una conferenza telefonica corro al massimo il rischio di
+perdere qualche partecipante; ma se non dico che una pressione è in libbre per
+pollici quadrati e l'altro pensa che sia (come dovrebbe) in kilogrammi per metro
+quadro, succedono disastri ben peggiori. Nel 1999 il [Mars Polar
+Orbiter](https://it.wikipedia.org/wiki/Mars_Climate_Orbiter) si schiantò al
+suolo perché alcuni dati di volo vennero inviati in libbre/secondo invece che in
+newton/secondo, buttando a mare quasi 330 milioni di Dollari USA.  La stessa
+cosa capiterebbe anche a noi se nell'aviazione non ci fossero centinaia di
+standard, da quelli di sicurezza a quelli sulla navigazione e ai sistemi di
+identificazione e atterraggio.
 
-[^1]:  Per ulteriori letture in tema di standard, vedi i vari contributi su Techeconomy da parte, tra gli altri, di
-Italo Vignoli <http://www.techeconomy.it/author/italo-vignoli/>. Vedi anche di Simone Aliprandi  "Apriti Standard" <http://www.aliprandi.org/apriti-standard/>
-
-"Standard", effettivamente, viene dal francese antico "*estandart*" o "*estandard*", stendardo, bandiera, che in effetti richiama i campi di battaglia e gli eserciti schierati in file ordinate. Ma sbaglieremmo a pensare che solo in ambito militare esistono standard. Come misuriamo il tempo dipende da uno standard, come *scriviamo* il tempo dipende da uno standard. Come misuriamo qualsiasi cosa dipende da uno standard. È importante ovviamente che le misure siano conosciute e che qualsiasi necessità di conversione tra uno standard e l'altro sia precisa e dichiarata, altrimenti succedono disastri. Se non dico che l'ora in cui fisso una conferenza telefonica corro al massimo il rischio di perdere qualche partecipante; ma se non dico che una pressione è in libbre per pollici quadrati e l'altro pensa che sia (come dovrebbe) in kilogrammi per metro quadro, succedono disastri ben peggiori. Nel 1999 il [Mars Polar Orbiter](https://it.wikipedia.org/wiki/Mars_Climate_Orbiter) si schiantò al suolo perché alcuni dati di volo vennero inviati in libbre/secondo invece che in newton/secondo, buttando a mare quasi 330 milioni di Dollari USA.  La stessa cosa capiterebbe anche a noi se nell'aviazione non ci fossero centinaia di standard, da quelli di sicurezza a quelli sulla navigazione e ai sistemi di identificazione e atterraggio.
-
-Quasi tutto ciò che facciamo, in realtà, si basa sugli standard. È standard la presa con cui colleghiamo il computer alla corrente, è standard la corrente, è standard la codifica dei file, è standard il cavo di rete, è standard la presa di rete (o se usiamo il Wi-Fi, è standard pure quello), è standard il protocollo che stabilisce la connessione e assegna l'identificativo Internet; tutta Internet, da un punto di vista logico, non è che una somma di standard. È standard il formato di file con cui scriviamo il documento che contiene questo articolo. Se guardiamo la televisione, via satellite (DVB), via satellite (DVBT) è tutto uno standard; se guardiamo un filmato su Youtube, pure quello è uno standard (anzi due, uno per il video e uno per l'audio, anzi, tre, uno per il contenitore, WebM, anzi quattro, perché il se e il come il filmato viene mostrato dipendono da un altro standard, HTML, e così via).
+Quasi tutto ciò che facciamo, in realtà, si basa sugli standard. È standard la
+presa con cui colleghiamo il computer alla corrente, è standard la corrente, è
+standard la codifica dei file, è standard il cavo di rete, è standard la presa
+di rete (o se usiamo il Wi-Fi, è standard pure quello), è standard il protocollo
+che stabilisce la connessione e assegna l'identificativo Internet; tutta
+Internet, da un punto di vista logico, non è che una somma di standard. È
+standard il formato di file con cui scriviamo il documento che contiene questo
+articolo. Se guardiamo la televisione, via satellite (DVB), via satellite (DVBT) è
+tutto uno standard; se guardiamo un filmato su Youtube, pure quello è uno
+standard (anzi due, uno per il video e uno per l'audio, anzi, tre, uno per il
+contenitore, WebM, anzi quattro, perché il se e il come il filmato viene
+mostrato dipendono da un altro standard, HTML, e così via).
 
 ## C'è standard e open standard
 
-Chi fa gli standard? Fornire una risposta a questa domanda è praticamente impossibile. Abbiamo standard formali e standard informali (la posta elettronica e molti degli standard di Internet sono delle RFC, mai adottati formalmente e gestiti in larga parte dall'IETF^[<https://ietf.org/>]). Esistono poi enti di standardizzazione formale "istituzionali" a livello nazionale (ad esempio UNI in Italia, DIN in Germania, BSI nel Regno Unito, ANSI negli Stati Uniti), a livello europeo (ETSI, CEN), e internazionale (ISO, ITU, IEC). E poi vi sono quelli su base consortile (OASIS, ECMA, Bluetooth, W3C). Un bel guazzabuglio.
+Chi fa gli standard? Fornire una risposta a questa domanda è praticamente
+impossibile. Abbiamo standard formali e standard informali (la posta elettronica
+e molti degli standard di Internet sono delle RFC, mai adottati formalmente e
+gestiti in larga parte dall'IETF^[<https://ietf.org/>]). Esistono poi enti di
+standardizzazione formale "istituzionali" a livello nazionale (ad esempio UNI in
+Italia, DIN in Germania, BSI nel Regno Unito, ANSI negli Stati Uniti), a livello
+europeo (ETSI, CEN), e internazionale (ISO, ITU, IEC). E poi vi sono quelli su
+base consortile (OASIS, ECMA, Bluetooth, W3C). Un bel guazzabuglio.
 
-Ma a noi, in questa sede, non importa più di tanto come gli standard sono formati e da chi (se non quando succede un problema, come vedremo poi con il famigerato OOXML). Ci importa sapere **cosa accomuna** gli standard. Tutti gli standard, ufficiali e formalizzati (de jure) o non ufficiali e informali (de facto) si caratterizzano per essere una **norma**, e infatti un sinonimo dell'attività di creazione degli standard è "normazione" e così si specificano gli enti che se ne occupano. Si tratta di un norma di per sé **non cogente**, se non quando vi fa espresso riferimento una legge o un atto normativo dello stato o internazionale. Gli standard vengono rispettati perché e in quanto sono diffusamente adottati e non adottarli comporta problemi difficilmente insuperabili. La norma diventa "cogente" se non posso fare altrimenti che seguirla, salvo trovarmi a mal partito (o peggio, violare la legge).   Se entro in un ristorante francese e non so il francese, probabilmente non mangio, o corro il rischio di mangiare cose che non volevo.
+Ma a noi, in questa sede, non importa più di tanto come gli standard sono
+formati e da chi (se non quando succede un problema, come vedremo poi con il
+famigerato OOXML). Ci importa sapere **cosa accomuna** gli standard. Tutti gli
+standard, ufficiali e formalizzati (de jure) o non ufficiali e informali (de
+facto) si caratterizzano per essere una **norma**, e infatti un sinonimo
+dell'attività di creazione degli standard è "normazione" e così si specificano
+gli enti che se ne occupano. Si tratta di un norma di per sé **non cogente**, se
+non quando vi fa espresso riferimento una legge o un atto normativo dello stato
+o internazionale. Gli standard vengono rispettati perché e in quanto sono
+diffusamente adottati e non adottarli comporta problemi difficilmente
+insuperabili. La norma diventa "cogente" se non posso fare altrimenti che
+seguirla, salvo trovarmi a mal partito (o peggio, violare la legge).   Se entro
+in un ristorante francese e non so il francese, probabilmente non mangio, o
+corro il rischio di mangiare cose che non volevo.
 
-Norma,  dicevamo, dunque **regola**. Chi di solito fa le regole? Come nello sport, non è mai uno dei giocatori, o almeno non dovrebbe. E come seguire le regole se non le conosco? E mettiamo che le conosca, ma se una volta che le ho imparate, mi si cambino le carte in tavola, e io non faccia in tempo a prepararmi, ma qualcun altro sì, perché lo sapeva prima? E se ancora, si impone di usare un pallone speciale, ma io non posso allenarmi con quel pallone, salvo poi trovarmelo in campo contro le altre squadre?
+Norma,  dicevamo, dunque **regola**. Chi di solito fa le regole? Come nello
+sport, non è mai uno dei giocatori, o almeno non dovrebbe. E come seguire le
+regole se non le conosco? E mettiamo che le conosca, ma se una volta che le ho
+imparate, mi si cambino le carte in tavola, e io non faccia in tempo a
+prepararmi, ma qualcun altro sì, perché lo sapeva prima? E se ancora, si impone
+di usare un pallone speciale, ma io non posso allenarmi con quel pallone, salvo
+poi trovarmelo in campo contro le altre squadre?
 
-Le regole, devono essere fatte in un certo modo, altrimenti qualcuno è nei guai, e qualcun altro ci marcia. Entrano in campo gli standard veramente **imparziali** e non distorsivi, ovvero gli standard aperti. Siccome ci piace usare l'inglese "**Open Standard**".
+Le regole, devono essere fatte in un certo modo, altrimenti qualcuno è nei guai,
+e qualcun altro ci marcia. Entrano in campo gli standard veramente
+**imparziali** e non distorsivi, ovvero gli standard aperti. Siccome ci piace
+usare l'inglese "**Open Standard**".
 
 ## Standard Aperti
 
-Non esiste una definizione di open standard. Quando si cerca di adottarne una, ci si trova un fuoco di  sbarramento fatto di lobbying selvaggio, *disinformazia*, agenti doppi, non un quadro edificante. Lo dico per esperienza personale, per esserci entrato in occasione di OOXML (ci arriviamo, ci arriviamo...) e in occasione di vari dibattiti in cui si è tentato di trovare una definizione efficace, come nel caso dell'European Interoperability Framework^[<http://ec.europa.eu/idabc/en/document/2319/5938.html>], che in effetti adottò una formulazione quasi accettabile di open standard, e infatti quando si è passati alla versione 2^[<http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf>], quella parte è stata rimossa perché contro di essa si sono mossi mari e monti.
+Non esiste una definizione di open standard. Quando si cerca di adottarne una,
+ci si trova un fuoco di  sbarramento fatto di lobbying selvaggio,
+*disinformazia*, agenti doppi, non un quadro edificante. Lo dico per esperienza
+personale, per esserci entrato in occasione di OOXML (ci arriviamo, ci
+arriviamo...) e in occasione di vari dibattiti in cui si è tentato di trovare
+una definizione efficace, come nel caso dell'European Interoperability
+Framework^[<http://ec.europa.eu/idabc/en/document/2319/5938.html>], che in
+effetti adottò una formulazione quasi accettabile di open standard, e infatti
+quando si è passati alla versione
+2^[<http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf>], quella parte è
+stata rimossa perché contro di essa si sono mossi mari e monti.
 
-
-Ma chi è intellettualmente onesto non può che rinvenire alcuni tratti fondamentali su cosa definisce uno standard aperto. A partire dal fatto che uno standard aperto è... aperto alla sua adesione da parte di tutti e non crea indebiti vantaggi o posizioni di dominio da parte di qualcuno su qualcun altro. Qui do alcune indicazioni su ciò che uno standard aperto debba rispettare, nella [definizione][definizionefsfe] che ho contribuito a fissare per FSFE
+Ma chi è intellettualmente onesto non può che rinvenire alcuni tratti
+fondamentali su cosa definisce uno standard aperto. A partire dal fatto che uno
+standard aperto è... aperto alla sua adesione da parte di tutti e non crea
+indebiti vantaggi o posizioni di dominio da parte di qualcuno su qualcun altro.
+Qui do alcune indicazioni su ciò che uno standard aperto debba rispettare, nella
+definizione^[<https://fsfe.org/activities/os/def.en.html>] che ho contribuito a fissare per la Free Software Foundation Europe.
 
 ## Uno standard è aperto quando è accessibile
 
-Questa è facile. Lo standard è una norma, la norma deve essere **conosciuta** per essere osservata. Lo standard deve essere dunque pienamente conoscibile. Per cui deve essere compiutamente documentato. Gli standard non debbono completamente documentare tutto, ma quello che non documentano deve essere facilmente derivabile da altri standard. Anzi, gli standard **_devono_ riutilizzare** gli altri standard, dove possibile, e non inventare nuovi modi per parti di esso che siano già standardizzate.
+Questa è facile. Lo standard è una norma, la norma deve essere **conosciuta**
+per essere osservata. Lo standard deve essere dunque pienamente conoscibile. Per
+cui deve essere compiutamente documentato. Gli standard non debbono
+completamente documentare tutto, ma quello che non documentano deve essere
+facilmente derivabile da altri standard. Anzi, gli standard **_devono_
+riutilizzare** gli altri standard, dove possibile, e non inventare nuovi modi
+per parti di esso che siano già standardizzate.
 
-Corollario a questo principio è che uno standard **non può fare riferimento** a un prodotto, un servizio una tecnologia non standard, o peggio, **proprietaria**. Uno standard che dovesse indicare "fai questa cosa qui come la fa l'applicazione X del produttore M" non sarebbe uno standard aperto, e non sarebbe uno standard completo.
+Corollario a questo principio è che uno standard **non può fare riferimento** a
+un prodotto, un servizio una tecnologia non standard, o peggio,
+**proprietaria**. Uno standard che dovesse indicare "fai questa cosa qui come la
+fa l'applicazione X del produttore M" non sarebbe uno standard aperto, e non
+sarebbe uno standard completo.
 
-Tali documenti, poi, debbono essere resi "**pubblici**". Ciò non significa che essi non possono essere coperti da copyright e ceduti sotto condizioni proprietarie: tali condizioni non debbono essere **discriminatorie** o eccedere i costi di formazione dello standard e di produzione del documento, ovvero costi nominali dell'opera. Se munirsi di una copia dello standard dovesse costare eccessivamente, solo chi ha sufficienti disponibilità economiche potrebbero accedervi. Se solo chi ha una qualifica particolare può accedere il documento, questo sarebbe discriminatorio. L'accesso pubblico significa "a chiunque sia disposto a pagare una ragionevole somma, non eccessiva, se richiesta, e senza che qualcuno possa opporre un rifiuto".
+Tali documenti, poi, debbono essere resi "**pubblici**". Ciò non significa che
+essi non possono essere coperti da copyright e ceduti sotto condizioni
+proprietarie: tali condizioni non debbono essere **discriminatorie** o eccedere
+i costi di formazione dello standard e di produzione del documento, ovvero costi
+nominali dell'opera. Se munirsi di una copia dello standard dovesse costare
+eccessivamente, solo chi ha sufficienti disponibilità economiche potrebbero
+accedervi. Se solo chi ha una qualifica particolare può accedere il documento,
+questo sarebbe discriminatorio. L'accesso pubblico significa "a chiunque sia
+disposto a pagare una ragionevole somma, non eccessiva, se richiesta, e senza
+che qualcuno possa opporre un rifiuto".
 
 ## Uno standard è aperto quando è gestito imparzialmente
 
-La partecipazione  alla formazione degli standard da parte delle imprese e degli altri operatori interessati è una elemento essenziale nella formazione degli stessi. Solo chi conosce un campo di applicazione può avere idea di cosa può essere standardizzato e come. Di solito si adottano le scelte operative più intelligenti dei primi che hanno affrontato il problema. Il principio base è dunque quello del raggiungimento di un **consenso** tra tutti gli operatori.
+La partecipazione  alla formazione degli standard da parte delle imprese e degli
+altri operatori interessati è una elemento essenziale nella formazione degli
+stessi. Solo chi conosce un campo di applicazione può avere idea di cosa può
+essere standardizzato e come. Di solito si adottano le scelte operative più
+intelligenti dei primi che hanno affrontato il problema. Il principio base è
+dunque quello del raggiungimento di un **consenso** tra tutti gli operatori.
 
-Uno standard "buono" è normalmente uno standard formato democraticamente, in cui tutti gli interessati hanno avuto modo di dire la loro e nessuno prevale in modo abnorme sugli altri partecipanti. In realtà questa non è una regola necessaria. Esistono buoni standard in cui la tecnologia è stata fornita unilateralmente da un operatore, il quale la ha compiutamente descritta in maniera standard (esiste uno standard su come si scrivono gli standard) e ha concesso a tutti il permesso di usare tale tecnologia. È il caso del PDF, che è stato "donato" da Adobe e formalizzato in uno standard ISO (ISO 19005, ISO 32000). Qui la genesi non è certo imparziale, ma una volta che il formato è stato proposto come standard aperto, la conduzione ulteriore dello stesso è affidata a comitati tecnici in sede ISO, la cui partecipazione &ndash; come per tutti i comitati tecnici di ISO &ndash; è aperta a tutti.
+Uno standard "buono" è normalmente uno standard formato democraticamente, in cui
+tutti gli interessati hanno avuto modo di dire la loro e nessuno prevale in modo
+abnorme sugli altri partecipanti. In realtà questa non è una regola necessaria.
+Esistono buoni standard in cui la tecnologia è stata fornita unilateralmente da
+un operatore, il quale la ha compiutamente descritta in maniera standard (esiste
+uno standard su come si scrivono gli standard) e ha concesso a tutti il permesso
+di usare tale tecnologia. È il caso del PDF, che è stato "donato" da Adobe e
+formalizzato in uno standard ISO (ISO 19005, ISO 32000). Qui la genesi non è
+certo imparziale, ma una volta che il formato è stato proposto come standard
+aperto, la conduzione ulteriore dello stesso è affidata a comitati tecnici in
+sede ISO, la cui partecipazione &ndash; come per tutti i comitati tecnici di ISO
+&ndash; è aperta a tutti.
 
-Dunque, originalmente o successivamente a una "donazione", lo standard è affidato a un ente imparziale, non legato o dominato da un attore dominante, ad accesso democratico.
+Dunque, originalmente o successivamente a una "donazione", lo standard è
+affidato a un ente imparziale, non legato o dominato da un attore dominante, ad
+accesso democratico.
 
 ## Uno standard è aperto quando non discrimina
 
-Uno standard dovrebbe essere il tecnologicamente neutro possibile, ovvero non privilegiare ingiustificatamente una piattaforma rispetto a un'altra, una tecnologia rispetto a un'altra, un'impresa piuttosto che un'altra, per quanto possibile. Dunque dovrebbe osservare un principio di prudenza nel non prevedere l'adozione di tecnologie esterne e non standard, o peggio, la necessità di ottenere il permesso da qualcuno per utilizzare tutta o parte della tecnologia necessaria.
+Uno standard dovrebbe essere il tecnologicamente neutro possibile, ovvero non
+privilegiare ingiustificatamente una piattaforma rispetto a un'altra, una
+tecnologia rispetto a un'altra, un'impresa piuttosto che un'altra, per quanto
+possibile. Dunque dovrebbe osservare un principio di prudenza nel non prevedere
+l'adozione di tecnologie esterne e non standard, o peggio, la necessità di
+ottenere il permesso da qualcuno per utilizzare tutta o parte della tecnologia
+necessaria.
 
-**Condizione necessaria e sufficiente** per implementare uno standard dovrebbe essere necessario unicamente conoscere lo standard (e gli standard di riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo "*delivery*",
+**Condizione necessaria e sufficiente** per implementare uno standard dovrebbe
+**essere necessario unicamente conoscere lo standard (e gli standard di
+**riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo
+**"*delivery*",
 
 ## Standard e brevetti: questo matrimonio non s'ha da fare (rinvio)
 
-Siccome uno standard diventerà una norma, e soprattutto negli standard tecnologici più uno standard è utilizzato, più tende ad essere utilizzato (effetto di rete) a prescindere anche da quanto merito tecnico esso abbia, sono ovvie le interazioni tra standard e **concorrenza**. Pertanto, per quanto possibile, gli standard dovrebbero essere privi di condizioni legali che tendano a privilegiare le offerte di alcuni a scapito di altri, e soprattutto dovrebbero evitare quella che si chiama "*patent holdup*", ovvero la posizione di supremazia di chi ha brevetti essenziali per l'implementazione di uno standard.[^md]
+Siccome uno standard diventerà una norma, e soprattutto negli standard
+tecnologici più uno standard è utilizzato, più tende ad essere utilizzato
+(effetto di rete) a prescindere anche da quanto merito tecnico esso abbia, sono
+ovvie le interazioni tra standard e **concorrenza**. Pertanto, per quanto
+possibile, gli standard dovrebbero essere privi di condizioni legali che tendano
+a privilegiare le offerte di alcuni a scapito di altri, e soprattutto dovrebbero
+evitare quella che si chiama "*patent holdup*", ovvero la posizione di
+supremazia di chi ha brevetti essenziali per l'implementazione di uno
+standard.[^md]
 
-[^md]: Per un'ottima analisi, si veda Dolmans, Maurits (2010) 'A Tale of Two Tragedies – A plea for open standards, and some comments on the RAND report', IFOSS L. Rev., 2(2), pp 115 – 138
-DOI: 10.5033/ifosslr.v2i2.46 (<http://dx.doi.org/10.5033/ifosslr.v2i2.46>) con una mia introduzione. Si veda inoltre uno studio affrontato dalla  Commissione Europea in tema di Standard Essential Patents (SEP) e condizioni di licenza (in generale): <https://ec.europa.eu/growth/industry/intellectual-property/patents/standards_it>
+[^md]: Per un'ottima analisi, si veda Dolmans, Maurits (2010) 'A Tale of Two
+Tragedies – A plea for open standards, and some comments on the RAND report',
+IFOSS L. Rev., 2(2), pp 115 – 138 DOI: 10.5033/ifosslr.v2i2.46
+(<http://dx.doi.org/10.5033/ifosslr.v2i2.46>) con una mia introduzione. Si veda
+inoltre uno studio affrontato dalla  Commissione Europea in tema di Standard
+Essential Patents (SEP) e condizioni di licenza (in generale):
+<https://ec.europa.eu/growth/industry/intellectual-property/patents/standards_it>
 
-E qui, sovente, casca l'asino. In difetto di una precisa politica che consenta l'utilizzo degli standard a tutti, indipendentemente dal modello di business e di licenze, occorre che vi siano chiare regole sia per chi contribuisce agli standard (dichiarare l'esistenza di propri brevetti, impegnarsi a licenziarli sotto determinate regole), sia per chi approfitta delle lacune o delle imprecisioni degli enti di standardizzazione per porsi in posizione di controllo, spesso identica a quella dei famigerati *troll*.
+E qui, sovente, casca l'asino. In difetto di una precisa politica che consenta
+l'utilizzo degli standard a tutti, indipendentemente dal modello di business e
+di licenze, occorre che vi siano chiare regole sia per chi contribuisce agli
+standard (dichiarare l'esistenza di propri brevetti, impegnarsi a licenziarli
+sotto determinate regole), sia per chi approfitta delle lacune o delle
+imprecisioni degli enti di standardizzazione per porsi in posizione di
+controllo, spesso identica a quella dei famigerati *troll*.
 
-Questo è un campo di indagine molto complesso, che sospendiamo solo momentaneamente. Ne parleremo nel [prossimo capitolo](#sec_brevetti).
+Questo è un campo di indagine molto complesso, che sospendiamo solo
+momentaneamente. Ne parleremo nel [prossimo capitolo](#sec_brevetti).
 
 ## OOXML e altri orrori
 
-OOXML è lo standard documentale XML spinto (per usare un eufemismo) da Microsoft. La storia è molto lunga ed è anche in certo modo la *summa* di ciò che non si dovrebbe fare in una standardizzazione. Lo standard serve a codificare i documenti di Microsoft Office in formato XML (altro standard).
+OOXML è lo standard documentale XML spinto (per usare un eufemismo) da
+Microsoft. La storia è molto lunga ed è anche in certo modo la *summa* di ciò
+che non si dovrebbe fare in una standardizzazione. Lo standard serve a
+codificare i documenti di Microsoft Office in formato XML (altro standard).
 
-Lo standard soprattutto evidenzia difetti in tutte le aree di cui ho parlato sopra, forse (e dico *forse*) con l'unica esclusione dell'interferenza di brevetti.
+Lo standard soprattutto evidenzia difetti in tutte le aree di cui ho parlato
+sopra, forse (e dico *forse*) con l'unica esclusione dell'interferenza di
+brevetti.
 
-Andiamo in ordine sparso. Il primo peccato capitale è che si tratta di uno standard che viene adottato su proposta di una e una sola azienda, senza che vi sia una che sia una implementazione di esso che sia in qualche modo completa. E ciò non lo è stato per diversi anni. Soprattutto quando esiste un diverso standard (ISO IEC IS 26300 &ndash; ODF) per esattamente lo stesso dominio. Le buone pratiche vorrebbero che Microsoft si mettesse in gioco e spingesse perché tale standard evolva fino a coprire le esigenze non coperte dallo stesso. Invece lo rimpiazza con un secondo standard completamente nuovo.
+Andiamo in ordine sparso. Il primo peccato capitale è che si tratta di uno
+standard che viene adottato su proposta di una e una sola azienda, senza che vi
+sia una che sia una implementazione di esso che sia in qualche modo completa. E
+ciò non lo è stato per diversi anni. Soprattutto quando esiste un diverso
+standard (ISO IEC IS 26300 &ndash; ODF) per esattamente lo stesso dominio. Le
+buone pratiche vorrebbero che Microsoft si mettesse in gioco e spingesse perché
+tale standard evolva fino a coprire le esigenze non coperte dallo stesso. Invece
+lo rimpiazza con un secondo standard completamente nuovo.
 
-Lo standard poi si limita a riflettere pari-pari il comportamento delle applicazioni di Microsoft, non a descrivere le funzioni in astratto e a risolverle in modo astratto e imparziale. Arriva persino a codificare gli errori, fenomenale fu quello di ripetere l'omissione dell'anno non bisestile negli anni zero dei secoli non divisibili per quattrocento, che è la modalità in cui si contano le date nel calendario Gregoriano (che è anch'esso uno standard: ISO 8601.[^date] Ciò solo per un *bug* mai corretto di Microsoft Excel.
+Lo standard poi si limita a mimare e coprire pari-pari il comportamento delle
+applicazioni di Microsoft, non a descrivere in astratto le funzioni che il software deve implementare e a
+risolverle in modo astratto e imparziale. Arriva persino a codificare come parte dello standard gli
+errori delle applicazioni, fenomenale fu quello di ripetere l'omissione dell'anno non bisestile
+negli anni zero dei secoli non divisibili per quattrocento, che è la modalità in
+cui si contano le date nel calendario Gregoriano (che è anch'esso uno standard:
+ISO 8601.[^date] Ciò solo per un *bug* mai corretto di Microsoft Excel.
 
-[^date]: Per un'interessante disamina, se interessati, si può consultare la pagina di
-Wikipedia <https://it.wikipedia.org/wiki/ISO_8601>.
+[^date]: Per un'interessante disamina, se interessati, si può consultare la
+pagina di Wikipedia <https://it.wikipedia.org/wiki/ISO_8601>.
 
-Lo standard venne proposto con una procedura accelerata ("*Fast Track*") nonostante ci fossero molte perplessità sull'esperibilità di tale procedura e in vari enti nazionali (ISO è un ente "federato" in cui partecipano gli enti nazionali, in Italia l'ente nazionale competente era Uninfo, in seno a UNI) si sollevarono centinaia di osservazioni, che vennero risolte in modo molto grossolano in un "*Ballot Resolution Meeting*" in quel di Ginevra, segno che lo standard doveva essere approvato più o meno ad ogni costo. Le stesse procedure nazionali lasciarono molti perplessi, me compreso. In Italia, ad esempio, nei mesi precedenti alla votazione, si osservò un'impennata di iscrizioni ad Uninfo a cui molti hanno attribuito un significato preciso: quello di un tentativo di modificare gli equilibri in gioco per far passare (o non passare, ma in misura assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti (se mai qualcuno) ha letto integralmente.
+Lo standard venne proposto con una procedura accelerata ("*Fast Track*")
+nonostante ci fossero molte perplessità sull'esperibilità di tale procedura e in
+vari enti nazionali (ISO è un ente "federato" in cui partecipano gli enti
+nazionali, in Italia l'ente nazionale competente era Uninfo,[^fc705c37] in seno a UNI) si
+sollevarono centinaia di osservazioni, che vennero risolte in modo molto
+grossolano in un "*Ballot Resolution Meeting*" in quel di Ginevra, segno che lo
+standard doveva essere approvato più o meno ad ogni costo. Le stesse procedure
+nazionali lasciarono molti perplessi, me compreso. In Italia, ad esempio, nei
+mesi precedenti alla votazione, si osservò un'impennata di iscrizioni ad Uninfo
+a cui molti hanno attribuito un significato preciso: quello di un tentativo di
+modificare gli equilibri in gioco per far passare (o non passare, ma in misura
+assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso
+era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti
+(se mai qualcuno) ha letto integralmente.
 
-Ma al di là di tali episodi, su cui ognuno manterrà le proprie opinioni, è il concetto stesso che si possa standardizzare a partire da un'applicazione singola per creare uno standard che non è condiviso, ma replica in maniera ossessivamente pedissequa ciò che fa un'applicazione, a detrimento di tutte le altre, a fare a pugni con la stessa concezione di standard. Il fatto che il principale sponsor di quello standard fosse una società che proprio in quel periodo era stata condannata per condotte abusive esattamente per la creazione di standard di fatto usati in modo anticoncorrenziale, anche se in ambiti non sovrapponibili, lascia alquanto perplessi circa tale standard.
+[^fc705c37]: <http://www.uninfo.it/>
+
+Ma al di là di tali episodi, su cui ognuno manterrà le proprie opinioni, è il
+concetto stesso che si possa standardizzare a partire da un'applicazione singola
+per creare uno standard che non è condiviso, ma replica in maniera
+ossessivamente pedissequa ciò che fa un'applicazione, a detrimento di tutte le
+altre, a fare a pugni con la stessa concezione di standard. Il fatto che il
+principale sponsor di quello standard fosse una società che proprio in quel
+periodo era stata condannata per condotte abusive esattamente per la creazione
+di standard di fatto usati in modo anticoncorrenziale, anche se in ambiti non
+sovrapponibili, lascia alquanto perplessi circa tale standard.
 
 Non che gli altri siano indenni da critiche. Lo vedremo nel prossimo capitolo.
 
@@ -557,119 +747,348 @@ Non che gli altri siano indenni da critiche. Lo vedremo nel prossimo capitolo.
 
 [standard]: http://www.techeconomy.it/tag/standard/
 [nato]: https://it.wikipedia.org/wiki/Alfabeto_fonetico_NATO
-[definizionefsfe]: https://fsfe.org/activities/os/def.en.html
 
 # Open standard e brevetti {#sec_brevetti}
 
-Con l'ipertrofia dei brevetti originatasi soprattutto negli Stati Uniti al volgere del millennio, e poi importata a rimorchio in Europa, ormai è pressoché impossibile realizzare una qualsiasi applicazione tecnologica senza violare un qualche tipo di brevetto. Non importa se si tratti di uno standard di comunicazione, di uno standard sui formati, di uno standard multimediale, ogniqualvolta si tratti di normare un settore tecnologico, l'interferenza con (spesso molti) brevetti è inevitabile.
+Con l'ipertrofia dei brevetti originatasi soprattutto negli Stati Uniti al
+volgere del millennio, e poi importata a rimorchio in Europa, ormai è pressoché
+impossibile realizzare una qualsiasi applicazione tecnologica senza violare un
+qualche tipo di brevetto. Non importa se si tratti di uno standard di
+comunicazione, di uno standard sui formati, di uno standard multimediale,
+ogniqualvolta si tratti di normare un settore tecnologico, l'interferenza con
+(spesso molti) brevetti è inevitabile.
 
-È un problema? Sicuramente lo è. Per capire meglio di cosa si tratti, facciamo un piccolo passo indietro e interroghiamoci a cosa servano i brevetti.
+È un problema? Sicuramente lo è. Per capire meglio di cosa si tratti, facciamo
+un piccolo passo indietro e interroghiamoci a cosa servano i brevetti.
 
 ## La funzione dei brevetti nell'economia
 
 ### La teoria economica fondamentale
-I brevetti vengono riconosciuti come un **incentivo all'innovazione**. La teoria economica è sufficientemente chiara e semplice. Tizio inventa qualcosa, ci mette anni e anni, investe ingenti capitali in ricerca e sviluppo, va sul mercato. Il suo prodotto, costa dieci euro. Ma se lo vende a dieci euro e dieci centesimi, cosa ne è di tutto l'investimento fatto? Per cui ammortizza il costo su un numero sperato di prodotti venduti. Il prodotto dunque esce a quindici euro.
 
-Caio vede il prodotto di Tizio, pensa che sia una bella invenzione. Ne compra uno, lo osserva, capisce come è fatto e decide che anche lui è in grado di fare la stessa cosa. Il prodotto gli costa dieci euro, esattamente come a Tizio. Lo vende a undici, guadagna uno. Il prodotto di Tizio è fuori mercato. Allora, vista la concorrenza, Tizio abbassa il costo, ma anche così lui vende solo la metà dei prodotti che sperava, da un certo punto in poi, e per giunta con un margine molto inferiore. Tizio perde, Caio guadagna sulle spalle di Tizio.  Sapendo di correre questo rischio, si dice, è probabile che Tizio nemmeno si metta a investire. È un **gioco somma negativa**. Non solo per Tizio e per Caio, ma per tutto il sistema, che così non riceve i benefici delle possibili invenzioni che così non verranno immesse sul mercato.
+I brevetti vengono riconosciuti come un
+**incentivo all'innovazione**. La teoria economica è sufficientemente chiara
+e semplice. Tizio inventa qualcosa, ci mette anni e anni, investe ingenti
+capitali in ricerca e sviluppo, va sul mercato. Il suo prodotto, costa dieci
+euro. Ma se lo vende a dieci euro e dieci centesimi, cosa ne è di tutto
+l'investimento fatto? Per cui ammortizza il costo su un numero sperato di
+prodotti venduti. Il prodotto dunque esce a quindici euro.
 
-La soluzione trovata a questo dilemma è stata sinora quella di garantire a chi dimostri di aver dato un contributo all'avanzamento della tecnica, ovvero aver creato e concepito qualche idea che prima non esisteva, un **limitato monopolio** sull'utilizzo di quell'idea sul mercato. Il monopolio gli consente di estrarre la rendita del monopolista, sia direttamente, sia vendendo il permesso di praticare la stessa invenzione.
+Caio vede il prodotto di Tizio, pensa che sia una bella invenzione. Ne compra
+uno, lo osserva, capisce come è fatto e decide che anche lui è in grado di fare
+la stessa cosa. Il prodotto gli costa dieci euro, esattamente come a Tizio. Lo
+vende a undici, guadagna uno. Il prodotto di Tizio è fuori mercato. Allora,
+vista la concorrenza, Tizio abbassa il costo, ma anche così lui vende solo la
+metà dei prodotti che sperava, da un certo punto in poi, e per giunta con un
+margine molto inferiore. Tizio perde, Caio guadagna sulle spalle di Tizio.
+Sapendo di correre questo rischio, si dice, è probabile che Tizio nemmeno si
+metta a investire. È un **gioco somma negativa**. Non solo per Tizio e per Caio,
+ma per tutto il sistema, che così non riceve i benefici delle possibili
+invenzioni che così non verranno immesse sul mercato.
+
+La soluzione trovata a questo dilemma è stata sinora quella di garantire a chi
+dimostri di aver dato un contributo all'avanzamento della tecnica, ovvero aver
+creato e concepito qualche idea che prima non esisteva, un **limitato
+monopolio** sull'utilizzo di quell'idea sul mercato. Il monopolio gli consente
+di estrarre la rendita del monopolista, sia direttamente, sia vendendo il
+permesso di praticare la stessa invenzione.
 
 ### La limitazione della protezione è funzionale allo sviluppo della tecnologia nel settore protetto.
 
-Il monopolio è limitato in due sensi: non si brevetta un intero prodotto (come comunemente si tende a pensare), ma solo sulla parte innovativa di esso, sull'idea che non esisteva, è dunque limitato **nell'oggetto**; inoltre, è limitato nel **tempo**: la privativa dura vent'anni, poi l'idea diventa "**di pubblico dominio**" e chiunque può praticarla commercialmente.  Questo connubio tra la fase di privativa e la fase di pubblico dominio è importante, senza l'una non potrebbe esistere l'altra. Per ottenere questo risultato, una delle condizioni per ottenere il brevetto è quella di **compiutamente descrivere** l'invenzione, ovvero come è stato risolto in modo innovativo un determinato problema, cosicché un esperto del ramo sia in grado di riprodurla solo leggendone la descrizione. Brevetto e **segreto** sono **incompatibili** (in teoria) perché l'invenzione deve entrare nello **stato della tecnica**.
+Il monopolio è limitato in due sensi: non si brevetta un intero prodotto (come
+comunemente si tende a pensare), ma solo sulla parte innovativa di esso,
+sull'idea che non esisteva, è dunque limitato **nell'oggetto**; inoltre, è
+limitato nel **tempo**: la privativa dura vent'anni, poi l'idea diventa "**di
+pubblico dominio**" e chiunque può praticarla commercialmente.  Questo connubio
+tra la fase di privativa e la fase di pubblico dominio è importante, senza l'una
+non potrebbe esistere l'altra. Per ottenere questo risultato, una delle
+condizioni per ottenere il brevetto è quella di **compiutamente descrivere**
+l'invenzione, ovvero come è stato risolto in modo innovativo un determinato
+problema, cosicché un esperto del ramo sia in grado di riprodurla solo
+leggendone la descrizione. Brevetto e **segreto** sono **incompatibili** (in
+teoria) perché l'invenzione deve entrare nello **stato della tecnica**.
 
-La limitazione temporale è chiara, ma anche quella sull'oggetto lo è, nella teoria economica. Concentrandoci solo sulla parte che è rilevante al nostro discorso, il fatto che la protezione sia limitata solo alla parte strettamente necessaria a praticare in pace la propria invenzione e nulla più, ovvero non sia debordante ("*overbroad*") serve allo scopo di **incentivare l'ulteriore innovazione**. Se il primo arrivato fosse in grado di ottenere il monopolio su tutto ciò che ha a che fare con la propria invenzione, ben difficilmente un secondo inventore investirebbe nello stesso campo, sapendo di essere alla mercè dell'arbitrio del monopolista. [^watt]
+La limitazione temporale è chiara, ma anche quella sull'oggetto lo è, nella
+teoria economica. Concentrandoci solo sulla parte che è rilevante al nostro
+discorso, il fatto che la protezione sia limitata solo alla parte strettamente
+necessaria a praticare in pace la propria invenzione e nulla più, ovvero non sia
+debordante ("*overbroad*") serve allo scopo di **incentivare l'ulteriore
+innovazione**. Se il primo arrivato fosse in grado di ottenere il monopolio su
+tutto ciò che ha a che fare con la propria invenzione, ben difficilmente un
+secondo inventore investirebbe nello stesso campo, sapendo di essere alla mercè
+dell'arbitrio del monopolista. [^watt]
 
-[^watt]: Cosa che accadde ed è molto studiata nel caso dei brevetti di Watt sulla macchina a vapore. Per approfondimenti, si veda il lavoro di Michele Boldrin e David K Levine "Against Intellectual Monopoly" Cambridge University Press 978-0-521-87928-6. L'introduzione è disponibile tramite il MISES Blog ^[Z<https://mises.org/library/james-watt-monopolist>]
+[^watt]: Cosa che accadde ed è molto studiata nel caso dei brevetti di Watt
+sulla macchina a vapore. Per approfondimenti, si veda il lavoro di Michele
+Boldrin e David K Levine "Against Intellectual Monopoly" Cambridge University
+Press 978-0-521-87928-6. L'introduzione è disponibile tramite il MISES Blog
+^[Z<https://mises.org/library/james-watt-monopolist>]
 
-Il gioco concorrenziale che (teoricamente) si crea è anch'esso (sempre in teoria) semplice. Chi volesse fare concorrenza a Tizio ha due strategie fondamentali: pagare il permesso (= licenza) o **trovare un altro modo** di praticare la stessa invenzione ("**_to invent around_**"). Se Tizio chiede troppo come compenso per praticare la propria invenzione, Caio sarà incentivato a trovare una soluzione diversa tra le varie possibili, e dunque creerà magari un modo più intelligente di risolvere lo stesso problema. In questo modo, si lascia spazio al **mercato**, e all'ulteriore innovazione, per cui Tizio tenderà a chiedere un prezzo ragionevole per la licenza; se non lo farà, Caio avrà un'alternativa praticabile, aggirando l'ostacolo della privativa, e in ogni caso si incentiva l'incremento tecnologico. Il gioco qui è a somma positiva e tende a calmierare i prezzi e a incentivare l'ulteriore ricerca.
+Il gioco concorrenziale che (teoricamente) si crea è anch'esso (sempre in
+teoria) semplice. Chi volesse fare concorrenza a Tizio ha due strategie
+fondamentali: pagare il permesso (= licenza) o **trovare un altro modo** di
+praticare la stessa invenzione ("**_to invent around_**"). Se Tizio chiede
+troppo come compenso per praticare la propria invenzione, Caio sarà incentivato
+a trovare una soluzione diversa tra le varie possibili, e dunque creerà magari
+un modo più intelligente di risolvere lo stesso problema. In questo modo, si
+lascia spazio al **mercato**, e all'ulteriore innovazione, per cui Tizio tenderà
+a chiedere un prezzo ragionevole per la licenza; se non lo farà, Caio avrà
+un'alternativa praticabile, aggirando l'ostacolo della privativa, e in ogni caso
+si incentiva l'incremento tecnologico. Il gioco qui è a somma positiva e tende a
+calmierare i prezzi e a incentivare l'ulteriore ricerca.
 
-Teniamo a mente il concetto di *invent around*, che ci servirà nella discussione più oltre.
+Teniamo a mente il concetto di *invent around*, che ci servirà nella discussione
+più oltre.
 
 ### Il cross licensing, il primo fallimento
 
-La teoria economica classica dei brevetti va avanti con una possibilità ulteriore. Poniamo che Tizio e Caio si accordino. Ancora, Caio sarà incentivato a innovare ulteriormente, perché se da un lato ora può praticare l'invenzione che gli serve, dall'altro ogni volta che vende fa un favore anche a Tizio, che guadagna con la vendita di entrambi. Se però Caio riesce a trovare un modo più raffinato di  utilizzare l'invenzione originale ("**invenzione di sviluppo**") egli potrà a sua volta ottenere un brevetto su quella parte innovativa a valle, e praticare in esclusiva, a parti invertite con Tizio.
+La teoria economica classica dei brevetti va avanti con una possibilità
+ulteriore. Poniamo che Tizio e Caio si accordino. Ancora, Caio sarà incentivato
+a innovare ulteriormente, perché se da un lato ora può praticare l'invenzione
+che gli serve, dall'altro ogni volta che vende fa un favore anche a Tizio, che
+guadagna con la vendita di entrambi. Se però Caio riesce a trovare un modo più
+raffinato di  utilizzare l'invenzione originale ("**invenzione di sviluppo**")
+egli potrà a sua volta ottenere un brevetto su quella parte innovativa a valle,
+e praticare in esclusiva, a parti invertite con Tizio.
 
-A questo punto un terzo che dovesse cercare di entrare sul mercato, dovrebbe chiedere il permesso sia a Tizio che a Caio.
+A questo punto un terzo che dovesse cercare di entrare sul mercato, dovrebbe
+chiedere il permesso sia a Tizio che a Caio.
 
-Ma tra Tizio e Caio, cosa succede? Molto probabilmente essi si metteranno d'accordo affinché, invece di pagarsi le licenze l'un l'altro, si paghi solo la differenza tra quello che l'uno deve all'altro e viceversa. Anche stabilire quanto Tizio debba a Caio per ciascun prodotto è difficile: vale di più l'invenzione di uno o quella dell'altro, visto che entrambe sono necessarie e non sufficienti a costruire il prodotto più avanzato? Molto spesso Tizio e Caio si mettono d'accordo per non "pesare" i rispettivi brevetti, semplicemente si dicono che i portafogli di entrambi valgono uguale e amici come prima. Questo sistema si chiama **_cross licensing_**.
+Ma tra Tizio e Caio, cosa succede? Molto probabilmente essi si metteranno
+d'accordo affinché, invece di pagarsi le licenze l'un l'altro, si paghi solo la
+differenza tra quello che l'uno deve all'altro e viceversa. Anche stabilire
+quanto Tizio debba a Caio per ciascun prodotto è difficile: vale di più
+l'invenzione di uno o quella dell'altro, visto che entrambe sono necessarie e
+non sufficienti a costruire il prodotto più avanzato? Molto spesso Tizio e Caio
+si mettono d'accordo per non "pesare" i rispettivi brevetti, semplicemente si
+dicono che i portafogli di entrambi valgono uguale e amici come prima. Questo
+sistema si chiama **_cross licensing_**.
 
-Tutti contenti? Il terzo non è contento, perché a questo punto egli ha due concorrenti che hanno i brevetti, e lui no.  Non avendo brevetti, egli non avrà moneta di scambio, non potrà entrare nel sistema del _cross licensing_. Si è creata una situazione che tende  all'oligopolio, un club in cui chi è dentro tende a tenere fuori chi non lo è. Certo, anche il terzo operatore potrà mettersi di buzzo buono e inventare qualcosa di nuovo, o di cercare di aggirare i brevetti, ma più questo gioco va avanti, meno saranno le possibilità di entrare nel club, soprattutto perché i primi brevetti tendono a essere i più generici, quelli successivi ad avere qualche tipo di interferenza con i primi (più ad essere di sviluppo, che totalmente alternativi).
+Tutti contenti? Il terzo non è contento, perché a questo punto egli ha due
+concorrenti che hanno i brevetti, e lui no.  Non avendo brevetti, egli non avrà
+moneta di scambio, non potrà entrare nel sistema del _cross licensing_. Si è
+creata una situazione che tende  all'oligopolio, un club in cui chi è dentro
+tende a tenere fuori chi non lo è. Certo, anche il terzo operatore potrà
+mettersi di buzzo buono e inventare qualcosa di nuovo, o di cercare di aggirare
+i brevetti, ma più questo gioco va avanti, meno saranno le possibilità di
+entrare nel club, soprattutto perché i primi brevetti tendono a essere i più
+generici, quelli successivi ad avere qualche tipo di interferenza con i primi
+(più ad essere di sviluppo, che totalmente alternativi).
 
 Insomma, si creano barriere all'entrata.
 
 ## I brevetti tecnologici
 
-Nella tecnologia moderna il susseguirsi di innovazioni è sempre più tumultuoso, e ogni campo tende a essere **denso di brevetti**, un vero e proprio *campo minato*.  Allo stesso tempo, l'innovazione sempre più spinta tende a rendere **obsoleti** i principi poco tempo prima ritenuti innovativi.
+Nella tecnologia moderna il susseguirsi di innovazioni è sempre più tumultuoso,
+e ogni campo tende a essere **denso di brevetti**, un vero e proprio *campo
+minato*.  Allo stesso tempo, l'innovazione sempre più spinta tende a rendere
+**obsoleti** i principi poco tempo prima ritenuti innovativi.
 
-Da un primo punto di vista questa situazione crea un primo rilevante fallimento, quello di non avere più uno spazio di esercizio del **pubblico dominio**, che diventa privo di senso: un'invenzione di vent'anni prima difficilmente sarà da sola sufficiente ad essere praticata, o che contribuisca significativamente al valore aggiunto del prodotto tecnologico rispetto ai suoi predecessori.
+Da un primo punto di vista questa situazione crea un primo rilevante fallimento,
+quello di non avere più uno spazio di esercizio del **pubblico dominio**, che
+diventa privo di senso: un'invenzione di vent'anni prima difficilmente sarà da
+sola sufficiente ad essere praticata, o che contribuisca significativamente al
+valore aggiunto del prodotto tecnologico rispetto ai suoi predecessori.
 
-Il protrarsi della protezione porta anche a un secondo, *paradossale*, effetto: quello del **disincentivare** l'innovazione. Riconoscendo una posizione di rendita ai primi arrivati, in quanto i loro brevetti sono fondamentali per tutti gli altri, per costoro è meno conveniente concentrarsi sull'innovazione, che comunque aggiungerà  poco e costerà tanto, rispetto a concentrarsi sulla massimizzazione dei proventi ottenuti dalle licenze, che non richiede più investimenti.  Ciò fa sì che i primi siano in posizione asimmetrica avendo un maggior potere interdittivo generale rispetto ai nuovi venuti, coloro che hanno i brevetti più innovativi (perché più recenti) ma anche  più specialistici e limitati nello scopo,  se pur non necessariamente meno importanti o costosi da ottenere.
+Il protrarsi della protezione porta anche a un secondo, *paradossale*, effetto:
+quello del **disincentivare** l'innovazione. Riconoscendo una posizione di
+rendita ai primi arrivati, in quanto i loro brevetti sono fondamentali per tutti
+gli altri, per costoro è meno conveniente concentrarsi sull'innovazione, che
+comunque aggiungerà  poco e costerà tanto, rispetto a concentrarsi sulla
+massimizzazione dei proventi ottenuti dalle licenze, che non richiede più
+investimenti.  Ciò fa sì che i primi siano in posizione asimmetrica avendo un
+maggior potere interdittivo generale rispetto ai nuovi venuti, coloro che hanno
+i brevetti più innovativi (perché più recenti) ma anche  più specialistici e
+limitati nello scopo,  se pur non necessariamente meno importanti o costosi da
+ottenere.
 
-Nella tecnologia avanzata, infine, si tende a moltiplicare all'infinito la complessità della rete di brevetti che insistono su ogni minimo componente tecnologico, tanto da creare quello che viene definito un "roveto di brevetti" ("**_patent thicket_**")[^thicket], in cui non è più tanto importante la qualità dei brevetti che hai, ma la quantità di essi, il fatto di possedere quella massa critica che ti fa arrivare al tavolo di negoziazione per avere un _cross licensing_ alla pari con gli altri.
+Nella tecnologia avanzata, infine, si tende a moltiplicare all'infinito la
+complessità della rete di brevetti che insistono su ogni minimo componente
+tecnologico, tanto da creare quello che viene definito un "roveto di brevetti"
+("**_patent thicket_**")[^thicket], in cui non è più tanto importante la qualità
+dei brevetti che hai, ma la quantità di essi, il fatto di possedere quella massa
+critica che ti fa arrivare al tavolo di negoziazione per avere un _cross
+licensing_ alla pari con gli altri.
 
-[^thicket]: La parola "thicket" indica una zona impenetrabile a causa di una crescita disordinata ed eccessiva di vegetazione.
+[^thicket]: La parola "thicket" indica una zona impenetrabile a causa di una
+crescita disordinata ed eccessiva di vegetazione.
 
-Si è da varie parti evidenziato, infine, come nel software la parte inventiva sia ridicolmente meno importante della parte di esecuzione (sviluppo, testing, supporto), nel valore delle singole applicazioni, e spesso i brevetti sono un artefatto postumo, ricavati _ex post_ dal realizzato, senza precisi e separati sforzi di **ricerca**, ma solo di **sviluppo**, per giunta non dedicati tanto all'innovazione, quanto all'applicazione in sé, parti innovative come parti non innovative.[^posner]
+Si è da varie parti evidenziato, infine, come nel software la parte inventiva
+sia ridicolmente meno importante della parte di esecuzione (sviluppo, testing,
+supporto), nel valore delle singole applicazioni, e spesso i brevetti sono un
+artefatto postumo, ricavati _ex post_ dal realizzato, senza precisi e separati
+sforzi di **ricerca**, ma solo di **sviluppo**, per giunta non dedicati tanto
+all'innovazione, quanto all'applicazione in sé, parti innovative come parti non
+innovative.[^posner]
 
-[^posner]: Una posizione simile è quella di Richard Posner, Scuola di Chicago, dunque liberista ed estremamente _pro-market_, in _Do patent and copyright law restrict competition and creativity excessively? Posner_, [Becker-Posner Blog](http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html) (http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html)
+[^posner]: Una posizione simile è quella di Richard Posner, Scuola di Chicago,
+dunque liberista ed estremamente _pro-market_, in _Do patent and copyright law
+restrict competition and creativity excessively? Posner_, [Becker-Posner
+Blog](http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html)
+(http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html)
 
 ## Entrino gli standard (nel software)
 
-Se nella teoria classica il concetto di *invent around* è importante, nella realtà la possibilità di ricorrervi è molto minore di quella teorica. Cosa succede se tale possibilità è **inesistente**? Se vi fosse un impedimento assoluto ad aggirarli, non avremmo dato un eccessivo potere ai singoli brevetti? Cosa sarebbe della limitata **concorrenza** che il sistema brevettuale pur concede, al fine di non concedere la possibilità di innovare solo al primo venuto? La teoria economica alla base dei brevetti, verrebbe di sicuro a cadere.
+Se nella teoria classica il concetto di *invent around* è importante, nella
+realtà la possibilità di ricorrervi è molto minore di quella teorica. Cosa
+succede se tale possibilità è **inesistente**? Se vi fosse un impedimento
+assoluto ad aggirarli, non avremmo dato un eccessivo potere ai singoli brevetti?
+Cosa sarebbe della limitata **concorrenza** che il sistema brevettuale pur
+concede, al fine di non concedere la possibilità di innovare solo al primo
+venuto? La teoria economica alla base dei brevetti, verrebbe di sicuro a cadere.
 
-Questa situazione avviene quando una tecnologia brevettata entra in uno **standard**.
+Questa situazione avviene quando una tecnologia brevettata entra in uno
+**standard**.
 
-Una volta che uno standard è stato creato e diventa di fatto inevitabile, ecco che la teorica possibilità di aggirare l'ostacolo viene meno. L'alternativa è infatti molto poco appetibile, e cioè ignorare lo standard, o crearne uno alternativo. Ma se i grandi operatori si sono messi d'accordo per seguire quello standard, la *chance* che un piccolo operatore, magari enormemente innovativo, possa farci qualcosa è spesso minima. Non tutti possiamo avere la *grandeur* che faceva dire ai Britannici, all'epoca dell'Impero:
+Una volta che uno standard è stato creato e diventa di fatto inevitabile, ecco
+che la teorica possibilità di aggirare l'ostacolo viene meno. L'alternativa è
+infatti molto poco appetibile, e cioè ignorare lo standard, o crearne uno
+alternativo. Ma se i grandi operatori si sono messi d'accordo per seguire quello
+standard, la *chance* che un piccolo operatore, magari enormemente innovativo,
+possa farci qualcosa è spesso minima. Non tutti possiamo avere la *grandeur* che
+faceva dire ai Britannici, all'epoca dell'Impero:
 
 > "la Manica è in burrasca oggi, il Continente è isolato".
 
 ### Il gioco degli standard e dei brevetti "necessariamente violati"
 
-Se non puoi passargli sopra (aspettare che scadano) o girargli intorno (trovare strade alternative), ecco che concedi a chi ha brevetti che sono "**necessariamente violati**" da chi  implementa lo standard una posizione di vero e proprio **monopolio assoluto** non mitigato da una limitata concorrenza tra monopoli.
+Se non puoi passargli sopra (aspettare che scadano) o girargli intorno (trovare
+strade alternative), ecco che concedi a chi ha brevetti che sono
+"**necessariamente violati**" da chi  implementa lo standard una posizione di
+vero e proprio **monopolio assoluto** non mitigato da una limitata concorrenza
+tra monopoli.
 
-In passato ci si è posti un serio problema di **antitrust** nei confronti dei partecipanti alla standardizzazione e agli stessi enti standardizzatori. D'altronde è facile intravedere nella ricerca di un *consenso* tra concorrenti (gli standard formali richiedono il consenso degli *stakeholder*) la possibilità di un accordo per sfruttare in modo anticoncorrenziale l'esistenza di brevetti. Tra un accordo, di per sé del tutto legittimo, di standardizzazione e un **cartello** la differenza è minima. Per quanto riguarda i brevetti, tale differenza sta nel fatto che i partecipanti allo standard si impegnino più o meno formalmente a concedere una licenza sotto condizioni ragionevoli e non discriminatorie, ovvero, con un acronimo abbastanza conosciuto **RAND**.
+In passato ci si è posti un serio problema di **antitrust** nei confronti dei
+partecipanti alla standardizzazione e agli stessi enti standardizzatori.
+D'altronde è facile intravedere nella ricerca di un *consenso* tra concorrenti
+(gli standard formali richiedono il consenso degli *stakeholder*) la possibilità
+di un accordo per sfruttare in modo anticoncorrenziale l'esistenza di brevetti.
+Tra un accordo, di per sé del tutto legittimo, di standardizzazione e un
+**cartello** la differenza è minima. Per quanto riguarda i brevetti, tale
+differenza sta nel fatto che i partecipanti allo standard si impegnino più o
+meno formalmente a concedere una licenza sotto condizioni ragionevoli e non
+discriminatorie, ovvero, con un acronimo abbastanza conosciuto **RAND**.
 
 ### Le licenze RAND e i *patent pool* {#sec_rand}
 
-Chi frequenta i trasferimenti di tecnologia e gli accordi di licenza sugli standard, conosce assai bene sia il termine "RAND" (frequentemente "FRAND") e "*patent pool*". Cominciamo con il primo termine.
+Chi frequenta i trasferimenti di tecnologia e gli accordi di licenza sugli
+standard, conosce assai bene sia il termine "RAND" (frequentemente "FRAND") e
+"*patent pool*". Cominciamo con il primo termine.
 
 (F)R ((Fair), Reasonable)
-:Le condizioni di licenza debbono essere ragionevoli, ovvero non richiedere un compenso eccessivo rispetto al "valore" del singolo brevetto o del portafoglio di brevetti che si ottiene. Questa valutazione deve essere effettuata _ex ante_, non tenendo conto del valore strategico che le privative licenziate hanno _in quanto_ inserite nello standard (c'è chi dissente). "Fair" e "Reasonable" sono largamente sinonimi.
+:   Le condizioni di licenza debbono essere ragionevoli,
+ovvero non richiedere un compenso eccessivo rispetto al "valore" del singolo
+brevetto o del portafoglio di brevetti che si ottiene. Questa valutazione deve
+essere effettuata _ex ante_, non tenendo conto del valore strategico che le
+privative licenziate hanno _in quanto_ inserite nello standard (c'è chi
+dissente). "Fair" e "Reasonable" sono largamente sinonimi.
 
 A (And)
-:Entrambi i requisiti legati da "and" debbono essere presenti.
+:  Entrambi i requisiti legati da "and" debbono essere presenti.
 
 ND (Non Discriminatory)
-:Le condizioni debbono essere offerte a **chiunque** e in modo equanime, **senza favorire nessuno**. Un'eccezione sovente praticata è che chi fa parte del *patent pool* (perché licenziante) non sia soggetto al pagamento di *royalty*.
+:   Le condizioni debbono essere offerte a **chiunque** e
+in modo equanime, **senza favorire nessuno**. Un'eccezione sovente praticata è
+che chi fa parte del *patent pool* (perché licenziante) non sia soggetto al
+pagamento di *royalty*.
 
-Se il principio di non discriminazione dà luogo a pochi dissidi, il concetto di "ragionevole" è fonte sovente di diverse interpretazioni. Va ricordato che le regole sulle licenze dei brevetti "vincolano" (attraverso varie teorie, che omettiamo per brevità) il titolare dei brevetti a rispettare la sua dichiarazione. Ma la genericità di tale affermazione è tale da frustrare sin dall'inizio ogni velleità di contestarla, se non in alcuni casi. [^rand]
+Se il principio di non discriminazione dà luogo a pochi dissidi, il concetto di
+"ragionevole" è fonte sovente di diverse interpretazioni. Va ricordato che le
+regole sulle licenze dei brevetti "vincolano" (attraverso varie teorie, che
+omettiamo per brevità) il titolare dei brevetti a rispettare la sua
+dichiarazione. Ma la genericità di tale affermazione è tale da frustrare sin
+dall'inizio ogni velleità di contestarla, se non in alcuni casi. [^rand]
 
-[^rand]: Esemplare il caso Apple v. Motorola. Una buona fonte per approfondimenti è la pagina di Wikipedia: <https://en.wikipedia.org/wiki/Motorola_Mobility_v._Apple_Inc>. Un'altra buona fonte è, a cura della Direzione generale antitrust della Commissione Europea, Standard-essential patents, in *Competition Policy Brief*, Issue 8, June 2014 <http://ec.europa.eu/competition/publications/cpb/2014/008_en.pdf>
+[^rand]: Esemplare il caso Apple v. Motorola. Una buona fonte per
+approfondimenti è la pagina di Wikipedia:
+<https://en.wikipedia.org/wiki/Motorola_Mobility_v._Apple_Inc>. Un'altra buona
+fonte è, a cura della Direzione generale antitrust della Commissione Europea,
+Standard-essential patents, in *Competition Policy Brief*, Issue 8, June 2014
+<http://ec.europa.eu/competition/publications/cpb/2014/008_en.pdf>
 
-Il **fallimento** di tale gioco può avvenire però  quando uno o più titolari di brevetti non siano, almeno formalmente, coinvolti nelle attività di standardizzazione, e dunque non risultino vincolati dalla dichiarazione effettuata all'ente standardizzatore. Nel caso Rambus,[^Rambus] la società è stata accusata di "*patent ambush*", ovvero di aver teso un'imboscata, facendo sì che lo standard implementasse una sua tecnologia, per poi imporre *royalty* eccessive per il permesso di praticarla, senza che contro di essa fosse invocabile un obbligo RAND.  Ma anche nel caso in cui un soggetto abbia effettivamente sottoscritto le condizioni RAND, vi sono spazi per abusi. Un caso piuttosto chiaro (e che richiama il caso Apple v. Motorola) mi è capitato recentemente.
+Il **fallimento** di tale gioco può avvenire però  quando uno o più titolari di
+brevetti non siano, almeno formalmente, coinvolti nelle attività di
+standardizzazione, e dunque non risultino vincolati dalla dichiarazione
+effettuata all'ente standardizzatore. Nel caso Rambus,[^Rambus] la società è
+stata accusata di "*patent ambush*", ovvero di aver teso un'imboscata, facendo
+sì che lo standard implementasse una sua tecnologia, per poi imporre *royalty*
+eccessive per il permesso di praticarla, senza che contro di essa fosse
+invocabile un obbligo RAND.  Ma anche nel caso in cui un soggetto abbia
+effettivamente sottoscritto le condizioni RAND, vi sono spazi per abusi. Un caso
+piuttosto chiaro (e che richiama il caso Apple v. Motorola) mi è capitato
+recentemente.
 
-Un noto standard, in cui si è formato un altrettanto noto *patent pool*, licenzia più di un migliaio di brevetti per una cifra poco più che simbolica (pochi centesimi a copia,  con un'esenzione per un primo quantitativo annuale di copie); un noto operatore ha chiesto a un mio cliente il pagamento di una somma non molto differente per meno di una decina di brevetti. In difetto di una prova convincente, è abbastanza difficile pensare che quei brevetti valgano ciascuno più di quanto valgano in aggregato i cento brevetti più importanti conferiti nel *patent pool*, anche a voler pensare che il 90% di essi sia _fuffa_.[^fuffa] L'obiezione che i membri del *patent pool* possano essere filantropi e aver licenziato i propri brevetti sottocosto sembra ben poco valida: proprio il fatto che si sia creato un *patent pool* che ha calmierato le pretese di ciascuno (abbia impedito il **_royalty stacking_**) ha probabilmente decretato il successo dello standard (di tale fenomeno si discute in Apple v. Motorola).
+Un noto standard, in cui si è formato un altrettanto noto *patent pool*,
+licenzia più di un migliaio di brevetti per una cifra poco più che simbolica
+(pochi centesimi a copia,  con un'esenzione per un primo quantitativo annuale di
+copie); un noto operatore ha chiesto a un mio cliente il pagamento di una somma
+non molto differente per meno di una decina di brevetti. In difetto di una prova
+convincente, è abbastanza difficile pensare che quei brevetti valgano ciascuno
+più di quanto valgano in aggregato i cento brevetti più importanti conferiti nel
+*patent pool*, anche a voler pensare che il 90% di essi sia _fuffa_.[^fuffa]
+L'obiezione che i membri del *patent pool* possano essere filantropi e aver
+licenziato i propri brevetti sottocosto sembra ben poco valida: proprio il fatto
+che si sia creato un *patent pool* che ha calmierato le pretese di ciascuno
+(abbia impedito il **_royalty stacking_**) ha probabilmente decretato il
+successo dello standard (di tale fenomeno si discute in Apple v. Motorola).
 
-Come sia conclusa la vicenda parrebbe ovvio: irretito dalle mie puntuali obiezioni, convinto dall'irrefutabilità dei riferimenti alle norme e alle sentenze, il noto operatore ha receduto dal suo proposito e si è ritirato in buon ordine, accontentandosi di briciole, giusto?
+Come sia conclusa la vicenda parrebbe ovvio: irretito dalle mie puntuali
+obiezioni, convinto dall'irrefutabilità dei riferimenti alle norme e alle
+sentenze, il noto operatore ha receduto dal suo proposito e si è ritirato in
+buon ordine, accontentandosi di briciole, giusto?
 
-Sbagliato. Il titolare non ha nemmeno fatto lo sforzo di replicare, ben sapendo che nessuno sano di mente avrebbe speso quello che avrebbe potuto costare una causa, con  la prospettiva di essere coinvolto anche in un'ingiunzione che avrebbero impedito la commercializzazione dei prodotti che implementano lo standard, per risparmiare una somma che può rappresentare una frazione dei costi legali.[^conf]
+Sbagliato. Il titolare non ha nemmeno fatto lo sforzo di replicare, ben sapendo
+che nessuno sano di mente avrebbe speso quello che avrebbe potuto costare una
+causa, con  la prospettiva di essere coinvolto anche in un'ingiunzione che
+avrebbero impedito la commercializzazione dei prodotti che implementano lo
+standard, per risparmiare una somma che può rappresentare una frazione dei costi
+legali.[^conf]
 
 [^fuffa]: Termine rigorosamente tecnico
 
 [^Rambus]: Vedi il già citato _paper_ della Commissione nelle note precedenti.
 
-[^conf]: L'imprecisione dei riferimenti e delle cifre è intenzionale, serve solo a dare gli ordini di grandezza, ma i dettagli e le identità sono ovviamente confidenziali.
+[^conf]: L'imprecisione dei riferimenti e delle cifre è intenzionale, serve solo
+a dare gli ordini di grandezza, ma i dettagli e le identità sono ovviamente
+confidenziali.
 
 ### Le licenze RAND e le licenze di Software Libero / Open Source
 
-Abbiamo tralasciato per un attimo il discorso della non discriminatorietà. Se Tizio viene e mi chiede una licenza, gliela do. Se Caio viene e mi chiede la stessa licenza, gliela do alle stesse condizioni, non dovrei essere discriminatorio, anche se Tizio ha uno un margine del 30% su ogni vendita, e Caio a malapena fa il *break even* e con la licenza il suo prodotto diventa diseconomico, magari perché i due sono sottoposti a pressioni concorrenziali notevolmente differenti.
+Abbiamo tralasciato per un attimo il discorso della non discriminatorietà. Se
+Tizio viene e mi chiede una licenza, gliela do. Se Caio viene e mi chiede la
+stessa licenza, gliela do alle stesse condizioni, non dovrei essere
+discriminatorio, anche se Tizio ha uno un margine del 30% su ogni vendita, e
+Caio a malapena fa il *break even* e con la licenza il suo prodotto diventa
+diseconomico, magari perché i due sono sottoposti a pressioni concorrenziali
+notevolmente differenti.
 
-Questo è almeno il discorso che viene effettuato tutte le volte che si avanza l'obiezione secondo cui le condizioni RAND, anche qualora prevedano *royalty* molto basse, sono incompatibili con il Software Libero / Open Source. Queste sono licenze pubbliche, in cui non esiste il concetto di "venditore" e "acquirente", per cui è impossibile controllare quante copie del software siano in circolazione.
+Questo è almeno il discorso che viene effettuato tutte le volte che si avanza
+l'obiezione secondo cui le condizioni RAND, anche qualora prevedano *royalty*
+molto basse, sono incompatibili con il Software Libero / Open Source. Queste
+sono licenze pubbliche, in cui non esiste il concetto di "venditore" e
+"acquirente", per cui è impossibile controllare quante copie del software siano
+in circolazione.
 
-Ci si dice "è una vostra scelta quella di adottare un modello di licenze incompatibile con la nostra scelta di cosa offrire". Tale affermazione è accettabile se la applichiamo in un modo dove la concorrenza è solo all'interno di un singolo modello di business e laddove tale modello di business sia quello di "vendere copie di software" (se applicato al software). Ma è evidente che in un modo dove il modello di vendita di licenze di software diventa sempre *meno* importante, laddove anzi nel software (e altrove!) il modello aperto è molto spesso la regola, un sistema di standardizzazione legato a modelli passati e unici risulta discriminatorio.
+Ci si dice "è una vostra scelta quella di adottare un modello di licenze
+incompatibile con la nostra scelta di cosa offrire". Tale affermazione è
+accettabile se la applichiamo in un modo dove la concorrenza è solo all'interno
+di un singolo modello di business e laddove tale modello di business sia quello
+di "vendere copie di software" (se applicato al software). Ma è evidente che in
+un modo dove il modello di vendita di licenze di software diventa sempre *meno*
+importante, laddove anzi nel software (e altrove!) il modello aperto è molto
+spesso la regola, un sistema di standardizzazione legato a modelli passati e
+unici risulta discriminatorio.
 
-Sicuramente, ad ogni modo, un sistema che discrimina e impedisce l'accesso alla tecnologia verso una delle strategie di sviluppo e di *licensing* di maggior successo non può dirsi **aperto**, in quanto  non può ritenersi aperto e neutrale un sistema che impedisca l'acceso a certe tecnologie e operatori legittimamente sul mercato, imponendo specifiche modalità di business.  Un modello di standard che si limiti a prevedere un obbligo di (F)RAND basato su *royalties* e comunque sulla necessità di controllare il numero di copie distribuite è in aperta antitesi con un ampio settore di operatori che non solo legittimamente, ma anche con grande beneficio comune, hanno adottato un modello di rilevante successo, è chiaramente un'esclusione ingiustificata, quando parliamo di standard.
+Sicuramente, ad ogni modo, un sistema che discrimina e impedisce l'accesso alla
+tecnologia verso una delle strategie di sviluppo e di *licensing* di maggior
+successo non può dirsi **aperto**, in quanto  non può ritenersi aperto e
+neutrale un sistema che impedisca l'acceso a certe tecnologie e operatori
+legittimamente sul mercato, imponendo specifiche modalità di business.  Un
+modello di standard che si limiti a prevedere un obbligo di (F)RAND basato su
+*royalties* e comunque sulla necessità di controllare il numero di copie
+distribuite è in aperta antitesi con un ampio settore di operatori che non solo
+legittimamente, ma anche con grande beneficio comune, hanno adottato un modello
+di rilevante successo, è chiaramente un'esclusione ingiustificata, quando
+parliamo di standard.
 
 # Brevetti e software: per chi suona la campana? {#sec_campana}
 
