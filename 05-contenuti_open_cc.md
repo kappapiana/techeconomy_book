@@ -29,7 +29,7 @@ Una caratteristica importante delle licenze è che sono **compatibili verso il f
 
 Creative Commons fornisce anche un **insieme di elementi identificativi grafici** (in diverse funzioni) che rende immediatamente visibile a un essere umano la tipologia di licenza e il fatto che "alcuni diritti sono riservati" (ma non tutti). Fornisce^[<http://creativecommons.org/choose/>] anche un **codice HTML-RDF** per far sì che anche un computer e soprattutto un motore di ricerca possa comprendere automaticamente le condizioni di licenza e consentire rispettarne le condizioni di attribuzione in modo altrettanto automatico (vedi sotto).
 
-## Attribution (by)
+## Attribution (by) {#sec_by}
 
 Tutte le licenze Creative Commons prevedono questa clausola (tranne la CC0, che è un caso a parte). Dunque tutte le licenze che troverete in giro saranno CC by (solo attribuzione) o CC by-qualcosa (attribuzione più qualche altra condizione). Dunque la CC by è la forma più semplice e insieme più liberale delle licenze, nel senso che non ha (quasi del tutto, ma non del tutto!) condizioni di copyleft. In tal senso è molto simile, operativamente, a una licenza BSD o MIT. Il materiale CC-by può dunque essere utilizzato per scopi commerciali, modificato, adattato, incluso in materiale proprietario, purché venga rispettata l'attribuzione originale.
 
