@@ -6,8 +6,8 @@ riguarda anche il settore privato, anche se con regole leggermente diverse e
 lasciate più alla convenienza che a un obbligo, salvo casi particolari.
 
 Come per ogni altro campo di indagine nella nostra disamina del mondo open,
-parlare di dati aperti vuol dire che vi sono dati chiusi. Come può essere chiuso
-un dato? Le possibilità sono molte, esaminiamo dunque i vari modi con cui i dati
+parlare di dati aperti vuol dire che vi sono dati chiusi. Come può essere chiuso un dato (una banca dati).
+Le possibilità sono molte, esaminiamo dunque i vari modi con cui i dati
 possono essere tenuti chiusi, per poi vedere come si possono aprire e perché.
 
 ## Come si chiudono i dati
@@ -21,7 +21,7 @@ viene tenuto privato.
 
 Non vi è una regola generale per la quale i dati debbano essere resi pubblici.
 Anzi, semmai la regola è l'opposta: l'ordinamento tutela infatti le informazioni
-aziendali con due sostanziali norme del Codice della proprietà Industriale,
+aziendali con due sostanziali norme del Codice della Proprietà Industriale,
 ovvero gli articoli 98 e 99. Essi sono stati inseriti nel nostro ordinamento in
 esecuzione dei trattati TRIPS, dei quali riprendono in modo quasi letterale il
 contenuto. Prima di essi, si era giunti a una tutela comunque generale dei dati
@@ -32,7 +32,7 @@ possiede deve aver adottato sufficienti misure per impedirne la divulgazione, e
 devono avere un qualche valore in sé, all'interno dei beni aziendali.
 
 In ambito pubblico, invece, è difficile parlare di tutela del segreto aziendale.
-Valgono però due generali  principi che potrebbero in astratto interferire. Il
+Valgono però due generali principi che potrebbero in astratto interferire. Il
 primo e più evidente è che i dati detenuti possono essere **dati personali** e
 perciò soggetti a divieti di divulgazione, o comunque a regole strette. Dati non
 personali possono comunque essere rilevanti per un ambito di tutela simile a
@@ -66,7 +66,7 @@ anni dalla data in cui la base di dati è stata costituita (prolungabili  in cas
 di dimostrabili ulteriori rilevanti investimenti).
 
 Questo è il diritto fondamentale sul quale le licenze, di cui diremo in seguito,
-si concentrano. Questo diritto è infatti simile al **copyright**.
+si concentrano. Questo diritto è infatti simile al **copyright** (in realtà, poiché ha una natura almeno parzialmente differente, si parla di diritto _sui generis_).
 
 ### Dati chiusi perché illeggibili
 
@@ -78,11 +78,11 @@ ad esempio un foglio di carta, o una copia fotografica digitale. Tali dati
 richiederebbero in tal caso un'attività intensa di acquisizione e verifica del
 risultato dell'acquisizione. Potrebbero essere forniti su un supporto sì
 informatico, ma in un **formato** di archiviazione non standard (vedi il
-capitolo sugli  open standard) e quindi utilizzabile solo con una particolare
+capitolo sugli [open standard](#sec_open_standard]) e quindi utilizzabile solo con una particolare
 applicazione o piattaforma, o ancora da un solo soggetto che conosce lo standard
 e lo implementa. Infine, i dati potrebbero essere forniti su un formato aperto,
 ma totalmente incomprensibili perché la loro **presentazione** manca delle
-necessarie meta- informazioni sulla concreta **codifica** dei dati stessi. Ad
+necessarie meta-informazioni sulla concreta **codifica** dei dati stessi. Ad
 esempio, un set di dati potrebbe essere fornito in un formato XML (che è uno
 standard aperto), ma in un sottoformato XML non completamente o affatto
 descritto quanto alla sua **semantica** (cosa vuol dire un dato inserito in una
@@ -106,9 +106,17 @@ dei dati dipende dal tipo di analisi che deve essere compiuta e dal fatto che
 quei dati siano stati raccolti a monte per ciascun individuo o per una porzione
 significativa della popolazione.
 
+In genere, i dati sono tanto più utili quanto più sono disponibili in forma
+disaggregata e granulare. Il problema è che spesso i dati disaggregati creano
+maggiori problemi di tutela dei dati personali (quando ne contengono). La
+tensione tra questi due termini è uno dei temi più rilevanti nella discussione
+degli open data.
+
 ## Perché offrire dati aperti
 
-La scelta del "se" pubblicare Abbiamo già detto che per le aziende e i
+### La scelta del "se" pubblicare
+
+Abbiamo già detto che per le aziende e i
 soggetti privati in genere, fornire dati aperti è una scelta inoppugnabile.
 Solo alcuni soggetti hanno il diritto di pretendere di ottenere tali dati,
 in genere si tratta di autorità pubbliche, come l'Amministrazione delle
@@ -119,7 +127,7 @@ limitata. Per alcuni dati, intanto, una forma di pubblicità è imposta. Gli
 obblighi possono essere di varia natura. I dati reddituali delle persone fisiche
 sono infatti ad accesso pubblico, anche se ottenerli in forma di dati aperti è
 impossibile, se non in forma anonima.  In altri casi di sono veri e propri
-obblighi di fornire i dataset, imposti da normative, come ad esempio i dati
+obblighi di fornire i _dataset_, imposti da normative, come ad esempio i dati
 delle imprese conservati dal Registro delle imprese, oppure gli indirizzi di
 posta elettronica certificata (PEC) utilizzati come domicilio elettronico da
 imprese e professionisti. Esistono pure direttive europee, come la direttiva
@@ -148,9 +156,9 @@ disaggregato".
 Abbiamo detto sopra che i dati sono "protetti" in modo simile al copyright, ma
 non è copyright. Dunque si tratta di una forma di privativa legata al rilevante
 investimento fatto dal costitutore nella creazione della banca dati. Tale
-privativa assegna al suo titolare il diritto di proibire la copia e l'estrazione
-di parti sostanziali della banca dati, ma non l'uso dei dati quale fonte di
-informazione, se un terzo ne è a disposizione. Ogni operazione di trasformazione
+privativa assegna al suo titolare il diritto di **proibire la copia e l'estrazione
+di parti sostanziali** della banca dati, ma **non** l'uso dei dati quale **fonte di
+informazione**, se un terzo li ha a disposizione. Ogni operazione di trasformazione
 delle banche dati comporta solitamente anche una copia degli stessi; anche il
 semplice agganciarsi a una fonte esterna tramite strumenti di interrogazione
 (del tipo webservice) messi a disposizione da un terzo, comporta estrazione
@@ -172,10 +180,10 @@ versione 2.0 ha di molto attenuato il suo copyleft rispetto alla versione 1.0.
 Pur essendo una licenza tecnicamente ben fatta, io personalmente ho espresso
 piuttosto chiaramente già dallo studio effettuato con Simone Aliprandi nel
 progetto
-freegis.net^[<https://freegis.net/documents/10157/14646/FreeGIS+data+licence+1>]
+**freegis.net**^[<https://freegis.net/documents/10157/14646/FreeGIS+data+licence+1>]
 l'opinione che i dati aperti della pubblica amministrazione vadano pubblicati
 con una licenza il più possibile vicina al pubblico dominio, indicando nella
-licenza Creativa Commons Zero (CC0), di cui abbiamo già parlato nell'articolo
+licenza **Creative Commons Zero** (CC0), di cui abbiamo già parlato nell'articolo
 dedicato ai contenuti liberi.
 
 Esistono opinioni difformi. L'Agenzia per l'Italia Digitale (AGID) ha pubblicato
@@ -198,7 +206,7 @@ Mi si permetta una piccola nota polemica. L'affermazione citata contiene ben
 
 La privativa sulle basi dati **non prevede diritti morali**.
 
-Infatti, non si parla di "autore", ma di "costitutore". Evidentemente
+I diritti morali sono riservati al diritto d'autore. Nel diritto _sui generis_, non si parla di "autore", ma di "costitutore". Evidentemente
 l'estensore si è fatto trarre in inganno dall'articolo 64-quinquies della Legge
 sul Diritto d'Autore, che parla appunto di "autore", ma la legge italiana ha
 trasposto in maniera insufficientemente chiara la
@@ -206,21 +214,21 @@ direttiva^[<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L00
 sulla protezione dei database, che distingue tra il copyright sulla banca dati,
 qualora la stessa "per la scelta o la disposizione del materiale costituiscono
 una creazione dell'ingegno propria del loro autore" abbia protezione sotto il
-copyright (art. 3.1). Ma qui si parla di diritti _sui generis_, previsti
-dall'art. 7 della direttiva, pacificamente diretta ai "costitutori" della banca
-dati, e dunque si parla del diritto previsto dall'art. 102-ter della LDA. Se si
+copyright (art. 3.1). Ma nel caso che ci occupa si parla di diritti _sui generis_, previsti
+da una norma diversa e con presupposti completamente diversi, ovvero dall'art. 7 della direttiva, pacificamente diretta ai "costitutori" della banca
+dati; dunque **non** si parla del diritto previsto dall'art. 64 quinquies, ma del 102-ter della LDA. Se si
 pensa, l'attribuzione del diritto d'autore è effettivamente a una o più persone
 fisiche, mentre il "rilevante investimento" per solito è effettuato da una
-**persona giuridica**.
+**persona giuridica**. Sicuramente lo è qualora avviene a cura della Pubblica Amministrazione.
 
 E qui viene in considerazione la **seconda** topica presa da chi ha scritto quel
 pezzo. La licenza CC BY, ne abbiamo parlato nel relativo
-[capitolo](#sec_commons), rimandando a questo contributo, non tutela affatto il
+[capitolo](#sec_by), rimandando a questo contributo, non tutela affatto il
 diritto morale, ma *l'attribuzione di provenienza*, che è concetto assolutamente
 distinto dal diritto morale di vedersi riconosciuta la paternità. L'attribuzione
 della fonte sarebbe molto probabilmente fatta, inoltre, all'ente costitutore, e
-non alle singole persone (chi? I dataset pubblicati contengono i nomi delle
-singole persone, forse?) le quali vi hanno lavorato (ma che non sono autori).
+non alle singole persone (chi? I _dataset_ pubblicati contengono i nomi delle
+singole persone, forse?) le quali vi hanno lavorato (ma che non sono "autori").
 L'ente, quale &ndash; in quanto **persona giuridica**  &ndash; non può affatto
 vantare diritti morali. Si tratta evidentemente di una ragione inesistente.
 
