@@ -111,7 +111,7 @@ fondamentali su cosa definisce uno standard aperto. A partire dal fatto che uno
 standard aperto è... aperto alla sua adesione da parte di tutti e non crea
 indebiti vantaggi o posizioni di dominio da parte di qualcuno su qualcun altro.
 Qui do alcune indicazioni su ciò che uno standard aperto debba rispettare, nella
-[definizione][definizionefsfe] che ho contribuito a fissare per FSFE
+definizione^[<https://fsfe.org/activities/os/def.en.html>] che ho contribuito a fissare per la Free Software Foundation Europe.
 
 ## Uno standard è aperto quando è accessibile
 
@@ -232,10 +232,10 @@ buone pratiche vorrebbero che Microsoft si mettesse in gioco e spingesse perché
 tale standard evolva fino a coprire le esigenze non coperte dallo stesso. Invece
 lo rimpiazza con un secondo standard completamente nuovo.
 
-Lo standard poi si limita a riflettere pari-pari il comportamento delle
-applicazioni di Microsoft, non a descrivere le funzioni in astratto e a
-risolverle in modo astratto e imparziale. Arriva persino a codificare gli
-errori, fenomenale fu quello di ripetere l'omissione dell'anno non bisestile
+Lo standard poi si limita a mimare e coprire pari-pari il comportamento delle
+applicazioni di Microsoft, non a descrivere in astratto le funzioni che il software deve implementare e a
+risolverle in modo astratto e imparziale. Arriva persino a codificare come parte dello standard gli
+errori delle applicazioni, fenomenale fu quello di ripetere l'omissione dell'anno non bisestile
 negli anni zero dei secoli non divisibili per quattrocento, che è la modalità in
 cui si contano le date nel calendario Gregoriano (che è anch'esso uno standard:
 ISO 8601.[^date] Ciò solo per un *bug* mai corretto di Microsoft Excel.
@@ -274,6 +274,5 @@ Non che gli altri siano indenni da critiche. Lo vedremo nel prossimo capitolo.
 
 <!-- QUI METTIAMO ALCUNI LINK CHE SERVONO SOPRA-->
 
-[standard]: http://www.techeconomy.it/tag/standard/ [nato]:
-https://it.wikipedia.org/wiki/Alfabeto_fonetico_NATO [definizionefsfe]:
-https://fsfe.org/activities/os/def.en.html
+[standard]: http://www.techeconomy.it/tag/standard/
+[nato]: https://it.wikipedia.org/wiki/Alfabeto_fonetico_NATO
