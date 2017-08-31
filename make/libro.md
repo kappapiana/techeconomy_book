@@ -469,8 +469,7 @@ Avete molto da vedere, ascoltare, usare. Buon divertimento!
 
 
 [^ali]: Paragrafo adattato da Simone Aliprandi, Le licenze open content: capirle e usarle correttamente <http://aliprandi.blogspot.it/2015/11/licenze-open-content-capirle-usale.html>, CC by-SA 4.0.
-# Standard e open standard, il diavolo si annida nei dettagli
-# {#sec_open_standard}
+# Standard e open standard, il diavolo si annida nei dettagli {#sec_open_standard}
 
 > "_Sono uomo di mondo, ho fatto tre anni di militare a Cuneo_"  -- Principe
 Antonio De Curtis (in arte Totò)
@@ -1367,6 +1366,8 @@ Il faro che ci ha guidati sin qui, quello di prediligere sempre e comunque una s
 La storia ci ha dato ragione in passato, ci darà ragione anche in futuro.
 
 # Lista delle abbreviazioni {-}
+
+<!-- ***Importante***: Non usare reflow qui! -->
 
 (GNU) GPL
 : GNU General Public License. La principale e più famosa licenza copyleft, gestita dalla FSF, oggi alla Versione 3.
