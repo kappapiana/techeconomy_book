@@ -254,7 +254,7 @@ a cui molti hanno attribuito un significato preciso: quello di un tentativo di
 modificare gli equilibri in gioco per far passare (o non passare, ma in misura
 assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso
 era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti
-(se mai qualcuno) ha letto integralmente.
+(se mai qualcuno) ha letto integralmente. 
 
 [^fc705c37]: <http://www.uninfo.it/>
 
