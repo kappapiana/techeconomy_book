@@ -3,7 +3,7 @@ title: Open source, software libero e altre libertà
 subtitle: Quel che volevate sapere sull'open-qualcosa e non avevate mai osato chiedere!
 author: Carlo Piana
 documentclass: book
-institute: Array - https://array.eu
+#institute: Array - https://array.eu
 tags: [Open, software libero, free software, free culture, free knowledge, standard]
 lang: it
 header-includes:
