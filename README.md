@@ -8,7 +8,7 @@ Con Pandoc si ricavano ePub, PDF, HTML (e altri formati che a me non interessano
 
 Per contribuire a modifiche:
 
-* Leggete il file copying, che contiene informazioni sulla licenza
+* Leggete il file **copying**, che contiene informazioni sulla licenza
 * Installare git
 * creare un fork sulla propria istanza di Github
 
