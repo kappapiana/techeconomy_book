@@ -4,4 +4,4 @@ I capitoli originali su Tech Economy sono pubblicati con una licenza Creative Co
 
 La pubblicazione sarà effettuata con una licenza che consenta la riproduzione. Ma ancora non ho deciso, e dipende anche dall'eventuale editore che fosse interessato.
 
-![immagine punto](css/2016-04-07-punto_esclamativo.jpg) **Feel Free to fork**: nonostante la menzione del copyright, permesso viene concesso pubblicamente di creare un fork e di modificare l'opera (ma **non** di pubblicare le modifiche, almeno temporaneamente) al fine di proporre modifiche, precisazioni e bug fixing. Ringrazio per ogni _pull request_.
+![immagine punto](css/2016-04-07-punto_esclamativo.jpg) **Feel Free to fork**: nonostante la menzione del copyright, permesso viene concesso pubblicamente di creare un fork e di modificare l'opera (ma **non** di pubblicare le modifiche, almeno temporaneamente) al fine di proporre modifiche, precisazioni e bug fixing. Ringrazio per ogni _pull request_. 
