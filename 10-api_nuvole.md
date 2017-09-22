@@ -111,13 +111,13 @@ concorrenti, che interrompesse la piena interoperabilità. La condanna a fornire
 ai concorrenti complete e tempestive informazioni sui protocolli è stata
 confermata dal tribunale europeo.
 
-## I brevetti <!-- FIXME ci manca un pezzo???? --> 
+## I brevetti  
 
-Risolta la parte sui brevetti, il Team Samba (e io per loro) si è ritrovato
+Risolta la parte sull'accesso alla documentazione, il Team Samba (e io per loro) si è ritrovato
 nella situazione di avere pieno accesso alle specifiche dei protocolli di
 Microsoft, perfettamente documentati in modo tempestivo e completo, come
 richiesto dalla decisione della Commissione (il ritardo nella fornitura di tale
-documentazione è costato a Microsoft qusi tre miliardi di multa).
+documentazione è costato a Microsoft quasi tre miliardi di multa).
 
 Il problema è che la documentazione non è del tutto sufficiente per poter
 implementare i protocolli senza problemi legali. Infatti, i protocolli di
