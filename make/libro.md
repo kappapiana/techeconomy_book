@@ -3,7 +3,7 @@
 
 > _a Paola e Livia, le mie involontarie cavie intellettuali_
 
-Libri sull'open source, software libero, libertà e vari dintorni non mancano, in italiano e in inglese (e probabilmente in cento altre lingue a me più o meno sconosciute!). Simone Aliprandi, col quale ho condiviso alcuni sforzi letterari e divulgativi (con meno successo del summenzionato) dal quale ho saccheggiato parte dei contenuti (soprattutto nel capitolo sulle [Creative Commons](#sec_commons)), si è speso in lungo e in largo. Altri contributi sono reperibili singolarmente e collettivamente; ad alcuni ho persino dato una mano. Giovanni Ziccardi, Andrea Rossetti, Giovanni Battista Gallus, Francesco Paolo Micozzi, Marco Ciurcina, Marco Ricolfi, Vincenzo Zeno Zeno-Zencovich Luigi Carlo Ubertazzi, Marco Bertani, Flavia Marzano e molti altri (che mi perdoneranno per non averli menzionati tutti) hanno già più che adeguatamente battuto il terreno in Italia. Nel mondo molti altri, che sarebbe troppo lungo qui ricordare, hanno fatto ampia divulgazione, cito solo alcuni coi quali ho la fortuna di interagire di frequente, quali Eben Moglen (**Il** maestro!), Larry Rosen; Heather Meeker, Pamela Jones con Groklaw, Mark Webbink, e l'immanente Richard Stallman (RMS) hanno più che ampiamente asfaltato un'autostrada su cui modestamente e lentamente mi sono incamminato. E sarebbe impossibile discutere di libertà di software e contenuti senza il contributo essenziale di Lawrence Lessig.
+Libri sull'open source, software libero, libertà e vari dintorni non mancano, in italiano e in inglese (e probabilmente in cento altre lingue a me più o meno sconosciute!). Simone Aliprandi, col quale ho condiviso alcuni sforzi letterari e divulgativi (con meno successo del summenzionato) dal quale ho saccheggiato parte dei contenuti (soprattutto nel capitolo sulle [Creative Commons](#sec_commons)), si è speso in lungo e in largo. Altri contributi sono reperibili singolarmente e collettivamente; ad alcuni ho persino dato una mano. Giovanni Ziccardi, Andrea Rossetti, Giovanni Battista Gallus, Francesco Paolo Micozzi, Marco Ciurcina, Marco Ricolfi, Vincenzo Zeno Zeno-Zencovich Luigi Carlo Ubertazzi, Marco Bertani, Flavia Marzano e molti altri (che mi perdoneranno per non averli menzionati tutti) hanno già più che adeguatamente battuto il terreno in Italia. Nel mondo molti altri, che sarebbe troppo lungo qui ricordare, hanno fatto ampia divulgazione, cito solo alcuni coi quali ho la fortuna di interagire di frequente, quali Eben Moglen (**Il** maestro!), Larry Rosen; Heather Meeker, Pamela Jones con Groklaw, Mark Webbink, e l'immanente Richard Stallman (RMS) hanno più che ampiamente asfaltato un'autostrada su cui modestamente e lentamente mi sono incamminato. E sarebbe impossibile discutere di libertà di software e contenuti senza il contributo essenziale di Lawrence Lessig. 
 
 Non è un'area del diritto scarsamente presidiata.
 
@@ -369,7 +369,7 @@ Una caratteristica importante delle licenze è che sono **compatibili verso il f
 
 Creative Commons fornisce anche un **insieme di elementi identificativi grafici** (in diverse funzioni) che rende immediatamente visibile a un essere umano la tipologia di licenza e il fatto che "alcuni diritti sono riservati" (ma non tutti). Fornisce^[<http://creativecommons.org/choose/>] anche un **codice HTML-RDF** per far sì che anche un computer e soprattutto un motore di ricerca possa comprendere automaticamente le condizioni di licenza e consentire rispettarne le condizioni di attribuzione in modo altrettanto automatico (vedi sotto).
 
-## Attribution (by)
+## Attribution (by) {#sec_by}
 
 Tutte le licenze Creative Commons prevedono questa clausola (tranne la CC0, che è un caso a parte). Dunque tutte le licenze che troverete in giro saranno CC by (solo attribuzione) o CC by-qualcosa (attribuzione più qualche altra condizione). Dunque la CC by è la forma più semplice e insieme più liberale delle licenze, nel senso che non ha (quasi del tutto, ma non del tutto!) condizioni di copyleft. In tal senso è molto simile, operativamente, a una licenza BSD o MIT. Il materiale CC-by può dunque essere utilizzato per scopi commerciali, modificato, adattato, incluso in materiale proprietario, purché venga rispettata l'attribuzione originale.
 
@@ -647,9 +647,8 @@ ottenere il permesso da qualcuno per utilizzare tutta o parte della tecnologia
 necessaria.
 
 **Condizione necessaria e sufficiente** per implementare uno standard dovrebbe
-**essere necessario unicamente conoscere lo standard (e gli standard di
-**riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo
-**"*delivery*",
+essere necessario unicamente conoscere lo standard (e gli standard di
+riferimento sui cui lo stesso si basa). Il resto dovrebbe essere solo"*delivery*",
 
 ## Standard e brevetti: questo matrimonio non s'ha da fare (rinvio)
 
@@ -726,7 +725,7 @@ a cui molti hanno attribuito un significato preciso: quello di un tentativo di
 modificare gli equilibri in gioco per far passare (o non passare, ma in misura
 assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso
 era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti
-(se mai qualcuno) ha letto integralmente.
+(se mai qualcuno) ha letto integralmente. 
 
 [^fc705c37]: <http://www.uninfo.it/>
 
@@ -1091,207 +1090,763 @@ parliamo di standard.
 
 # Brevetti e software: per chi suona la campana? {#sec_campana}
 
-Nel capitolo precedente abbiamo discusso di brevetti applicati agli standard (nel campo del software principalmente). Mi chiedo però se il software debba essere oggetto di tutela brevettuale per sempre, oppure ci sia spazio per una loro abolizione o sostanziale restrizione? Già la Corte Suprema degli Stati Uniti ha dato diversi colpi alla lassità con cui le corti federali avevano concesso strada libera alla brevettazione del software e dei modelli di business e praticamente di qualsiasi cosa di cui sotto il sole di agosto qualcuno potesse inventarsi la brevettazione. Le sentenze Bilski, Alice (soprattutto, vedi [paragrafo successivo](#sec_precedenti_campana), Mayo, pur non affrontando il cuore del problema hanno però fornito materiale per le corti inferiori per demolire almeno i brevetti più "deboli".
+Nel capitolo precedente abbiamo discusso di brevetti applicati agli standard
+(nel campo del software principalmente). Mi chiedo però se il software debba
+essere oggetto di tutela brevettuale per sempre, oppure ci sia spazio per una
+loro abolizione o sostanziale restrizione? Già la Corte Suprema degli Stati
+Uniti ha dato diversi colpi alla lassità con cui le corti federali avevano
+concesso strada libera alla brevettazione del software e dei modelli di business
+e praticamente di qualsiasi cosa di cui sotto il sole di agosto qualcuno potesse
+sognarsi. Le sentenze Bilski, Alice (soprattutto, vedi [paragrafo
+successivo](#sec_precedenti_campana)), Mayo, pur non affrontando il cuore del
+problema hanno però fornito materiale per le corti inferiori per demolire almeno
+i brevetti più "deboli".
 
-Chiunque esperto nel ramo vi dirà "_software patents are here to stay_" ("i brevetti software son qui per restare"), ma recentemente si è aperto qualche spiraglio per una definitiva risistemazione del sistema brevettuale, che lasci libero da brevetti il software in sé e per sé, dunque non solo limitando e restringendo i requisiti di brevettazione.
+Chiunque esperto nel ramo vi dirà "_software patents are here to stay_" ("i
+brevetti software son qui per restare"), ma recentemente si è aperto qualche
+spiraglio per una definitiva risistemazione del sistema brevettuale, che lasci
+libero da brevetti il software in sé e per sé, dunque non solo limitando e
+restringendo i requisiti di brevettazione.
 
-La Corte d'Appello per il Circuito Federale ha emesso una sentenza piuttosto interessante nella causa **Intellectual Ventures v. Symantec**, che mi dà lo spunto per discutere perché i brevetti non dovrebbero mai essere concessi sul software, fornendo dunque un'opinione ben più autorevole della mia. La sentenza in cui  Intellctual Ventures pretendeva un bel po' di milioni, ha deciso che nessuno dei tre brevetti (software) su cui si basava la pretesa meritava la protezione brevettuale perché si tratta di idee astratte. Ma la parte più interessante, come capita spesso, è nella *dissenting opinion* del Giudice Mayer, il quale chiede che venga suonata la campana a morto per i brevetti software.
+La Corte d'Appello per il Circuito Federale ha emesso una sentenza piuttosto
+interessante nella causa **Intellectual Ventures v. Symantec**, che mi dà lo
+spunto per discutere perché i brevetti non dovrebbero mai essere concessi sul
+software, fornendo dunque un'opinione ben più autorevole della mia. La sentenza
+in cui  intellectual Ventures pretendeva un bel po' di milioni, ha deciso che
+nessuno dei tre brevetti (software) su cui si basava la pretesa meritava la
+protezione brevettuale perché si tratta di idee astratte. Ma la parte più
+interessante, come capita spesso, è nella *dissenting opinion* del Giudice
+Mayer, il quale chiede che venga suonata la campana a morto per i brevetti
+software.
 
 ## la sentenza e i precedenti {#sec_precedenti_campana}
 
-La Corte d'Appello per il Circuito Federale (CAFC) è stata di recente molte volte al centro di decisioni molto importanti riguardo al tipo di protezione da dare al software, come nel caso Oracle v. Google, che almeno apparentemente si scontra^[<http://arstechnica.com/tech-policy/2016/05/round-2-of-oracle-v-google-is-an-unpredictable-trial-over-api-fair-use/>] con la giurisprudenza e la normativa europea circa il copyright sulle intefacce. Questo caso è in apparenza meno centrale, in quanto per due su tre dei brevetti anche la corte inferiore aveva riconosciuto una non brevettabilità poiché essi contenevano in maniera abbastanza evidente semplici idee astratte  di cui si era pretesa e ottenuta protezione semplicemente perché per applicarle c'era di mezzo un computer. Sul terzo aveva *in extremis* rinvenuto una parvenza di brevettabilità e su quel presupposto aveva condannato i convenuti a un lauto risarcimento dei danni per non avere ottenuto una valida licenza.
+La Corte d'Appello per il Circuito Federale (CAFC) è stata di recente molte
+volte al centro di decisioni molto importanti riguardo al tipo di protezione da
+dare al software, come nel caso Oracle v. Google, che almeno apparentemente si
+scontra^[<http://arstechnica.com/tech-policy/2016/05/round-2-of-oracle-v-google-is-an-unpredictable-trial-over-api-fair-use/>]
+con la giurisprudenza e la normativa europea circa il copyright sulle
+interfacce. Questo caso è in apparenza meno centrale, in quanto per due su tre
+dei brevetti in discussione anche la corte inferiore aveva riconosciuto una non
+brevettabilità, poiché essi contenevano in maniera abbastanza evidente semplici
+idee astratte, di cui si era pretesa e ottenuta protezione semplicemente perché
+per applicarle c'era di mezzo un computer. Sul terzo aveva *in extremis*
+rinvenuto una parvenza di brevettabilità e su quel presupposto aveva condannato
+i convenuti a un lauto risarcimento dei danni per aver praticato l'invenzione
+senza avere ottenuto una valida licenza.
 
-Sulla base di quanto deciso dalla **Corte Suprema** degli Stati Uniti, nel caso **Alice Corp v. CLS Bank**^[<http://www.scotusblog.com/case-files/cases/alice-corporation-pty-ltd-v-cls-bank-international/>] (e in Mayo Collaborative Servs. v. Prometheus Labs in un campo adiacente quale quello della brevettazione di principi di funzionamento della biologia umana) il risultato appariva sufficientemente scontato per tutti e tre. Come ricordato sopra, la corte di primo grado aveva già invalidato due di essi, ma aveva fatto rientrare dalla finestra uno dei tre brevetti in quanto, nonostante fosse basato su idee astratte, e queste idee erano semplicemente implementate in un computer, si riteneva contenesse comunque materiale sufficiente per risolvere un problema tecnico in modo non ovvio.
+Sulla base di quanto deciso dalla **Corte Suprema** degli Stati Uniti, nel caso
+**Alice Corp v. CLS
+Bank**^[<http://www.scotusblog.com/case-files/cases/alice-corporation-pty-ltd-v-cls-bank-international/>]
+(e in Mayo Collaborative Servs. v. Prometheus Labs in un campo adiacente quale
+quello della brevettazione di principi di funzionamento della biologia umana) il
+risultato appariva sufficientemente scontato per tutti e tre. Come ricordato
+sopra, la corte di primo grado aveva già invalidato due di essi, ma aveva fatto
+rientrare dalla finestra uno dei tre brevetti in quanto, nonostante fosse basato
+su idee astratte, e queste idee erano semplicemente implementate in un computer,
+si riteneva contenesse comunque materiale sufficiente per risolvere un problema
+tecnico in modo non ovvio.
 
 Tuttavia la Corte spazza via anche questo residuo:
 
-> Mayo Collaborative Servs. v. Prometheus Labs.,Claims that “amount to nothing significantly more than an instruction to apply \[an\] abstract idea . . . using some unspecified, generic computer” and in which “each step does no more than require a generic computer to perform generic computer functions” do not make an abstract idea patent-eligible, Alice, 134 S. Ct. at 2359–60 (citations and internal quotation marks omitted), because “claiming the improved speed or efficiency inherent with applying the abstract idea on a computer” does not “provide a sufficient inventive concept.
+> Mayo Collaborative Servs. v. Prometheus Labs., claims that “amount to nothing
+significantly more than an instruction to apply [an] abstract idea . . . using
+some unspecified, generic computer” and in which “each step does no more than
+require a generic computer to perform generic computer functions” do not make an
+abstract idea patent-eligible, Alice, 134 S. Ct. at 2359–60 (citations and
+internal quotation marks omitted), because “claiming the improved speed or
+efficiency inherent with applying the abstract idea on a computer” does not
+“provide a sufficient inventive concept."
 
-Nemmeno questo residuo dunque merita attenzione per la CAFC, in quanto &ndash; sostiene &ndash; pretende di realizzare un incremento di protezione per il sistema antivirus spostando il livello di proteione da un computer a una linea telefonica (e per traslazione a Internet), in maniera del tutto convenzionale  e senza aspetti innovativi, pur essendo presente una descrizione di numerosi dettagli tecnici sulla possibile implementazione nella descrizione del brevetto, dettagli che però non rilevano per l'ambito di tutela.
+Nemmeno questo residuo dunque merita attenzione per la CAFC, in quanto &ndash;
+sostiene &ndash; pretende di realizzare un incremento di protezione per il
+sistema antivirus, spostando il livello di protezione da un computer a una linea
+telefonica (e per traslazione a Internet), in maniera del tutto convenzionale  e
+senza aspetti innovativi, pur essendo presente una descrizione di numerosi
+dettagli tecnici sulla possibile implementazione nella descrizione del brevetto,
+dettagli che però non rilevano per l'ambito di tutela.
 
-Fin qui niente di innovativo, si tratta dell'applicazione di una serie di sentenze che limitano il ruolo dei brevetti in settori adiacenti al software e come per il software denotati da una certa astrattezza e intangibilità, come i metodi di business o i metodi matematici per massimizzare i risultati economici di transazioni finanziarie tramite algoritmi implementati in computer (Alice) o altri metodi di business (Bilski v. Kappos).
+Fin qui niente di innovativo, si tratta dell'applicazione di una serie di
+sentenze che limitano il ruolo dei brevetti in settori adiacenti al software e
+come per il software denotati da una certa astrattezza e intangibilità, come i
+metodi di business o i metodi matematici per massimizzare i risultati economici
+di transazioni finanziarie tramite algoritmi implementati in computer (Alice) o
+altri metodi di business (Bilski v. Kappos).
 
-Ciò che è innovativo, che non si era mai visto, è un giudice che si scaglia lancia in resta contro la stessa idea che possano essere concessi brevetti sul software, cosa che la Corte Suprema aveva sempre accuratamente evitato di fare quando è stata richiesta di farlo e poteva farlo.
+Ciò che è innovativo, che non si era mai visto, è un giudice che si scaglia
+lancia in resta contro la stessa idea che possano essere concessi brevetti sul
+software, cosa che la Corte Suprema aveva sempre accuratamente evitato di fare
+quando è stata richiesta di farlo e poteva farlo.
 
 ## *Dissenting* e *concurring opinion*
 
-Le sentenza USA hanno questa peculiarità: sono delle "*opinion*" (opinioni, pareri) in cui i giudici affrontano in maniera molto elaborata e piuttosto dottrinale i punti giuridici discussi, in riferimento ai precedenti. I giudici sono infatti molto attenti a discutere espressamente i precedenti in quanto questi, sulla base del principio *stare decisis* ("ci si attenga ai precedenti"), essi contribuiscono a costituire la  legge per tutti i casi simili, principio fondante della *Common Law*, a cui il sistema giuridico USA si attiene. Dipartire senza una valida ragione da precedenti sufficientemente autorevoli costituisce quella che da noi si chiamerebbe una vera e propria violazione di legge.
+Le sentenza USA hanno questa peculiarità: contengono delle "*opinion*"
+(opinioni, pareri) in cui i giudici affrontano in maniera molto elaborata e
+piuttosto dottrinale i punti giuridici discussi, in riferimento ai precedenti. I
+giudici sono infatti molto attenti a discutere espressamente i precedenti in
+quanto questi, sulla base del principio *stare decisis* ("ci si attenga ai
+precedenti"), essi contribuiscono a costituire la  legge per tutti i casi
+simili, principio fondante della *Common Law*, a cui il sistema giuridico USA si
+attiene. Dipartire senza una valida ragione da precedenti sufficientemente
+autorevoli costituisce quella che da noi si chiamerebbe una vera e propria
+violazione di legge.
 
-Le sentenze sono elaborate collegialmente sulla base di una votazione che può essere unanime o con giudici dissenzienti. Sulla base della decisione, uno dei giudici è chiamato a esprimere l'intenzione della corte, redigendo materialmente la parte motivazionale, ovvero l'*opinion*, che ovviamente sarà coerente con la decisione presa. Così nella sentenza si troveranno tutti i punti fondamentali che hanno guidato il giudice e che guideranno altri giudici di quel distraetto ed eventualmente di altri distretti nella soluzione di casi simili.
+Le sentenze nelle corti superiori sono elaborate collegialmente sulla base di
+una votazione che può essere unanime o con giudici dissenzienti. Sulla base
+della decisione, uno dei giudici è chiamato a esprimere l'intenzione della
+corte, redigendo materialmente la parte motivazionale, ovvero l'*opinion*, che
+ovviamente sarà coerente con la decisione presa. Così nella sentenza si
+troveranno tutti i punti fondamentali che hanno guidato il giudice e che
+guideranno altri giudici di quel distretto ed eventualmente di altri distretti
+nella soluzione di casi simili.
 
-Il giudice che provvede alla redazione della sentenza si fa interprete della volontà collegiale. Ci possono essere voti contrari; a differenza di quanto avviene da noi, il fatto che ci siano voti contrari (in tutto o in parte) viene reso pubblico. Un giudice dissenziente che si voglia prendere la briga di farlo, può con altrettanta autorevolezza giuridica, anche se senza vincolare i giudici successivi, esprimere la propria opinione affermando le ragioni per il suo voto contrario, in quella che si chiama "*dissenting opinion*" (opinione dissenziente).
+Il giudice che provvede alla redazione della sentenza si fa interprete della
+volontà collegiale. Ci possono essere voti contrari; a differenza di quanto
+avviene da noi, il fatto che ci siano voti contrari (in tutto o in parte) viene
+reso pubblico. Un giudice dissenziente che si voglia prendere la briga di farlo,
+può con altrettanta autorevolezza giuridica, anche se senza vincolare i giudici
+successivi, esprimere la propria opinione affermando le ragioni per il suo voto
+contrario, in quella che si chiama "*dissenting opinion*" (opinione
+dissenziente).
 
-La bellezza e stranezza del sistema americano non si ferma qui: anche chi vota a favore può farci conoscere il suo pensiero, pur concordando con la maggioranza ("*concurring*"), onde dare il suo personale contributo e guida ai futuri giudici, offrendo spunti utili a meglio motivare (e agli studenti maggiori oneri di studio...).
+La bellezza e stranezza del sistema americano non si ferma qui: anche chi vota a
+favore può farci conoscere il suo pensiero, pur concordando con la maggioranza
+("*concurring*"), onde dare il suo personale contributo e guida ai futuri
+giudici, offrendo spunti utili a meglio motivare (e agli studenti maggiori oneri
+di studio...).
 
-Molto spesso le novità più interessanti nella giurisprudenza vengono appunto dalle opinioni dissenzienti e da quelle *concurring*.
+Molto spesso le novità più interessanti nella giurisprudenza vengono appunto
+dalle opinioni dissenzienti e da quelle *concurring*.
 
 ## Il caso contro i brevetti software del Giudice  Mayer
 
-Mayer si spinge più in là dei suoi colleghi. Dice che è ora di far scendere un pietoso velo sui brevetti che ricadono su "semplice" software che fa riferimento a computer generici, e lo fa sotto due speciali argomenti: il diritto di esprimere liberamente le proprie opinioni (Primo Emendamento alla Costituzione USA); una esenzione "per categoria" del software dall'ambito della protezione brevettuale.
+Mayer si spinge più in là dei suoi colleghi. Dice che è ora di far scendere un
+pietoso velo sui brevetti che ricadono su "semplice" software che fa riferimento
+a computer generici, e lo fa sotto due speciali argomenti:
 
-La parte sul **diritto di parola** (*Freedom of Speech*, uno dei più sacri, non solo perché oggetto del primo emendamento), è molto interessante, ma per la sua peculiarità è anche la più legata alle peculiarità della giurisdizione. Il secondo, riguardante l'esenzione del software dalla brevettabilità come categoria in quanto per natura **materia astratta**, invece si applica pari-pari a tutti i luoghi, compreso il territorio europeo, dove i brevetti software sono concessi a piene mani. È importante per la nostra analisi, in generale, perché coglie una caratteristica importante del software: esso è una serie di algoritmi, un'idea astratta, che tecnicamente può essere realizzata saldando circuiti fatti da semiconduttori, scrivendo bit su un supporto magnetico, ma anche prendendo una penna e scrivendo il codice sulla carta. Difficile, lungo, complesso, ma non impossibile. Mentre di un farmaco posso scrivere la *formula* su un pezzo di carta, ma per realizzarlo mi ci vuole un laboratorio. Di un nuovo materiale a memoria di forma posso scrivere il processo per ottenerlo da materie prime, ma mi serve un impianto per crearlo. Di un microprocessore posso disegnare su carta la topografia con gli elementi e le connessioni, ma mi serve una fabbrica da cento milioni di Dollari per crearlo. Il software no, quello che scrivo sulla carta **_è_** l'oggetto della protezione, **_è_** il software.
+a. il diritto di esprimere liberamente le proprie opinioni (Primo Emendamento
+alla Costituzione USA); b. una esenzione "per categoria" del software
+dall'ambito della protezione brevettuale.
 
-L'opinion cita e passa in rassegna in maniera rimarchevole praticamente tutte le ragioni che da anni il fronte anti brevetti software va predicando, fronte a cui non è un mistero anch'io mi iscrivo. Non è il primo giudice di corte d'appello a farlo: già Richard Posner^[<http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html>] aveva sottolineato come il presupposto economico dei brevetti non si combina con settori in cui l'innovazione è tumultuosa ed effimera, e dove il tasso di investimenti in ricerca e sviluppo e trascurabile rispetto al costo di implementazione dell'idea predicata dal brevetto. Ma si trattava di un blog, qui si tratta di una *concurring opinion* in una sentenza di Corte d'Appello che si occupa in via praticamente esclusiva di brevetti.
+La parte sul **diritto di parola** (*Freedom of Speech*, uno dei più sacri, non
+solo perché oggetto del primo emendamento), è molto interessante, ma per la sua
+peculiarità è anche la più legata alle peculiarità della giurisdizione. Il
+secondo, riguardante l'esenzione del software dalla brevettabilità come
+categoria in quanto per natura **materia astratta**, invece si applica pari-pari
+a tutti i luoghi, compreso il territorio europeo, dove i brevetti software sono
+concessi a piene mani. È importante per la nostra analisi, in generale, perché
+coglie una caratteristica importante del software: esso è una serie di
+algoritmi, un'idea astratta, che tecnicamente può essere realizzata saldando
+circuiti fatti da semiconduttori, scrivendo bit su un supporto magnetico, ma
+anche prendendo una penna e scrivendo il codice sulla carta. Difficile, lungo,
+complesso, ma non impossibile.
 
-Il Giudice Mayer individua in modo analitico almeno quattro dei peccati capitali dei brevetti software.
+Di un farmaco posso scrivere la *formula* su un pezzo di carta, ma per
+realizzarlo mi ci vuole un laboratorio. Di un nuovo materiale a memoria di forma
+posso scrivere il processo per ottenerlo da materie prime, ma mi serve un
+impianto per crearlo. Di un microprocessore posso disegnare su carta la
+topografia con gli elementi e le connessioni, ma mi serve una fabbrica da cento
+milioni di Dollari per crearlo. Il software no, quello che scrivo sulla carta
+**_è_** l'oggetto della protezione, **_è_** il software.
+
+L'_opinion_ cita e passa in rassegna in maniera rimarchevole praticamente tutte
+le ragioni che da anni il fronte anti brevetti software va predicando, fronte a
+cui non è un mistero anch'io mi iscrivo. Non è il primo giudice di corte
+d'appello a farlo: già Richard
+Posner^[<http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html>]
+aveva sottolineato come il presupposto economico dei brevetti non si combina con
+settori in cui l'innovazione è tumultuosa ed effimera, e dove il tasso di
+investimenti in ricerca e sviluppo e trascurabile rispetto al costo di
+implementazione dell'idea predicata dal brevetto. Ma si trattava di un blog, qui
+si tratta di una *concurring opinion* in una sentenza di Corte d'Appello che si
+occupa di tutte le questioni sui brevetti (che sono appunto materia di
+competenza federale) che giungono al livello d'appello.
+
+Il Giudice Mayer individua in modo analitico almeno quattro dei peccati capitali
+dei brevetti software.
 
 ### L'ambito di protezione è sproporzionato al valore di ciò che viene "rivelato"
 
-I brevetti offrono, come è noto e anche da noi [ricordato](#sec_brevetti), un incentivo a investire per elaborare prima e a rivelare poi un'idea inventiva che va ad accumularsi allo stato dell'arte al fine di avanzare lo stato della tecnica. È un *do ut des*: ti consento di estrarre profitti del monopolista da un settore, perché tu aumenti lo stato delle conoscenze dandoci modo di fare qualcosa che prima non potevamo fare perché ci *insegni* (letteralmente) **come farlo**. I brevetti software **mancano quasi totalmente** di una descrizione di come si mettono in pratica, descrizione che va per forza di cose effettuata con codice sorgente, che però, quando esiste (spesso non esiste nemmeno, vedi punto successivo) non viene affatto rivelato.
+I brevetti offrono, come è noto e anche da noi [ricordato](#sec_brevetti), un
+incentivo a investire per elaborare prima e a rivelare poi un'idea inventiva che
+va ad accumularsi allo stato dell'arte al fine di avanzare lo stato della
+tecnica. È un *do ut des*: ti consento di estrarre profitti del monopolista da
+un settore, perché tu aumenti lo stato delle conoscenze dandoci modo di fare
+qualcosa che prima non potevamo fare perché ci *insegni* (letteralmente) **come
+farlo**. I brevetti software **mancano quasi totalmente** di una descrizione di
+come si mettono in pratica, descrizione che va per forza di cose effettuata con
+codice sorgente, che però, quando esiste (spesso non esiste nemmeno, vedi punto
+successivo) non viene affatto rivelato.
 
-I brevetti contengono solo una descrizione funzionale ad alto livello di ciò che l'applicazione deve fare, non un metodo direttamente implementabile da un esperto, che sarebbe possibile con il codice. Non insegna niente di utile. Non dice come tradurre l'idea in pratica. Per dirla in altri termini, **si brevetta il problema, non la soluzione**.
+I brevetti contengono solo una descrizione funzionale ad alto livello di ciò che
+l'applicazione deve fare, non un metodo direttamente implementabile da un
+esperto, che sarebbe possibile con il codice. Non insegna niente di utile. Non
+dice come tradurre l'idea in pratica. Per dirla in altri termini, **si brevetta
+il problema, non la soluzione**.
 
-La banalità dei brevetti e il fatto che anche un non programmatore dotato di sufficiente buon senso e conoscenze molto rudimentali potrebbe scriverli, è un elemento molto soprendente per chi si trova a leggerli. Personalmente devo ancora trovare un brevetto software (e ne ho letti molti) che mi abbia sorpreso con una soluzione che &ndash; dato il problema da risolvere &ndash; costituisse un qualcosa di sorprendentemente non evidente o inarrivabile senza leggere il brevetto, con l'eccezione forse di *alcuni* brevetti sulla compressione audiovideo, che però hanno ampiamente fatto il loro tempo (il resto è molto minestra riscaldata).
+La banalità dei brevetti e il fatto che anche un non programmatore dotato di
+sufficiente buon senso e conoscenze molto rudimentali potrebbe scriverli, è un
+elemento molto sorprendente per chi si trova a leggerli. Personalmente devo
+ancora trovare un brevetto software (e ne ho letti molti) che mi abbia colpito
+con una soluzione che &ndash; dato il problema da risolvere &ndash; costituisse
+un qualcosa di sorprendentemente non evidente o inarrivabile senza leggere il
+brevetto, con l'eccezione forse di *alcuni* brevetti sulla compressione
+audiovideo, che però hanno ampiamente fatto il loro tempo (il resto è molto
+minestra riscaldata).
 
 ### L'incentivo all'innovazione viene dato in un momento sbagliato
 
-Questo punto è una conseguenza del precedente, in un certo senso. Poiché non è richiesta alcuna rivelazione di codice sorgente che implementi il trovato brevettato, e il brevetto viene concesso sulla base di una vaga descrizione funzionale, la tutela viene garantita di molto **in anticipo** rispetto a qualsiasi dimostrazione di avere un'implementazione minimamente funzionante. Realizzare un'implementazione funzionante significa utilizzare molto tempo e risorse di programmazione, e niente, in questo passo, viene aiutato dalla presenza di una domanda di brevetto, che solitamente è anche in regime di segretezza,per cui probabilmente al momento dello sviluppo nessuno è nemmeno *cosciente* della sua esistenza. Siccome il sistema premia chi arriva per primo, vi è un forte incentivo ad ottenere il brevetto ancora prima di aver *iniziato* a creare una tale implementazione. Una volta ottenuto il brevetto, la privativa consente in teoria di lucrare sull'investimento, rilevante, in ricerca e sviluppo (che nel software è sostanzialmente scrittura di codice e prova di corretto funzionamento) **di terzi**, prima ancora di averlo fatto in proprio. Ciò è tra l'altro dimostrato dall'abbondare di "*non practicing entities*", soggetti che non hanno magari mai nemmeno scritto una linea di codice, ma hanno saputo intercettare dove nuove aree di progettazione del software si sarebbero mosse. Dunque l'incentivo non va a chi dovrebbe investire, anzi, sottrae risorse agli investimenti che dovrebbe promuovere.
+Questo punto è una conseguenza del precedente, in un certo senso. Poiché non è
+richiesta alcuna rivelazione di codice sorgente che implementi il trovato
+brevettato, e il brevetto viene concesso sulla base di una vaga descrizione
+funzionale, la tutela viene garantita di molto **in anticipo** rispetto a
+qualsiasi dimostrazione di avere un'implementazione minimamente funzionante.
+Realizzare un'implementazione funzionante significa utilizzare molto tempo e
+risorse di programmazione, e niente, in questo passo, viene aiutato dalla
+presenza di una domanda di brevetto, che solitamente è anche in regime di
+segretezza,per cui probabilmente al momento dello sviluppo nessuno è nemmeno
+*cosciente* della sua esistenza. Siccome il sistema premia chi arriva per primo,
+vi è un forte incentivo ad ottenere il brevetto ancora prima di aver *iniziato*
+a creare una tale implementazione. Una volta ottenuto il brevetto, la privativa
+consente in teoria di **lucrare sull'investimento**, rilevante, in ricerca e
+sviluppo (che nel software è sostanzialmente scrittura di codice e prova di
+corretto funzionamento) **di altri**, prima ancora di averlo fatto in proprio.
+Ciò è tra l'altro dimostrato dall'abbondare di "*non practicing entities*",
+soggetti che non hanno magari mai nemmeno scritto una linea di codice, ma hanno
+saputo intercettare dove nuove aree di progettazione del software si sarebbero
+mosse. Dunque l'incentivo non va a chi dovrebbe investire, anzi, sottrae risorse
+agli investimenti che dovrebbe promuovere.
 
-Se devo muovere una critica al ragionamento, spesso il problema è l'inverso: si fornisce un incentivo quando è troppo tardi, nel senso che il "trovato" è un sottoprodotto di un'attività di programmazione che ci sarebbe comunque stata, qualcosa che è emerso come un "*afterthought*" alla fine del processo di scrittura del codice, senza uno sforzo preciso e finalizzato, e senza che dunque il premio di un brevetto abbia potuto svolgere il suo effetto incentivante, se non come mera possibilità. Un po' come un premio Oscar alla carriera. Esattamente come la possibilità di ottenere profitti dopo la propria morte difficilmente incentiva a creare più opere musicali,letterarie cinematografiche.
+Se devo muovere una critica al ragionamento, spesso il problema è l'inverso: si
+fornisce un incentivo quando è troppo tardi, nel senso che il "trovato" è un
+sottoprodotto di un'attività di programmazione che ci sarebbe comunque stata,
+qualcosa che è emerso come un "*afterthought*" alla fine del processo di
+scrittura del codice, senza uno sforzo preciso e finalizzato, e senza che dunque
+il premio di un brevetto abbia potuto svolgere il suo effetto incentivante, se
+non come mera possibilità. Un po' come un premio Oscar alla carriera.
+Esattamente come la possibilità di ottenere profitti dopo la propria morte
+difficilmente incentiva a creare più opere musicali,letterarie cinematografiche.
 
 ### Il loro mero numero ne fa un problema in sé
 
-Il Giudice prosegue segnalando come il sistema dei brevetti sul software stia causando da solo la maggioranza dei nuovi brevetti. Il loro numero, da solo, è un problema per l'economia e una minaccia per le imprese innovative più giovani e piccole, ma anche per tutto il settore della tecnologia. Ricorda che il numero di brevetti insistenti su un moderno smartphone sono un numero inimmaginabile, oltre 250.000. secondo alcuni calcoli. Per cui si tratta di un elemento di disturbo non da poco
+Il Giudice prosegue segnalando come il sistema dei brevetti sul software stia
+causando da solo la maggioranza dei nuovi brevetti. Il loro numero, in sé, è un
+problema per l'economia e una minaccia per le imprese innovative più giovani e
+piccole, ma anche per tutto il settore della tecnologia. Ricorda che il numero
+di brevetti insistenti su un moderno smartphone sono un numero inimmaginabile,
+oltre 250.000. secondo alcuni calcoli. Per cui si tratta di un elemento di
+disturbo non da poco
 
 ### I brevetti software per loro natura mancano dei naturali confini che i brevetti in altri campi offrono
 
-Infine, per come sono concepiti, i brevetti sul software tendono ad essere **intollerabilmente vaghi**. Un brevetto dovrebbe avere una sua delimitazione sicura, in modo che un operatore esperto nel settore sia messo in grado di conoscere cosa sia oggetto del brevetto e cosa non lo sia. In un sistema in cui si brevettano sostanzialmente idee astratte e algoritmi, non processi e materiali esistenti in natura, di cui si dà solitamente una descrizione funzionale ad alto livello, non è possibile **sapere in anticipo** con un sufficiente margine di sicurezza cosa sia brevettato e cosa no.
+Infine, per come sono concepiti, i brevetti sul software tendono ad essere
+**intollerabilmente vaghi**. Un brevetto dovrebbe avere una sua delimitazione
+sicura, in modo che un operatore esperto nel settore sia messo in grado di
+conoscere cosa sia oggetto del brevetto e cosa non lo sia. In un sistema in cui
+si brevettano sostanzialmente idee astratte e algoritmi, non processi e
+materiali esistenti in natura, di cui si dà solitamente una descrizione
+funzionale ad alto livello, non è possibile **sapere in anticipo** con un
+sufficiente margine di sicurezza cosa sia brevettato e cosa no.
 
 Tutto ciò crea incertezza e *frena* l'innovazione.
 
 ## È tutto?
 
-La *concurring opinion* analizzata è sicuramente l'atto di accusa più autorevole contenuto in un atto ufficiale di un giudice chiamato ad applicare le norme sui brevetti. Non sviscera interamente l'intero parco delle critiche che si possono muovere ai brevetti sul software, ma vi assesta numerosi colpi che potranno in futuro essere colti da altri giudici per scardinare un sistema malato, una volta per tutte.
+La *concurring opinion* analizzata è sicuramente l'atto di accusa più autorevole
+contenuto in un atto ufficiale di un giudice chiamato ad applicare le norme sui
+brevetti. Non sviscera interamente l'intero parco delle critiche che si possono
+muovere ai brevetti sul software, ma vi assesta numerosi colpi che potranno in
+futuro essere colti da altri giudici per scardinare un sistema malato, una volta
+per tutte.
 
-Il punto più importante è comunque colto: il software è un ambito in cui si aveva da tempo una protezione ben più che sufficiente a creare un'intera industria, come la storia fino alla fine degli anni '90 dimostra, prima che nell'equazione venissero calati i brevetti. Questa protezione consente di remunerare chi si impegna a realizzare qualcosa con importanti investimenti e creare qualcosa di valore per il mercato, *dopo* che l'investimento è stato fatto e un "prodotto" è sul mercato. Qualcosa che consente di creare il fenomeno più rilevante e sconvolgente degli ultimi trent'anni: il software libero / open source. Questa protezione è il copyright, pur con tutti i suoi difetti. Soprattutto, siccome il sistema di proprietà intellettuale trova la sua ragion d'essere nel fornire un incentivo all'innovazione, i cui vantaggi per la collettività superano l'inconveniente di fornire un piccolo monopolio, non vi è un'analisi seria e convincente (o anche minimamente tale) che tale incentivo e vantaggio siano reali, in presenza di un "*controfattuale*" opposto proprio nella storia del software a cui si è fatto cenno.
+Il punto più importante è comunque colto: il software è un ambito in cui si
+aveva da tempo una protezione ben più che sufficiente a creare un'intera
+industria, come la storia fino alla fine degli anni '90 dimostra, prima che
+nell'equazione venissero calati i brevetti. Questa protezione consente di
+remunerare chi si impegna a realizzare qualcosa con importanti investimenti e
+creare qualcosa di valore per il mercato, *dopo* che l'investimento è stato
+fatto e un "prodotto" è sul mercato. Qualcosa che consente di creare il fenomeno
+più rilevante e sconvolgente degli ultimi trent'anni: il software libero / open
+source. Questa protezione è il copyright, pur con tutti i suoi difetti.
+Soprattutto, siccome il sistema di proprietà intellettuale trova la sua ragion
+d'essere nel fornire un incentivo all'innovazione, i cui vantaggi per la
+collettività superano l'inconveniente di fornire un piccolo monopolio, non vi è
+un'analisi seria e convincente (o anche minimamente tale) che tale incentivo e
+vantaggio siano reali, in presenza di un "*controfattuale*" opposto proprio
+nella storia del software a cui si è fatto cenno.
 
 La campana a morto per i brevetti software non suonerà mai troppo presto.
-
 # I dati aperti  (open data) {#sec_opendata}
 
-Il movimento degli open data attira l'attenzione principalmente nel mondo pubblico, ma non è affatto necessariamente limitato a tale settore. La tematica riguarda anche il settore privato, anche se con regole leggermente diverse e lasciate più alla convenienza che a un obbligo, salvo casi particolari.
+Il movimento degli open data attira l'attenzione principalmente nel mondo
+pubblico, ma non è affatto necessariamente limitato a tale settore. La tematica
+riguarda anche il settore privato, anche se con regole leggermente diverse e
+lasciate più alla convenienza che a un obbligo, salvo casi particolari.
 
-Come per ogni altro campo di indagine nella nostra disamina del mondo open, parlare di dati aperti vuol dire che vi sono dati chiusi. Come può essere chiuso un dato? Le possibilità sono molte, esaminiamo dunque i vari modi con cui i dati possono essere tenuti chiusi, per poi vedere come si possono aprire e perché.
+Come per ogni altro campo di indagine nella nostra disamina del mondo open,
+parlare di dati aperti vuol dire che vi sono dati chiusi. Come può essere chiuso un dato (una banca dati).
+Le possibilità sono molte, esaminiamo dunque i vari modi con cui i dati
+possono essere tenuti chiusi, per poi vedere come si possono aprire e perché.
 
 ## Come si chiudono i dati
+
 ### Dati chiusi perché non rivelati, o segreti
 
-La prima forma di chiusura dei dati è la segretezza, o la non divulgazione, degli stessi.  Spesso, nell'affrontare il tema dei dati aperti si inizia con la discussione sulla licenza. Non ha però senso parlare di una licenza se il dato viene tenuto privato.
+La prima forma di chiusura dei dati è la segretezza, o la non divulgazione,
+degli stessi.  Spesso, nell'affrontare il tema dei dati aperti si inizia con la
+discussione sulla licenza. Non ha però senso parlare di una licenza se il dato
+viene tenuto privato.
 
-Non vi è una regola generale per la quale i dati debbano essere resi pubblici. Anzi, semmai la regola è l'opposta: l'ordinamento tutela infatti le informazioni aziendali con due sostanziali norme del Codice della proprietà Industriale, ovvero gli articoli 98 e 99. Essi sono stati inseriti nel nostro ordinamento in esecuzione dei trattati TRIPS, dei quali riprendono in modo quasi letterale il contenuto. Prima di essi, si era giunti a una tutela comunque generale dei dati aziendali segreti, attraverso il divieto di concorrenza sleale, contenuto nell'art. 2598 del Codice Civile. I requisiti per ottenere tale tutela sono tutto sommato limitati: deve trattarsi di dati tenuti segreti, ovvero chi li possiede deve aver adottato sufficienti misure per impedirne la divulgazione, e devono avere un qualche valore in sé, all'interno dei beni aziendali.
+Non vi è una regola generale per la quale i dati debbano essere resi pubblici.
+Anzi, semmai la regola è l'opposta: l'ordinamento tutela infatti le informazioni
+aziendali con due sostanziali norme del Codice della Proprietà Industriale,
+ovvero gli articoli 98 e 99. Essi sono stati inseriti nel nostro ordinamento in
+esecuzione dei trattati TRIPS, dei quali riprendono in modo quasi letterale il
+contenuto. Prima di essi, si era giunti a una tutela comunque generale dei dati
+aziendali segreti, attraverso il divieto di concorrenza sleale, contenuto
+nell'art. 2598 del Codice Civile. I requisiti per ottenere tale tutela sono
+tutto sommato limitati: deve trattarsi di dati tenuti segreti, ovvero chi li
+possiede deve aver adottato sufficienti misure per impedirne la divulgazione, e
+devono avere un qualche valore in sé, all'interno dei beni aziendali.
 
-In ambito pubblico, invece, è difficile parlare di tutela del segreto aziendale. Valgono però due generali  principi che potrebbero in astratto interferire. Il primo e più evidente è che i dati detenuti possono essere **dati personali** e perciò soggetti a divieti di divulgazione, o comunque a regole strette. Dati non personali possono comunque essere rilevanti per un ambito di tutela simile a quello aziendale, a tutela del **buon andamento** amministrativo.
+In ambito pubblico, invece, è difficile parlare di tutela del segreto aziendale.
+Valgono però due generali principi che potrebbero in astratto interferire. Il
+primo e più evidente è che i dati detenuti possono essere **dati personali** e
+perciò soggetti a divieti di divulgazione, o comunque a regole strette. Dati non
+personali possono comunque essere rilevanti per un ambito di tutela simile a
+quello aziendale, a tutela del **buon andamento** amministrativo.
 
-La raccolta, la conservazione, il controllo e la gestione dei dati hanno un costo per l'amministrazione. Essi hanno anche un potenziale valore commerciale: l'amministrazione potrebbe infatti cederli dietro compenso. Anche l'attività di diffusione ha un costo, renderli disponibili senza ottenerne un ristoro potrebbe comportare un depauperamento del patrimonio dell'ente detentore. Si è in passato affermato che la diffusione di dati senza ottenere almeno il costo di copia, ma più propriamente un compenso sotto forma di *royalty*, e il divieto di ulteriore diffusione, fosse una potenziale fonte di **responsabilità amministrativa**. Alla luce di quanto diremo in seguito, tale preoccupazione direi che è venuta meno.
+La raccolta, la conservazione, il controllo e la gestione dei dati hanno un
+costo per l'amministrazione. Essi hanno anche un potenziale valore commerciale:
+l'amministrazione potrebbe infatti cederli dietro compenso. Anche l'attività di
+diffusione ha un costo, renderli disponibili senza ottenerne un ristoro potrebbe
+comportare un depauperamento del patrimonio dell'ente detentore. Si è in passato
+affermato che la diffusione di dati senza ottenere almeno il costo di copia, ma
+più propriamente un compenso sotto forma di *royalty*, e il divieto di ulteriore
+diffusione, fosse una potenziale fonte di **responsabilità amministrativa**.
+Alla luce di quanto diremo in seguito, tale preoccupazione direi che è venuta
+meno.
 
 ### Dati chiusi perché oggetto di un diritto di privativa
 
-La comunicazione a terzi di dati può non essere incompatibile con la tutela data dal segreto. Terzi possono ricevere i dati sotto condizione di segretezza, ed essere costretti a detenerli e usarli adottando tutele simili  a quelle adottate dal titolare. Tale però  una condizione difficile da ottenere e funziona solo a condizione che la diffusione sia limitata.
+La comunicazione a terzi di dati può non essere incompatibile con la tutela data
+dal segreto. Terzi possono ricevere i dati sotto condizione di segretezza, ed
+essere costretti a detenerli e usarli adottando tutele simili  a quelle adottate
+dal titolare. Tale però  una condizione difficile da ottenere e funziona solo a
+condizione che la diffusione sia limitata.
 
-Almeno in Europa, tuttavia, è stata realizzata una forma di tutela diversa. Chi dimostri di aver effettuato rilevanti investimenti nella raccolta, ordinamento, verifica dei dati ha il diritto di vietare a terzi la copia, l'estrazione di parti sostanziali (anche tramite più estrazioni parziali) e la diffusione di tali dati, anche quando questi venissero in suo possesso. E ciò per quindici anni dalla data in cui la base di dati è stata costituita (prolungabili  in caso di dimostrabili ulteriori rilevanti investimenti).
+Almeno in Europa, tuttavia, è stata realizzata una forma di tutela diversa. Chi
+dimostri di aver effettuato rilevanti investimenti nella raccolta, ordinamento,
+verifica dei dati ha il diritto di vietare a terzi la copia, l'estrazione di
+parti sostanziali (anche tramite più estrazioni parziali) e la diffusione di
+tali dati, anche quando questi venissero in suo possesso. E ciò per quindici
+anni dalla data in cui la base di dati è stata costituita (prolungabili  in caso
+di dimostrabili ulteriori rilevanti investimenti).
 
-Questo è il diritto fondamentale sul quale le licenze, di cui diremo in seguito, si concentrano. Questo diritto è infatti simile al **copyright**.
+Questo è il diritto fondamentale sul quale le licenze, di cui diremo in seguito,
+si concentrano. Questo diritto è infatti simile al **copyright** (in realtà, poiché ha una natura almeno parzialmente differente, si parla di diritto _sui generis_).
 
 ### Dati chiusi perché illeggibili
 
-Il dato può essere reso solo teoricamente accessibile, ma di fatto inutilizzabile, perché chi lo riceve non può utilizzarlo in maniera efficiente.
+Il dato può essere reso solo teoricamente accessibile, ma di fatto
+inutilizzabile, perché chi lo riceve non può utilizzarlo in maniera efficiente.
 
-I dati possono essere resi disponibili su un **supporto** non informatico, come ad esempio un foglio di carta, o una copia fotografica digitale. Tali dati richiederebbero in tal caso un'attività intensa di acquisizione e verifica del risultato dell'acquisizione. Potrebbero essere forniti su un supporto sì informatico, ma in un **formato** di archiviazione non standard (vedi il capitolo sugli  open standard) e quindi utilizzabile solo con una particolare applicazione o piattaforma, o ancora da un solo soggetto che conosce lo standard e lo implementa. Infine, i dati potrebbero essere forniti su un formato aperto, ma totalmente incomprensibili perché la loro **presentazione** manca delle necessarie meta- informazioni sulla concreta **codifica** dei dati stessi. Ad esempio, un set di dati potrebbe essere fornito in un formato XML (che è uno standard aperto), ma in un sottoformato XML non completamente o affatto descritto quanto alla sua **semantica** (cosa vuol dire un dato inserito in una data posizione e con un dato attributo) e alla sua **sintassi** (come si interpreta un dato o un insieme di dati, ad esempio se un numero esprime l'età, il numero civico, il codice fiscale, o altro, di una data persona).
+I dati possono essere resi disponibili su un **supporto** non informatico, come
+ad esempio un foglio di carta, o una copia fotografica digitale. Tali dati
+richiederebbero in tal caso un'attività intensa di acquisizione e verifica del
+risultato dell'acquisizione. Potrebbero essere forniti su un supporto sì
+informatico, ma in un **formato** di archiviazione non standard (vedi il
+capitolo sugli [open standard](#sec_open_standard]) e quindi utilizzabile solo con una particolare
+applicazione o piattaforma, o ancora da un solo soggetto che conosce lo standard
+e lo implementa. Infine, i dati potrebbero essere forniti su un formato aperto,
+ma totalmente incomprensibili perché la loro **presentazione** manca delle
+necessarie meta-informazioni sulla concreta **codifica** dei dati stessi. Ad
+esempio, un set di dati potrebbe essere fornito in un formato XML (che è uno
+standard aperto), ma in un sottoformato XML non completamente o affatto
+descritto quanto alla sua **semantica** (cosa vuol dire un dato inserito in una
+data posizione e con un dato attributo) e alla sua **sintassi** (come si
+interpreta un dato o un insieme di dati, ad esempio se un numero esprime l'età,
+il numero civico, il codice fiscale, o altro, di una data persona).
 
 ### Dati semi-chiusi perché diffusi solo in forma aggregata o con insufficiente dettaglio
 
-A cavallo della leggibilità e della mancata comunicazione, il fatto che i dati siano forniti soltanto in forma aggregata, mentre restano indisponibili i dati disaggregati, o la disaggregazione è a un livello insufficiente per consentire una elaborazione e una verifica di affidabilità, o una qualche forma di regressione statistica. Ad esempio, una ASL può diffondere i dati di mortalità per un determinato tipo cancro della popolazione comune per comune, ma non essere disponibile una serie di dati per età alla morte, per sesso, per familiarità, per condizione genetica rilevante, per occupazione.
+A cavallo della leggibilità e della mancata comunicazione, il fatto che i dati
+siano forniti soltanto in forma aggregata, mentre restano indisponibili i dati
+disaggregati, o la disaggregazione è a un livello insufficiente per consentire
+una elaborazione e una verifica di affidabilità, o una qualche forma di
+regressione statistica. Ad esempio, una ASL può diffondere i dati di mortalità
+per un determinato tipo cancro della popolazione comune per comune, ma non
+essere disponibile una serie di dati per età alla morte, per sesso, per
+familiarità, per condizione genetica rilevante, per occupazione.
 
-&Egrave; ovvio che il livello di dettaglio necessario perché vi sia un'utilità dei dati dipende dal tipo di analisi che deve essere compiuta e dal fatto che quei dati siano stati raccolti a monte per ciascun individuo o per una porzione significativa della popolazione.
+&Egrave; ovvio che il livello di dettaglio necessario perché vi sia un'utilità
+dei dati dipende dal tipo di analisi che deve essere compiuta e dal fatto che
+quei dati siano stati raccolti a monte per ciascun individuo o per una porzione
+significativa della popolazione.
+
+In genere, i dati sono tanto più utili quanto più sono disponibili in forma
+disaggregata e granulare. Il problema è che spesso i dati disaggregati creano
+maggiori problemi di tutela dei dati personali (quando ne contengono). La
+tensione tra questi due termini è uno dei temi più rilevanti nella discussione
+degli open data.
 
 ## Perché offrire dati aperti
 
 ### La scelta del "se" pubblicare
-Abbiamo già detto che per le aziende e i soggetti privati in genere, fornire dati aperti è una scelta inoppugnabile. Solo alcuni soggetti hanno il diritto di pretendere di ottenere tali dati, in genere si tratta di autorità pubbliche, come l'Amministrazione delle finanze o l'ISTAT o le autorità amministrative indipendenti.
 
-Per i soggetti pubblici tale facoltà di non divulgare i dati è molto più limitata. Per alcuni dati, intanto, una forma di pubblicità è imposta. Gli obblighi possono essere di varia natura. I dati reddituali delle persone fisiche sono infatti ad accesso pubblico, anche se ottenerli in forma di dati aperti è impossibile, se non in forma anonima.  In altri casi di sono veri e propri obblighi di fornire i dataset, imposti da normative, come ad esempio i dati delle imprese conservati dal Registro delle imprese, oppure gli indirizzi di posta elettronica certificata (PEC) utilizzati come domicilio elettronico da imprese e professionisti. Esistono pure direttive europee, come la direttiva PSI^[<https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information>] (Public Sector Information), che impone condizioni di accesso paritario e pubblico, esteso all'utilizzo commerciale, di un esteso insieme di dati pubblici. Esiste poi la normativa interna sulla cosiddetta "**trasparenza**".
+Abbiamo già detto che per le aziende e i
+soggetti privati in genere, fornire dati aperti è una scelta inoppugnabile.
+Solo alcuni soggetti hanno il diritto di pretendere di ottenere tali dati,
+in genere si tratta di autorità pubbliche, come l'Amministrazione delle
+finanze o l'ISTAT o le autorità amministrative indipendenti.
 
-In molti casi, dunque, la pubblica amministrazione non è arbitra di decidere il "se" rendere disponibili a terzi alcuni set di dati. Può però essere arbitra di stabilire il "come"? In senso assoluto no. La stessa direttiva PSI pone alcuni paletti e requisiti (tendenziale gratuità o rimborso del costo marginale di diffusione, non discriminazione, divieto di accordi esclusivi). Inoltre vale nel nostro paese il principio "**_open by default_**", ovvero, qualora un dataset è pubblicato, e non è espressa una licenza, si deve presumere che tali dati sono liberi per ogni utilizzo, compreso quello commerciale. Si tratta dell'art. 52^[<http://www.agid.gov.it/cad/accesso-telematico-riutilizzo-dati-pubbliche-amministrazioni>] del Codice dell'Amministrazione Digitale, "CAD", che fa riferimento,  per la definizione di dato aperto, alla lettera b) del comma 3 dell'art. 68^[<http://www.agid.gov.it/cad/analisi-comparativa-soluzioni>] del CAD, il quale tra l'altro impone che i dati aperti siano offerti in "formato disaggregato".
+Per i soggetti pubblici tale facoltà di non divulgare i dati è molto più
+limitata. Per alcuni dati, intanto, una forma di pubblicità è imposta. Gli
+obblighi possono essere di varia natura. I dati reddituali delle persone fisiche
+sono infatti ad accesso pubblico, anche se ottenerli in forma di dati aperti è
+impossibile, se non in forma anonima.  In altri casi di sono veri e propri
+obblighi di fornire i _dataset_, imposti da normative, come ad esempio i dati
+delle imprese conservati dal Registro delle imprese, oppure gli indirizzi di
+posta elettronica certificata (PEC) utilizzati come domicilio elettronico da
+imprese e professionisti. Esistono pure direttive europee, come la direttiva
+PSI^[<https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information>]
+(Public Sector Information), che impone condizioni di accesso paritario e
+pubblico, esteso all'utilizzo commerciale, di un esteso insieme di dati
+pubblici. Esiste poi la normativa interna sulla cosiddetta "**trasparenza**".
+
+In molti casi, dunque, la pubblica amministrazione non è arbitra di decidere il
+"se" rendere disponibili a terzi alcuni set di dati. Può però essere arbitra di
+stabilire il "come"? In senso assoluto no. La stessa direttiva PSI pone alcuni
+paletti e requisiti (tendenziale gratuità o rimborso del costo marginale di
+diffusione, non discriminazione, divieto di accordi esclusivi). Inoltre vale nel
+nostro paese il principio "**_open by default_**", ovvero, qualora un dataset è
+pubblicato, e non è espressa una licenza, si deve presumere che tali dati sono
+liberi per ogni utilizzo, compreso quello commerciale. Si tratta dell'art.
+52^[<http://www.agid.gov.it/cad/accesso-telematico-riutilizzo-dati-pubbliche-amministrazioni>]
+del Codice dell'Amministrazione Digitale, "CAD", che fa riferimento,  per la
+definizione di dato aperto, alla lettera b) del comma 3 dell'art.
+68^[<http://www.agid.gov.it/cad/analisi-comparativa-soluzioni>] del CAD, il
+quale tra l'altro impone che i dati aperti siano offerti in "formato
+disaggregato".
 
 ### La scelta del "come" pubblicare: la licenza
 
-Abbiamo detto sopra che i dati sono "protetti" in modo simile al copyright, ma non è copyright. Dunque si tratta di una forma di privativa legata al rilevante investimento fatto dal costitutore nella creazione della banca dati. Tale privativa assegna al suo titolare il diritto di proibire la copia e l'estrazione di parti sostanziali della banca dati, ma non l'uso dei dati quale fonte di informazione, se un terzo ne è a disposizione. Ogni operazione di trasformazione delle banche dati comporta solitamente anche una copia degli stessi; anche il semplice agganciarsi a una fonte esterna tramite strumenti di interrogazione (del tipo webservice) messi a disposizione da un terzo, comporta estrazione sistematica. Pertanto se un terzo volesse usare una banca dati di terzi per includerla in un proprio servizio deve di regola ottenere il permesso del titolare.
+Abbiamo detto sopra che i dati sono "protetti" in modo simile al copyright, ma
+non è copyright. Dunque si tratta di una forma di privativa legata al rilevante
+investimento fatto dal costitutore nella creazione della banca dati. Tale
+privativa assegna al suo titolare il diritto di **proibire la copia e l'estrazione
+di parti sostanziali** della banca dati, ma **non** l'uso dei dati quale **fonte di
+informazione**, se un terzo li ha a disposizione. Ogni operazione di trasformazione
+delle banche dati comporta solitamente anche una copia degli stessi; anche il
+semplice agganciarsi a una fonte esterna tramite strumenti di interrogazione
+(del tipo webservice) messi a disposizione da un terzo, comporta estrazione
+sistematica. Pertanto se un terzo volesse usare una banca dati di terzi per
+includerla in un proprio servizio deve di regola ottenere il permesso del
+titolare.
 
-Il permesso, come sempre, può essere concesso caso per caso (con tutto il sovrappeso burocratico connesso) o una volta per tutte con una **licenza pubblica**. La licenza pubblica a sua volta può contenere condizioni, modalità, limitazioni. Può insomma essere una licenza "proprietaria". Ma può più verosimilmente essere una **licenza aperta**, e allora possiamo parlare, almeno sotto il profilo legale, di "dati aperti".
+Il permesso, come sempre, può essere concesso caso per caso (con tutto il
+sovrappeso burocratico connesso) o una volta per tutte con una **licenza
+pubblica**. La licenza pubblica a sua volta può contenere condizioni, modalità,
+limitazioni. Può insomma essere una licenza "proprietaria". Ma può più
+verosimilmente essere una **licenza aperta**, e allora possiamo parlare, almeno
+sotto il profilo legale, di "dati aperti".
 
-Esistono licenze espressamente dedicate ai dati, e sono solitamente licenze dotate di un qualche tipo di copyleft. Una di queste  è la IODL^[<https://it.wikipedia.org/wiki/Italian_Open_Data_License>], che nella versione 2.0 ha di molto attenuato il suo copyleft rispetto alla versione 1.0.  Pur essendo una licenza tecnicamente ben fatta, io personalmente ho espresso piuttosto chiaramente già dallo studio effettuato con Simone Aliprandi nel progetto freegis.net^[<https://freegis.net/documents/10157/14646/FreeGIS+data+licence+1>] l'opinione che i dati aperti della pubblica amministrazione vadano pubblicati con una licenza il più possibile vicina al pubblico dominio, indicando nella licenza Creativa Commons Zero (CC0), di cui abbiamo già parlato nell'articolo dedicato ai contenuti liberi.
+Esistono licenze espressamente dedicate ai dati, e sono solitamente licenze
+dotate di un qualche tipo di copyleft. Una di queste  è la
+IODL^[<https://it.wikipedia.org/wiki/Italian_Open_Data_License>], che nella
+versione 2.0 ha di molto attenuato il suo copyleft rispetto alla versione 1.0.
+Pur essendo una licenza tecnicamente ben fatta, io personalmente ho espresso
+piuttosto chiaramente già dallo studio effettuato con Simone Aliprandi nel
+progetto
+**freegis.net**^[<https://freegis.net/documents/10157/14646/FreeGIS+data+licence+1>]
+l'opinione che i dati aperti della pubblica amministrazione vadano pubblicati
+con una licenza il più possibile vicina al pubblico dominio, indicando nella
+licenza **Creative Commons Zero** (CC0), di cui abbiamo già parlato nell'articolo
+dedicato ai contenuti liberi.
 
-Esistono opinioni difformi. L'Agenzia per l'Italia Digitale (AGID) ha pubblicato una guida^[<http://www.agid.gov.it/sites/default/files/linee_guida/patrimoniopubblicolg2014_v0.7finale.pdf>] per la pubblicazione dei dati aperti, in cui, pur citando incompletamente uno studio mio e di Aliprandi (che riprende quello citato qui sopra), perviene a condizioni differenti. In particolare ha citato la necessità di usare una licenza di attribuzione come la CC BY, e non la CC0, perché è l'unica che rispetta i diritti morali. A pagina 80 si legge:
+Esistono opinioni difformi. L'Agenzia per l'Italia Digitale (AGID) ha pubblicato
+una
+guida^[<http://www.agid.gov.it/sites/default/files/linee_guida/patrimoniopubblicolg2014_v0.7finale.pdf>]
+per la pubblicazione dei dati aperti, in cui, pur citando incompletamente uno
+studio mio e di Aliprandi (che riprende quello citato qui sopra), perviene a
+condizioni differenti. In particolare ha citato la necessità di usare una
+licenza di attribuzione come la CC BY, e non la CC0, perché è l'unica che
+rispetta i diritti morali. A pagina 80 si legge:
 
-> Infine, occorre ricordare che alla maggior parte dei dati e dei documenti necessari per lo svolgimento delle funzioni tipiche delle pubbliche amministrazioni non è opportuno applicare la CC0, in quanto questa prevede il rilascio dei diritti morali che sono inalienabili, indisponibili, imprescrittibili secondo le norme nazionali ed europee
+> Infine, occorre ricordare che alla maggior parte dei dati e dei documenti
+necessari per lo svolgimento delle funzioni tipiche delle pubbliche
+amministrazioni non è opportuno applicare la CC0, in quanto questa prevede il
+rilascio dei diritti morali che sono inalienabili, indisponibili,
+imprescrittibili secondo le norme nazionali ed europee
 
-Mi si permetta una piccola nota polemica. L'affermazione citata contiene ben **due errori** di importanza capitale.
+Mi si permetta una piccola nota polemica. L'affermazione citata contiene ben
+**due errori** di importanza capitale.
 
 La privativa sulle basi dati **non prevede diritti morali**.
 
-Infatti, non si parla di "autore", ma di "costitutore". Evidentemente l'estensore si è fatto trarre in inganno dall'articolo 64-quinquies della Legge sul Diritto d'Autore, che parla appunto di "autore", ma la legge italiana ha trasposto in maniera insufficientemente chiara la direttiva^[<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:IT:HTML>] sulla protezione dei database, che distingue tra il copyright sulla banca dati, qualora la stessa "per la scelta o la disposizione del materiale costituiscono una creazione dell'ingegno propria del loro autore" abbia protezione sotto il copyright (art. 3.1). Ma qui si parla di diritti _sui generis_, previsti dall'art. 7 della direttiva, pacificamente diretta ai "costitutori" della banca dati, e dunque si parla del diritto previsto dall'art. 102-ter della LDA. Se si pensa, l'attribuzione del diritto d'autore è effettivamente a una o più persone fisiche, mentre il "rilevante investimento" per solito è effettuato da una **persona giuridica**.
+I diritti morali sono riservati al diritto d'autore. Nel diritto _sui generis_, non si parla di "autore", ma di "costitutore". Evidentemente
+l'estensore si è fatto trarre in inganno dall'articolo 64-quinquies della Legge
+sul Diritto d'Autore, che parla appunto di "autore", ma la legge italiana ha
+trasposto in maniera insufficientemente chiara la
+direttiva^[<http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:IT:HTML>]
+sulla protezione dei database, che distingue tra il copyright sulla banca dati,
+qualora la stessa "per la scelta o la disposizione del materiale costituiscono
+una creazione dell'ingegno propria del loro autore" abbia protezione sotto il
+copyright (art. 3.1). Ma nel caso che ci occupa si parla di diritti _sui generis_, previsti
+da una norma diversa e con presupposti completamente diversi, ovvero dall'art. 7 della direttiva, pacificamente diretta ai "costitutori" della banca
+dati; dunque **non** si parla del diritto previsto dall'art. 64 quinquies, ma del 102-ter della LDA. Se si
+pensa, l'attribuzione del diritto d'autore è effettivamente a una o più persone
+fisiche, mentre il "rilevante investimento" per solito è effettuato da una
+**persona giuridica**. Sicuramente lo è qualora avviene a cura della Pubblica Amministrazione.
 
-E qui viene in considerazione la **seconda** topica presa da chi ha scritto quel pezzo. La licenza CC BY, ne abbiamo parlato nel relativo [capitolo](#sec_commons), rimandando a questo contributo, non tutela affatto il diritto morale, ma *l'attribuzione di provenienza*, che è concetto assolutamente distinto dal diritto morale di vedersi riconosciuta la paternità. L'attribuzione della fonte sarebbe molto probabilmente fatta, inoltre, all'ente costitutore, e non alle singole persone (chi? I dataset pubblicati contengono i nomi delle singole persone, forse?) le quali vi hanno lavorato (ma che non sono autori). L'ente, quale &ndash; in quanto **persona giuridica**  &ndash; non può affatto vantare diritti morali. Si tratta evidentemente di una ragione inesistente.
+E qui viene in considerazione la **seconda** topica presa da chi ha scritto quel
+pezzo. La licenza CC BY, ne abbiamo parlato nel relativo
+[capitolo](#sec_by), rimandando a questo contributo, non tutela affatto il
+diritto morale, ma *l'attribuzione di provenienza*, che è concetto assolutamente
+distinto dal diritto morale di vedersi riconosciuta la paternità. L'attribuzione
+della fonte sarebbe molto probabilmente fatta, inoltre, all'ente costitutore, e
+non alle singole persone (chi? I _dataset_ pubblicati contengono i nomi delle
+singole persone, forse?) le quali vi hanno lavorato (ma che non sono "autori").
+L'ente, quale &ndash; in quanto **persona giuridica**  &ndash; non può affatto
+vantare diritti morali. Si tratta evidentemente di una ragione inesistente.
 
 CC0 va benissimo.
 
-_Per approfondimenti suggerisco la lettura di Simone Aliprandi, Il fenomeno open data_ ^[<http://www.aliprandi.org/fenomeno-opendata/>]
-
+_Per approfondimenti suggerisco la lettura di Simone Aliprandi, Il fenomeno open
+data_ ^[<http://www.aliprandi.org/fenomeno-opendata/>]
 # API e nuvole, la faccia chiusa del web {#sec_api}
 
-L'openness ha una faccia oscura, che si fa vedere solo attraverso un messaggero fumoso e impercettibile. &Egrave; il "cloud computing", tanto di moda nei circoli di quelli che parlano di innovazione, non sempre a sproposito. Il cloud, però, non è altro che software dei cui servizi ci avvaliamo tramite **interfacce e protocolli via rete**. Software che sta da qualche parte, sovente su un computer di qualcun altro, a cui quindi non abbiamo accesso, se non tramite "servizi" che vengono esposti via rete. Questi servizi vengono fruiti o direttamente, tramite una pagina web accessibile in un browser, o "dietro le scene", tramite altri protocolli e interfacce in cui sono i computer e i relativi programmi a parlarsi tra loro. Protocolli e interfacce che vanno sotto il nome di "API". Ecco spiegato il titolo, almeno la prima parte.
+L'openness ha una faccia oscura, che si fa vedere solo attraverso un messaggero
+fumoso e impercettibile. &Egrave; il "cloud computing", tanto di moda nei
+circoli di quelli che parlano di innovazione, non sempre a sproposito. Il cloud,
+però, non è altro che software dei cui servizi ci avvaliamo tramite **interfacce
+e protocolli via rete**. Software che sta da qualche parte, sovente su un
+computer di qualcun altro, a cui quindi non abbiamo accesso, se non tramite
+"servizi" che vengono esposti via rete. Questi servizi vengono fruiti o
+direttamente, tramite una pagina web accessibile in un browser, o "dietro le
+scene", tramite altri protocolli e interfacce in cui sono i computer e i
+relativi programmi a parlarsi tra loro. Protocolli e interfacce che vanno sotto
+il nome di "API". Ecco spiegato il titolo, almeno la prima parte.
 
 ## Un problema di disponibilità
 
-Nei capitoli precedenti abbiamo discusso come le questioni dell'openness nascano principalmente dalla "chiusura" data da diritti di privativa (diritto d'autore, brevetti, diritto _sui generis_ del database). In certi casi, come per il software distribuito come codice oggetto, la mancanza di accesso al codice sorgente impedisce un'adeguata modificabiltà (dunque adattabilità) del software. Mancanza tutelata dal diritto attraverso la tutela del segreto (il codice sorgente è considerato segreto, cercare di rivelarlo tramite decompilazione è generalmente vietato, salve eccezioni: una di queste è appunto la ricerca dell'interoperabilità, di cui diremo oltre). Nel caso di software accessibile solo via rete &ndash; come nel cloud computing, ma anche in tutti i casi in cui occorre **interfacciarsi** con altro software detenuto da altri e reso accessibile via rete  &ndash; la ragione di possibile mancanza di apertura deriva principalmente dal fatto che il software è da qualche altra parte a cui non si ha fisicamente accesso, e comunque che non si controlla.
+Nei capitoli precedenti abbiamo discusso come le questioni dell'openness nascano
+principalmente dalla "chiusura" data da diritti di privativa (diritto d'autore,
+brevetti, diritto _sui generis_ del database). In certi casi, come per il
+software distribuito come codice oggetto, la mancanza di accesso al codice
+sorgente impedisce un'adeguata modificabiltà (dunque adattabilità) del software.
+Mancanza tutelata dal diritto attraverso la inviolabilità del segreto (il codice
+sorgente è considerato segreto, cercare di rivelarlo tramite decompilazione è
+generalmente vietato, salve eccezioni: una di queste è appunto la ricerca
+dell'interoperabilità, di cui diremo oltre). Nel caso di software accessibile
+solo via rete &ndash; come nel cloud computing, ma anche in tutti i casi in cui
+occorre **interfacciarsi** con altro software detenuto da altri e reso
+accessibile via rete  &ndash; la ragione di possibile mancanza di apertura
+deriva principalmente dal fatto che il software è da qualche altra parte a cui
+non si ha fisicamente accesso, e comunque che non si controlla.
 
-Non che ciò sia necessariamente una cosa negativa, semplicemente è uno scenario diverso da quello concettualmente più semplice, di un sistema IT di cui si "**controlla**" tutto, dall'hardware fino agli strati superiori. Per controllo intendo quanto meno  avere la potestà della decisione di installare o disinstallare una  componente (hardware o software, libera o proprietaria che sia).  Se il software è installato altrove, la decisione non  è mia, posso solo usare quello che mi viene messo a disposizione via rete.
+Non che ciò sia necessariamente una cosa negativa, semplicemente è uno scenario
+diverso da quello concettualmente più semplice, di un sistema IT di cui si
+"**controlla**" tutto, dall'hardware fino agli strati superiori. Per controllo
+intendo quanto meno  avere la potestà della decisione di installare o
+disinstallare una  componente (hardware o software, libera o proprietaria che
+sia).  Se il software è installato altrove, la decisione non  è mia, posso solo
+usare quello che mi viene messo a disposizione via rete.
 
 ## Un problema di API
 
-API sta per "Application Programming Interface", ed è un termine che indica l'insieme di modalità di interazione tra due componenti software. Si distinguono dalle GUI (o semplcemente UI) acronimo di "Graphic User Interface", ovvero l'interfaccia uomo-computer, perché &ndash; come ovvio &ndash; l'elemento umano non interviene, tutto avviene in modalità automatica; nel cloud computing, e in genere nelle applicazioni "distribuite" su varie risorse, l'interazione avviene via rete (RPC calls, web services, eccetera). Nel prosieguo parleremo indifferentemente di "specifiche", "protocolli", "interfacce", "API", i quali, benché concettualmente differenti, ai fini della nostra analisi possono essere usati in modo intercambiabile.
+API sta per "Application Programming Interface", ed è un termine che indica
+l'insieme di modalità di interazione tra due componenti software. Si distinguono
+dalle GUI (o semplcemente UI) acronimo di "Graphic User Interface", ovvero
+l'interfaccia uomo-computer, perché &ndash; come ovvio &ndash; l'elemento umano
+non interviene, tutto avviene in modalità automatica; nel cloud computing, e in
+genere nelle applicazioni "distribuite" su varie risorse, l'interazione avviene
+via rete (RPC calls, web services, eccetera). Nel prosieguo parleremo
+indifferentemente di "specifiche", "protocolli", "interfacce", "API", i quali,
+benché concettualmente differenti, ai fini della nostra analisi possono essere
+usati in modo intercambiabile.
 
-Se dunque io voglio creare un'applicazione che "parli" con una applicazione che espone delle API, ho almeno due ordini di problemi: di accesso (logico e fisico) e di ordine giuridico (copyright e brevetti, in primo luogo).
+Se dunque io voglio creare un'applicazione che "parli" con una applicazione che
+espone delle API, ho almeno due ordini di problemi: di accesso (logico e fisico)
+e di ordine giuridico (copyright e brevetti, in primo luogo).
 
 ## Il segreto: specifiche non documentate, che ballano il Samba
 
-Le interfacce possono essere perfettamente accessibili, ad esempio  nel caso in cui il software sia tutto locale e le API siano "esposte" (ovvero non serva una chiave o un altro componente per interagire), ma essere sconosciuta la lingua che parlano.
+Le interfacce possono essere perfettamente accessibili, ad esempio  nel caso in
+cui il software sia tutto locale e le API siano "esposte" (ovvero non serva una
+chiave o un altro componente per interagire), ma essere **sconosciuta la lingua**
+che parlano.
 
-Un caso che ha fatto scuola, e che conosco sufficientemente bene per aver partecipato direttamente ai vari processi alla Corte di Giustizia dell'Unione Europea, è il [caso Microsoft]( https://fsfe.org/activities/ms-vs-eu/ms-vs-eu.it.html). Parlarne compiutamente sarebbe troppo lungo, ma il caso verteva sulla possibilità che un operatore indipendente reimplementasse i protocolli e le interfacce di rete dei sistemi Microsoft Windows, facendo "finta" di essere dall'altra parte un sistema Windows. Le API dei sistemi di rete di Windows non sono pubbliche, a differenza delle API che consentono ai programmi di interfacciarsi con il sistema operativo locale: esse sono (erano) tenute segrete, almeno da una certa data in poi (per coincidenza, più o meno da quando Microsoft era diventata "dominante" nei sistemi "workgroup").
+Un caso che ha fatto scuola, e che conosco sufficientemente bene per aver
+partecipato direttamente ai vari processi alla Corte di Giustizia dell'Unione
+Europea, è il caso Microsoft^[Caso T-201/04, vedi per approfondimenti
+<https://fsfe.org/activities/ms-vs-eu/ms-vs-eu.it.html>]. Parlarne compiutamente
+sarebbe troppo lungo, ma il caso verteva sulla possibilità che un operatore
+indipendente reimplementasse i protocolli e le interfacce di rete dei sistemi
+Microsoft Windows, facendo "finta" di essere dall'altra parte un sistema
+Windows. Le API dei sistemi di rete di Windows non sono pubbliche, a differenza
+delle API che consentono ai programmi di interfacciarsi con il sistema operativo
+locale: esse sono (erano) tenute segrete, almeno da una certa data in poi (per
+coincidenza, più o meno da quando Microsoft era diventata "dominante" nei
+sistemi "workgroup").
 
-Un sistema operativo diverso, per esempio Linux, non aveva dunque la possibilità di "inserirsi"  in una rete Windows. Non poteva fare il server in una rete di client Windows, non poteva fare il server in un gruppo di server Windows, non poteva fare il client in una rete di server e client Windows, se non tramite protocolli diversi e meno adatti. Era nella stessa situazione di un cliente in un caffè francese che non sapeva parlare francese, aveva i soldi, ma non sapeva come ordinare qualcosa (né esattamente cosa ordinare). La metafora viene da una descrizione dell'autore ^<https://www.samba.org/ftp/tridge/misc/french_cafe.txt>] su come è  nato il suo progetto Samba^[<https://www.samba.org/>] .
+Un sistema operativo diverso, per esempio Linux, non aveva dunque la possibilità
+di "inserirsi"  in una rete Windows. Non poteva fare il server in una rete di
+client Windows, non poteva fare il server in un gruppo di server Windows, non
+poteva fare il client in una rete di server e client Windows, se non tramite
+protocolli diversi e meno adatti. Era nella stessa situazione di un cliente in
+un caffè francese che non sapeva parlare francese, aveva i soldi, ma non sapeva
+come ordinare qualcosa (né esattamente cosa ordinare).
+^[La metafora viene da una
+descrizione dell'autore, Andrew Tridgell su come è  nato  <https://www.samba.org/ftp/tridge/misc/french_cafe.txt> il suo
+progetto Samba (<https://www.samba.org/>)] .
 
-Samba è una reimplementazione dei servizi di rete di Windows, nata dal protocolo SMB (da cui il nome "Samba") ad opera di Andrew "Tridge" Tridgell, una delle persone più geniali che abbia mai conosciuto. Per aggirare il segreto che a un certo punto era sceso sui protocolli nelle nuove versioni della parte di servizi di workgroup server (condivisione di file, servizi di autenticazione e stampa), egli si mise ad "annusare" il traffico di rete tra due macchine Windows, per scoprire &ndash; riusiamo l'analogia &ndash; come si chiama quel pezzo di pane lungo e strano, o quella bevanda in quella tazza, come si fa una domanda invece di un'affermazione, cercando di capire i pezzi della "lingua" che compone il protocollo, il ruolo di essi, la giusta sequenza, come combinarli per fare una domanda e per dare una risposta e così via. Fino a creare un componente che, visto dalla parte del server "Windows", sembrasse un altro Windows. E poi sostituire la macchina Windows con Samba, per vedere i messaggi di errore generati intenzionalmente e imparare ancora di più.
+Samba è una reimplementazione dei servizi di rete di Windows, nata dal protocollo
+SMB (da cui il nome "Samba") ad opera di Andrew "Tridge" Tridgell, una delle
+persone più geniali che abbia mai conosciuto. Per aggirare il segreto che a un
+certo punto era sceso sui protocolli nelle nuove versioni della parte di servizi
+di workgroup server (condivisione di file, servizi di autenticazione e stampa),
+egli si mise ad "annusare" il traffico di rete tra due macchine Windows, per
+scoprire &ndash; riusiamo l'analogia &ndash; come si chiama quel pezzo di pane
+lungo e strano, o quella bevanda in quella tazza, come si fa una domanda invece
+di un'affermazione, cercando di capire i pezzi della "lingua" che compone il
+protocollo, il ruolo di essi, la giusta sequenza, come combinarli per fare una
+domanda e per dare una risposta e così via. Fino a creare un componente che,
+visto dalla parte del server "Windows", sembrasse un altro Windows. E poi
+sostituire la macchina Windows con Samba, per vedere i messaggi di errore
+generati intenzionalmente e imparare ancora di più.
 
-Alla fine, il risultato delle azioni a cui ho partecipato è stato di ritenere che il segreto imposto da Microsoft sui propri protocolli fosse contrario alle normative antitrust, perché consentiva alla stessa di controllare in modo indebito uno standard "di fatto", che era essenziale per competere nel mercato. Il segreto infatti non necessariamente doveva essere su tutto per frustrare **l'interoperabilità**, ma poteva anche limitarsi a pochi dettagli tenuti nascosti,  un granello di sabbia gettato negli ingranaggi dei propri concorrenti, che interrompesse la piena interoperabilità. La condanna a fornire ai concorrenti complete e tempestive informazioni sui protocolli è stata confermata dal tribunale europeo.
+Alla fine, il risultato delle azioni a cui ho partecipato è stato di ritenere
+che il segreto imposto da Microsoft sui propri protocolli fosse contrario alle
+normative antitrust, perché consentiva alla stessa di controllare in modo
+indebito uno standard "di fatto", che era essenziale per competere nel mercato.
+Il segreto infatti non necessariamente doveva essere su tutto per frustrare
+**l'interoperabilità**, ma poteva anche limitarsi a pochi dettagli tenuti
+nascosti,  un granello di sabbia gettato negli ingranaggi dei propri
+concorrenti, che interrompesse la piena interoperabilità. La condanna a fornire
+ai concorrenti complete e tempestive informazioni sui protocolli è stata
+confermata dal tribunale europeo.
 
-## I brevetti
+## I brevetti <!-- FIXME ci manca un pezzo???? --> 
 
-Risolta la parte sui brevetti, il Team Samba (e io per loro) si è ritrovato nella situazione di avere pieno accesso alle specifiche dei protocolli di Microsoft, perfettamente documentati in modo tempestivo e completo, come richiesto dalla decisione della Commissione (il ritardo nella fornitura di tale documentazione è costato a Microsoft qusi tre miliardi di multa).
+Risolta la parte sui brevetti, il Team Samba (e io per loro) si è ritrovato
+nella situazione di avere pieno accesso alle specifiche dei protocolli di
+Microsoft, perfettamente documentati in modo tempestivo e completo, come
+richiesto dalla decisione della Commissione (il ritardo nella fornitura di tale
+documentazione è costato a Microsoft qusi tre miliardi di multa).
 
-Il problema è che la documentazione non è del tutto sufficiente per poter implementare i protocolli senza problemi legali. Infatti, i protocolli di Microsoft sono tutelati da brevetto. Questo significa che chiunque voglia implementare gli stessi protocolli in un'applicazione che si vuole interoperabile (ad esempio Samba), necessariamente rientra nell'ambito di protezione dei brevetti. Nel caso di Microsoft i brevetti  facevano comunque parte del pacchetto-condanna, ma sono poi stati concessi in larga parte sotto [l'Open Specification Promise]( https://en.m.wikipedia.org/wiki/Microsoft_Open_Specification_Promise), un impegno a non utillizzarli "aggressivamente", il che ha effetti simili a una licenza generale. Alcuni protocolli, tuttavia, rimangono fuori, come ad esempio Active Sync, un protocollo che consente di sincronizzare informazioni tra device differenti. Altri casi potrebbero essere rilevanti.
+Il problema è che la documentazione non è del tutto sufficiente per poter
+implementare i protocolli senza problemi legali. Infatti, i protocolli di
+Microsoft sono tutelati da brevetto. Questo significa che chiunque voglia
+implementare gli stessi protocolli in un'applicazione che si vuole
+interoperabile (ad esempio Samba), necessariamente rientra nell'ambito di
+protezione dei brevetti. Nel caso di Microsoft i brevetti  facevano comunque
+parte del pacchetto-condanna, ma sono poi stati concessi in larga parte sotto
+[l'Open Specification Promise](
+https://en.m.wikipedia.org/wiki/Microsoft_Open_Specification_Promise), un
+impegno a non utilizzarli "aggressivamente", il che ha effetti simili a una
+licenza generale. Alcuni protocolli, tuttavia, rimangono fuori, come ad esempio
+Active Sync, un protocollo che consente di sincronizzare informazioni tra device
+differenti. Altri casi potrebbero essere rilevanti.
 
 ## Copyright
 
-Per il diritto d'autore, la situazione è più sfumata. Infatti è idea comune che le interfacce non siano protette da copyright. Questo perché il copyright copre, come abbiamo già detto varie volte, solo la forma di espressione originale, e non l'idea. Corollario è che tutte le volte in cui la forma di espressione coincide con l'idea, perché esiste solo un  modo per "dire" una determinata cosa, esprimere un determinato concetto, usare il copyright sull'espressione equivale a usarlo sull'idea.
+Per il diritto d'autore, la situazione è più sfumata. Infatti è idea comune che
+le interfacce non siano protette da copyright. Questo perché il copyright copre,
+come abbiamo già detto varie volte, solo la forma di espressione originale, e
+non l'idea. Corollario è che tutte le volte in cui la forma di espressione
+coincide con l'idea, perché esiste solo un  modo per "dire" una determinata
+cosa, esprimere un determinato concetto, usare il copyright sull'espressione
+equivale a usarlo sull'idea.
 
-In Europa questo concetto è stato espresso in modo chiaro e inequivocabile nel caso SAS Institute v. World Programming Language (Caso [C-406/10]( http://curia.europa.eu/juris/document/document.jsf?docid=122362&doclang=it). In tale caso un concorrente ha reimplementato in modo perfetto le interfacce e i protocolli (e i formati di file, ma è un'altra questione) di SAS, una società che produce un famosissimo e costoso programma di statistica. L'obiettivo dichiarato era quello di far sì che i programmi statistici sviluppati per SAS dagli utilizzatori (dunque non materiale di SAS) potessero essere utilizzati in modo corretto nel programma concorrente. Sostanzialmente la stessa cosa che vuole fare Samba, raggiungere quel livello in interoperabilità che si chiama "drop-in replaceability": la capacità di prendere un pezzo del sistema, rimpiazzarlo con un pezzo diverso, senza che nessuno se ne accorga. La stessa cosa che facciamo quando una lampadina si rompe e la rimpiazziamo con un'altra: il risultato è luce, perché la seconda ha lo stesso passo, usa la stessa tensione e frequenza dell'altra.
+In Europa questo concetto è stato espresso in modo chiaro e inequivocabile nel
+caso SAS Institute v. World Programming Language (Caso [C-406/10](
+http://curia.europa.eu/juris/document/document.jsf?docid=122362&doclang=it). In
+tale caso un concorrente ha reimplementato in modo perfetto le interfacce e i
+protocolli (e i formati di file, ma è un'altra questione) di SAS, una società
+che produce un famosissimo e costoso programma di statistica. L'obiettivo
+dichiarato era quello di far sì che i programmi statistici sviluppati per SAS
+dagli utilizzatori (dunque non materiale di SAS) potessero essere utilizzati in
+modo corretto nel programma concorrente. Sostanzialmente la stessa cosa che
+vuole fare Samba, raggiungere quel livello in interoperabilità che si chiama
+"drop-in replaceability": la capacità di prendere un pezzo del sistema,
+rimpiazzarlo con un pezzo diverso, senza che nessuno se ne accorga. La stessa
+cosa che facciamo quando una lampadina si rompe e la rimpiazziamo con un'altra:
+il risultato è luce, perché la seconda ha lo stesso passo, usa la stessa
+tensione e frequenza dell'altra.
 
-La sentenza della Corte è stata appunto nel senso di consentire questa ricostruzione, nonostante nell'implementare i protocolli il concorrente abbia dovuto riusare un "dizionario" di variabili e costrutti _identici_ a quelli di SAS, i quali, visti da soli, sarebbero stati da chiunque considerati proteggibili. Tuttavia, in quanto usati come interfacce, essi sono stati considerati non oggetto di copyright. La stessa cosa sembra dover poter essere la situazione giuridica delle interfacce negli USA, solo che in quel sistema si giunge a situazioni simili attraverso il _fair use right_, il quale (è una sottigliezza importante) è una causa di giustificazione, non una condizione di esenzione dal copyright. Questa differenza è importante ed è al momento in cui scrivo discussa nel caso [Oracle v. Google]( https://en.wikipedia.org/wiki/Oracle_America,_Inc._v._Google,_Inc.)  sulla reimplementazione in Android delle interfacce e protocolli di Java (e delle relative librerie). Pur essendo la norma, ai fini pratici,  sostanzialmente identica, il grado di certezza con cui ne parliamo è quindi diversa, in quanto la sua applicazione concreta è ancora, almeno in parte, _sub judice_).
+La sentenza della Corte è stata appunto nel senso di consentire questa
+ricostruzione, nonostante nell'implementare i protocolli il concorrente abbia
+dovuto riusare un "dizionario" di variabili e costrutti _identici_ a quelli di
+SAS, i quali, visti da soli, sarebbero stati da chiunque considerati
+proteggibili. Tuttavia, in quanto usati come interfacce, essi sono stati
+considerati non oggetto di copyright. La stessa cosa sembra dover poter essere
+la situazione giuridica delle interfacce negli USA, solo che in quel sistema si
+giunge a situazioni simili attraverso il _fair use right_, il quale (è una
+sottigliezza importante) è una causa di giustificazione, non una condizione di
+esenzione dal copyright. Questa differenza è importante ed è al momento in cui
+scrivo discussa nel caso [Oracle v. Google](
+https://en.wikipedia.org/wiki/Oracle_America,_Inc._v._Google,_Inc.)  sulla
+reimplementazione in Android delle interfacce e protocolli di Java (e delle
+relative librerie). Pur essendo la norma, ai fini pratici,  sostanzialmente
+identica, il grado di certezza con cui ne parliamo è quindi diversa, in quanto
+la sua applicazione concreta è ancora, almeno in parte, _sub judice_).
 
 ## Andiamo nelle nuvole
 
-Abbiamo visto che ci sono vari diritti e situazioni protette da diritto coinvolte. Tutte però presuppongono che le interfacce _esistano_ e siano rese disponibili. Niente impone a nessuno di crearle e renderle disponibili, in quanto nessuno (o quasi) può imporre al titolare di un servizio di creare un pezzo di software, ma al massimo la legge può limitare il livello di controllo tramite il diritto (incluso il segreto, anch'esso tutelato da un diritto, ovvero il divieto di decompilazione).
+Abbiamo visto che ci sono vari diritti e situazioni protette da diritto
+coinvolte. Tutte però presuppongono che le interfacce _esistano_ e siano rese
+disponibili. Niente impone a nessuno di crearle e renderle disponibili, in
+quanto nessuno (o quasi) può imporre al titolare di un servizio di creare un
+pezzo di software, ma al massimo la legge può limitare il livello di controllo
+tramite il diritto (incluso il segreto, anch'esso tutelato da un diritto, ovvero
+il divieto di decompilazione).
 
-Il sistema usato da Samba per ricostruire i protocolli e interoperare con le interfacce presuppone che le interfacce possano essere utilizzate e il traffico tra di esse ("_through the wires_", attraverso i cavi) possa essere intercettato e analizzato, tramite un'operazione particolare di _reverse engineering_ (di tipo osservazionale, non di decompilazione del software). Il _reverse engineering_ presuppone però di avere accesso all'oggetto dell'analisi. Se chi ospita il software in cloud non rende disponibili determinati servizi, non esiste niente che possa aggirare tale mancanza.  Se non è possibile esportare i dati attraverso l'applicazione, non è possibile nemmeno attraverso il sistema operativo o il motore di database su cui magari il software si appoggia, come nel caso in cui il software sia installato su una macchina del cliente.
+Il sistema usato da Samba per ricostruire i protocolli e interoperare con le
+interfacce presuppone che le interfacce possano essere utilizzate e il traffico
+tra di esse ("_through the wires_", attraverso i cavi) possa essere intercettato
+e analizzato, tramite un'operazione particolare di _reverse engineering_ (di
+tipo osservazionale, non di decompilazione del software). Il _reverse
+engineering_ presuppone però di avere accesso all'oggetto dell'analisi. Se chi
+ospita il software in cloud non rende disponibili determinati servizi, non
+esiste niente che possa aggirare tale mancanza.  Se non è possibile esportare i
+dati attraverso l'applicazione, non è possibile nemmeno attraverso il sistema
+operativo o il motore di database su cui magari il software si appoggia, come
+nel caso in cui il software sia installato su una macchina del cliente.
 
-Ciò ha conseguenze in caso di cessazione del contratto con l'operatore dei servizi in cloud. Il rimedio a questa situazione sembra essere puramente contrattuale, o anche semplicemente giudiziario. Dunque occorre rendere obbligatorio e contrattualizzato, ad esempio, un sistema per garantirsi di non perdere dati e l'operatività anche senza la collaborazione dell'altra parte. Una combinazione di presidi tecnici e contrattuali che garantiscano (ragionevolmente) tutto ciò. Altrimenti in un ambiente cloud gestito da  altri si è molto più vincolati al fornitore di un sistema in cui si controlla tutto.
+Ciò ha conseguenze in caso di cessazione del contratto con l'operatore dei
+servizi in cloud. Il rimedio a questa situazione sembra essere puramente
+contrattuale, o anche semplicemente giudiziario. Dunque occorre rendere
+obbligatorio e contrattualizzato, ad esempio, un sistema per garantirsi di non
+perdere dati e l'operatività anche senza la collaborazione dell'altra parte. Una
+combinazione di presidi tecnici e contrattuali che garantiscano
+(ragionevolmente) tutto ciò. Altrimenti in un ambiente cloud gestito da  altri
+si è molto più vincolati al fornitore di un sistema in cui si controlla tutto.
 
 ## Un cenno all'antitrust e conclusioni
 
-Nel caso Microsoft, però, la società americana è stata condannata a fare qualcosa: produrre una documentazione accurata, completa e tempestiva (aggiornata) in cui pubblicava le informazioni di interoperabilità dei propri protocolli. &Egrave; un rimedio esperibile solo nel caso in cui ci sia un operatore in posizione dominante sul mercato e questi ne abusi. Un caso raro, si dirà? Sarà, ma a me è capitato di occuparmene almeno in tre casi diversi, in tutti e tre i casi con l'apertura di una indagine formale; nel caso Microsoft, con una condanna, in un caso diverso &ndash; riguardante i [servizi innovativi nella scuola]( http://www.agcm.it/stampa/news/7367-accettati-gli-impegni-presentati-da-argo-e-axios-per-rimuovere-i-vincoli-nella-scelta-dei-software-gestionali-e-degli-applicativi-per-il-registro-elettronico-delle-scuole-e-le-comunicazioni-con-le-famiglie.html) ) &ndash; con impegni formali (un patteggiamento) delle imprese dominanti, nel terzo caso, appena diventato di dominio pubblico, nel caso del fornitore di servizi del [processo civile telematico]( http://www.agcm.it/stampa/comunicati/8247-a490-istruttoria-e-ispezioni-su-net-service-s-p-a-per-ipotesi-abuso-posizione-dominante.html).
+Nel caso Microsoft, però, la società americana è stata condannata a fare
+qualcosa: produrre una documentazione accurata, completa e tempestiva
+(aggiornata) in cui pubblicava le informazioni di interoperabilità dei propri
+protocolli. &Egrave; un rimedio esperibile solo nel caso in cui ci sia un
+operatore in posizione dominante sul mercato e questi ne abusi. Un caso raro, si
+dirà? Sarà, ma a me è capitato di occuparmene almeno in tre casi diversi, in
+tutti e tre i casi con l'apertura di una indagine formale; nel caso Microsoft,
+con una condanna, in un caso diverso &ndash; riguardante i [servizi innovativi
+nella scuola](
+http://www.agcm.it/stampa/news/7367-accettati-gli-impegni-presentati-da-argo-e-axios-per-rimuovere-i-vincoli-nella-scelta-dei-software-gestionali-e-degli-applicativi-per-il-registro-elettronico-delle-scuole-e-le-comunicazioni-con-le-famiglie.html) )
+&ndash; con impegni formali (un patteggiamento) delle imprese dominanti, nel
+terzo caso, appena diventato di dominio pubblico, nel caso del fornitore di
+servizi del [processo civile telematico](
+http://www.agcm.it/stampa/comunicati/8247-a490-istruttoria-e-ispezioni-su-net-service-s-p-a-per-ipotesi-abuso-posizione-dominante.html).
 
-Questo dimostra che la tentazione di usare la posizione di chiusura data dal controllo delle interfacce è molto alta, il conflitto di interessi rischioso e il rimedio antitrust disponibile solo in determinati casi. Occorre dunque vigilare e tenerlo presente allorché si affida ad altri una parte del nostro sistema informatico, avendo sempre presente una _exit strategy_ nel caso incerto solo nel quando, non nel se, di abbandono dell'attuale fornitore.  Il rischio di _lock-in_ in questo caso è estremamente alto.
+Questo dimostra che la tentazione di usare la posizione di chiusura data dal
+controllo delle interfacce è molto alta, il conflitto di interessi rischioso e
+il rimedio antitrust disponibile solo in determinati casi. Occorre dunque
+vigilare e tenerlo presente allorché si affida ad altri una parte del nostro
+sistema informatico, avendo sempre presente una _exit strategy_ nel caso incerto
+solo nel quando, non nel se, di abbandono dell'attuale fornitore.  Il rischio di
+_lock-in_ in questo caso è estremamente alto.
 
 # Nuvole aperte, nuvole chiuse e nuvole nere {#sec_cloud}
 
@@ -1392,7 +1947,7 @@ I capitoli originali su Tech Economy sono pubblicati con una licenza Creative Co
 
 La pubblicazione sarà effettuata con una licenza che consenta la riproduzione. Ma ancora non ho deciso, e dipende anche dall'eventuale editore che fosse interessato.
 
-**Feel Free to fork**: nonostante la menzione del copyright, permesso viene concesso pubblicamente di creare un fork e di modificare l'opera (ma **non** di pubblicare le modifiche, almeno temporaneamente) al fine di proporre modifiche, precisazioni e bug fixing. Ringrazio per ogni _pull request_.
+![immagine punto](css/2016-04-07-punto_esclamativo.jpg) **Feel Free to fork**: nonostante la menzione del copyright, permesso viene concesso pubblicamente di creare un fork e di modificare l'opera (ma **non** di pubblicare le modifiche, almeno temporaneamente) al fine di proporre modifiche, precisazioni e bug fixing. Ringrazio per ogni _pull request_. 
 # techeconomy_book
 
 Sono i sorgenti del libro che sto scrivendo.
@@ -1401,22 +1956,23 @@ Sono scritti in **Markdown**, per la variante di **Pandoc**, tranne il file meta
 
 Con Pandoc si ricavano ePub, PDF, HTML (e altri formati che a me non interessano, al momento).
 
-Per contribuire a modifiche: 
+Per contribuire a modifiche:
 
+* Leggete il file **copying**, che contiene informazioni sulla licenza
 * Installare git
 * creare un fork sulla propria istanza di Github
 
 ```
 git clone <proprio fork>
-    
+
 git pull
 ```
 
 * Modificare quanto va modificato con un qualsiasi editor di testi (suggeriamo Atom)
 
 ```
-git commit -a 
-    
+git commit -a
+
 git push
 ```
 
