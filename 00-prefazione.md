@@ -65,9 +65,9 @@ ha il grande merito di contribuire a questa opera necessaria di trasmissione con
 brio e buon umore, e ne raccomando sentitamente la piacevole lettura.
 
 
-Roberto Di Cosmo
-Professore di Informatica
-Direttore di Software Heritage
+Roberto Di Cosmo  
+Professore di Informatica  
+Direttore di Software Heritage  
 www.dicosmo.org
 
 Parigi, li 7/10/2017
