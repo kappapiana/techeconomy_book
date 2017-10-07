@@ -66,7 +66,7 @@ L'articolo 71 nonies ci soccorre in questa lettura, anche se _non_ si applica al
 
 La Tour Eiffel viene citata spesso come un caso paradossale. La sua immagine è ormai caduta in pubblico dominio, per decorso del termine. Tuttavia non è detto che possiate fare un qualsiasi panorama di Parigi (e come far capire che è Parigi se non usando l'iconica torre?). Se lo fate di notte, la combinazione di luci che la illuminano viene considerata un'opera creativa e la Città vi potrebbe chiedere ragione di ciò.
 
-Non illudetevi, non è un'eccezione. Anche in Italia non ci facciamo mancare casi in cui si cerca di proteggere opere il cui autore è addirittura scomparso prima dell'entrata in vigore di una qualsiasi legge sul diritto d'autore (e che quindi difficilmente potrebbe essere stato incentivato alla sua creazione dall'aspettativa di goderne i frutti). Ma di questo parleremo nella prossima puntata.
+Non illudetevi, non è un'eccezione. Anche in Italia non ci facciamo mancare casi in cui si cerca di proteggere opere il cui autore è addirittura scomparso prima dell'entrata in vigore di una qualsiasi legge sul diritto d'autore (e che quindi difficilmente potrebbe essere stato incentivato alla sua creazione dall'aspettativa di goderne i frutti). Ciò attraverso una bizzarra lettura del Codice dei beni culturali, che però non introduce affatto un diritto di privativa _erga omnes_. <!-- FIXME se aggiungiamo un capitolo, faremo riferimento -->
 
 ## Conclusioni
 
