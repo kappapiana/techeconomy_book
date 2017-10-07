@@ -1,3 +1,6 @@
+
+# Prefazione {-}
+
 L'informatica ha completamente rivoluzionato tutti gli aspetti del nostro mondo
 con una velocità  folgorante.
 
