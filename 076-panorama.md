@@ -20,7 +20,7 @@ E ancora, l'articolo 20 si occupa del diritto morale dell'architetto:
 
 Il fatto che i disegni e _le opere_ architettoniche siano soggette al copyright, fa sì evidentemente che non solo i disegni non possano essere duplicati, ma non  possono essere duplicate neppure le opere rappresentate da tali disegni. Ci si chiede tuttavia se la riproduzione di un'opera architettonica comprenda anche la fissazione su strumenti che ne riproducono l'immagine, non l'opera in sé. Ma è così?
 
-Ancora, l'art. 92 ci parla del diritto connesso della fotografia e menziona le opere architettoniche.
+Ancora, l'articolo 92 ci parla del diritto connesso della fotografia e menziona le opere architettoniche.
 
 > Per fotografie riproducenti opere dell'arte figurativa e architettonica o aventi carattere tecnico o scientifico, o di spiccato valore artistico il termine di durata è quaranta anni, a condizione che sia effettuato il deposito dell'opera a termini dell'art. 105.
 
