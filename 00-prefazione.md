@@ -36,7 +36,7 @@ possibile dal riuso massivo di componenti software preesistenti che sono svilupp
 in modo collaborativo.
 
 E il riuso di questi componenti è reso possibile dall'adozione di licenze di
-software libero e/o open source, che erano confidenziali trent'anni fa e sono
+software libero e/o open source, che erano inusuali trent'anni fa e sono
 diventate la norma oggi: anche i più acerrimi oppositori sono ormai diventati
 contributori e difensori del software libero.
 
