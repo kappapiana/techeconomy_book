@@ -13,4 +13,5 @@ header-includes:
   - \fancyhead[LO]{\leftmark}
   - \fancyhead[RE]{\rightmark}
   - \fancyfoot[CE,CO]{\thepage}
----
+  - \usepackage[hyphens]{url} 
+ ---
