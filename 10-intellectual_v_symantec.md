@@ -35,7 +35,7 @@ software.
 La Corte d'Appello per il Circuito Federale (CAFC) è stata di recente molte
 volte al centro di decisioni molto importanti riguardo al tipo di protezione da
 dare al software, come nel caso Oracle v. Google, che almeno apparentemente si
-scontra^[<http://arstechnica.com/tech-policy/2016/05/round-2-of-oracle-v-google-is-an-unpredictable-trial-over-api-fair-use/>]
+scontra^[Si veda <http://arstechnica.com/tech-policy/2016/05/round-2-of-oracle-v-google-is-an-unpredictable-trial-over-api-fair-use/>]
 con la giurisprudenza e la normativa europea circa il copyright sulle
 interfacce. Questo caso è in apparenza meno centrale, in quanto per due su tre
 dei brevetti in discussione anche la corte inferiore aveva riconosciuto una non
