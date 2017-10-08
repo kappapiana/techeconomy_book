@@ -1,5 +1,7 @@
-
-# Prefazione {-}
+---
+Author: Roberto di Cosmo
+---
+# Prefazione {.unnumbered #titolo}
 
 L'informatica ha completamente rivoluzionato tutti gli aspetti del nostro mondo
 con una velocità  folgorante.
