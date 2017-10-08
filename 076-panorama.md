@@ -8,10 +8,8 @@ Consci della follia di questa pretesa di controllare fotografie ed altre riprese
 
 Le opere di architettura sono protette dal copyright. Ad esse la legge sul diritto d'autore riserva una menzione speciale e speciali diritti morali:
 
-> Art. 2
->
-> In particolare sono comprese nella protezione:
->
+> Art. 2  
+> In particolare sono comprese nella protezione:  
 >  [...] 5) i disegni e le opere dell'architettura;
 
 E ancora, l'articolo 20 si occupa del diritto morale dell'architetto:
