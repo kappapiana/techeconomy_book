@@ -270,7 +270,9 @@ sovrapponibili, lascia alquanto perplessi circa tale standard.
 
 Non che gli altri siano indenni da critiche. Lo vedremo nel prossimo capitolo.
 
-<!-- QUI METTIAMO ALCUNI LINK CHE SERVONO SOPRA-->
+<!-- QUI METTIAMO ALCUNI LINK CHE SERVONO SOPRA -->
+
+<!-- I link appariranno solo nell'HTML, ma non sono essenziali -->
 
 [standard]: http://www.techeconomy.it/tag/standard/
 [nato]: https://it.wikipedia.org/wiki/Alfabeto_fonetico_NATO
