@@ -1,4 +1,4 @@
-# Ponti, torri, vele e lo strano caso della libertà di panorama
+# Ponti, torri, vele e lo strano caso della libertà di panorama {#sec_panorama}
 
 Uno spettro si aggira per l'Europa, e per fortuna questa volta è un po' meno odioso di quello proverbiale. La scomparsa del **diritto di panorama**. Per diritto di panorama significa l'aspettativa che molti &ndash; lo confesso, me compreso &ndash; hanno, di poter fare fotografie a un panorama senza doversi preoccupare di violare il copyright di qualcuno. Purtroppo, con riforme, riformicchie e interpretazioni estremistiche, questo diritto è stato via via eroso negli anni fino a diventare una vero problema per chi raccoglie fotografie scattate da ignari contributori del tutto benintenzionati.
 
