@@ -112,7 +112,7 @@ indebiti vantaggi o posizioni di dominio da parte di qualcuno su qualcun altro.
 Qui do alcune indicazioni su ciò che uno standard aperto debba rispettare, nella
 definizione^[<https://fsfe.org/activities/os/def.en.html>] che ho contribuito a fissare per la Free Software Foundation Europe.
 
-## Uno standard è aperto quando è accessibile
+### Uno standard è aperto quando è accessibile
 
 Questa è facile. Lo standard è una norma, la norma deve essere **conosciuta**
 per essere osservata. Lo standard deve essere dunque pienamente conoscibile. Per
@@ -130,16 +130,16 @@ sarebbe uno standard completo.
 
 Tali documenti, poi, debbono essere resi "**pubblici**". Ciò non significa che
 essi non possono essere coperti da copyright e ceduti sotto condizioni
-proprietarie: tali condizioni non debbono essere **discriminatorie** o eccedere
+proprietarie (anche dietro il pagamento di un prezzo): tali condizioni non debbono essere **discriminatorie** o eccedere
 i costi di formazione dello standard e di produzione del documento, ovvero costi
 nominali dell'opera. Se munirsi di una copia dello standard dovesse costare
-eccessivamente, solo chi ha sufficienti disponibilità economiche potrebbero
-accedervi. Se solo chi ha una qualifica particolare può accedere il documento,
+eccessivamente, solo chi ha sufficienti disponibilità economiche potrebbe
+accedervi. Se solo chi ha una qualifica particolare può accedere al documento,
 questo sarebbe discriminatorio. L'accesso pubblico significa "a chiunque sia
 disposto a pagare una ragionevole somma, non eccessiva, se richiesta, e senza
 che qualcuno possa opporre un rifiuto".
 
-## Uno standard è aperto quando è gestito imparzialmente
+### Uno standard è aperto quando è gestito imparzialmente
 
 La partecipazione  alla formazione degli standard da parte delle imprese e degli
 altri operatori interessati è una elemento essenziale nella formazione degli
@@ -152,7 +152,7 @@ Uno standard "buono" è normalmente uno standard formato democraticamente, in cu
 tutti gli interessati hanno avuto modo di dire la loro e nessuno prevale in modo
 abnorme sugli altri partecipanti. In realtà questa non è una regola necessaria.
 Esistono buoni standard in cui la tecnologia è stata fornita unilateralmente da
-un operatore, il quale la ha compiutamente descritta in maniera standard (esiste
+un operatore, il quale l'ha compiutamente descritta in maniera standard (esiste
 uno standard su come si scrivono gli standard) e ha concesso a tutti il permesso
 di usare tale tecnologia. È il caso del PDF, che è stato "donato" da Adobe e
 formalizzato in uno standard ISO (ISO 19005, ISO 32000). Qui la genesi non è
@@ -165,13 +165,13 @@ Dunque, originalmente o successivamente a una "donazione", lo standard è
 affidato a un ente imparziale, non legato o dominato da un attore dominante, ad
 accesso democratico.
 
-## Uno standard è aperto quando non discrimina
+### Uno standard è aperto quando non discrimina
 
 Uno standard dovrebbe essere il tecnologicamente neutro possibile, ovvero non
 privilegiare ingiustificatamente una piattaforma rispetto a un'altra, una
 tecnologia rispetto a un'altra, un'impresa piuttosto che un'altra, per quanto
-possibile. Dunque dovrebbe osservare un principio di prudenza nel non prevedere
-l'adozione di tecnologie esterne e non standard, o peggio, la necessità di
+possibile. Dunque dovrebbe osservare un principio di prudenza nel non richiedere
+l'adozione di tecnologie esterne non standard, o peggio, non dovrebbe implicare la necessità di
 ottenere il permesso da qualcuno per utilizzare tutta o parte della tecnologia
 necessaria.
 
@@ -254,7 +254,7 @@ a cui molti hanno attribuito un significato preciso: quello di un tentativo di
 modificare gli equilibri in gioco per far passare (o non passare, ma in misura
 assai minore) lo standard, al di là del suo merito tecnico. Lo standard stesso
 era composto da circa 6000 pagine, che probabilmente nessuno dei partecipanti
-(se mai qualcuno) ha letto integralmente. 
+(se mai qualcuno) ha letto integralmente.
 
 [^fc705c37]: <http://www.uninfo.it/>
 
