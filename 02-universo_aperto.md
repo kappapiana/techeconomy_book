@@ -119,7 +119,7 @@ Il pensiero comune si è nel frattempo conformato allo stato dell'arte, tanto da
 far ritenere naturale pensare ai “beni intellettuali” come una proprietà, allo
 stesso modo di una sedia o di un terreno. Da qui il concetto di “proprietà
 intellettuale”, che ha dato origine a teorie giusnaturaliste circa la stessa,
-quasi come se essa sia un diritto universale dell'umanità, e non una creazione
+quasi come se essa fosse un diritto universale dell'umanità, e non una creazione
 del diritto che non è esistita se non nell'ultima parte della storia umana.
 
 Segue l'**iperfetazione** attuale **di protezioni** e la moria degli usi liberi
@@ -128,7 +128,7 @@ se un ambito non sia oggetto di almeno tre o quattro protezioni giuridiche
 contemporaneamente, sia un reietto della società.
 
 Ma ogni situazione di protezione deve trovare un limite, o si scade
-nell'arbitrio, nella sopraffazione. Siamo al punto di non poter oggi girare un
+nell'arbitrio, nella sopraffazione. Siamo [al punto](#sec_panorama) di non poter oggi girare un
 film senza dover chiedere almeno un centinaio di permessi, per inquadrare un
 ponte, un edificio, un poster, un prodotto industriale. Di non poter creare un
 prodotto di un qualsiasi tipo senza dover prendere in licenza centinaia,

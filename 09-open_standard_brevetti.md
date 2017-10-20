@@ -16,13 +16,12 @@ un piccolo passo indietro e interroghiamoci a cosa servano i brevetti.
 
 ### La teoria economica fondamentale
 
-I brevetti vengono riconosciuti come un
-**incentivo all'innovazione**. La teoria economica è sufficientemente chiara
-e semplice. Tizio inventa qualcosa, ci mette anni e anni, investe ingenti
-capitali in ricerca e sviluppo, va sul mercato. Il suo prodotto, costa dieci
-euro. Ma se lo vende a dieci euro e dieci centesimi, cosa ne è di tutto
-l'investimento fatto? Per cui ammortizza il costo su un numero sperato di
-prodotti venduti. Il prodotto dunque esce a quindici euro.
+I brevetti vengono riconosciuti come un **incentivo all'innovazione**. La teoria
+economica è sufficientemente chiara e semplice. Tizio inventa qualcosa, ci mette
+anni e anni, investe ingenti capitali in ricerca e sviluppo, va sul mercato. Il
+suo prodotto, costa dieci euro. Ma se lo vende a dieci euro e dieci centesimi,
+cosa ne è di tutto l'investimento fatto? Per cui ammortizza il costo su un
+numero sperato di prodotti venduti. Il prodotto dunque esce a quindici euro.
 
 Caio vede il prodotto di Tizio, pensa che sia una bella invenzione. Ne compra
 uno, lo osserva, capisce come è fatto e decide che anche lui è in grado di fare
@@ -149,7 +148,7 @@ massimizzazione dei proventi ottenuti dalle licenze, che non richiede più
 investimenti.  Ciò fa sì che i primi siano in posizione asimmetrica avendo un
 maggior potere interdittivo generale rispetto ai nuovi venuti, coloro che hanno
 i brevetti più innovativi (perché più recenti) ma anche  più specialistici e
-limitati nello scopo,  se pur non necessariamente meno importanti o costosi da
+limitati nello scopo, se pur non necessariamente meno importanti o costosi da
 ottenere.
 
 Nella tecnologia avanzata, infine, si tende a moltiplicare all'infinito la
@@ -173,9 +172,8 @@ innovative.[^posner]
 
 [^posner]: Una posizione simile è quella di Richard Posner, Scuola di Chicago,
 dunque liberista ed estremamente _pro-market_, in _Do patent and copyright law
-restrict competition and creativity excessively? Posner_, [Becker-Posner
-Blog](http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html)
-(http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html)
+restrict competition and creativity excessively? Posner_, Becker-Posner
+Blog  <http://www.becker-posner-blog.com/2012/09/do-patent-and-copyright-law-restrict-competition-and-creativity-excessively-posner.html>
 
 ## Entrino gli standard (nel software)
 
