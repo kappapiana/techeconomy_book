@@ -199,7 +199,9 @@ rispetta i diritti morali. A pagina 80 si legge:
 necessari per lo svolgimento delle funzioni tipiche delle pubbliche
 amministrazioni non è opportuno applicare la CC0, in quanto questa prevede il
 rilascio dei diritti morali che sono inalienabili, indisponibili,
-imprescrittibili secondo le norme nazionali ed europee
+imprescrittibili secondo le norme nazionali ed europee [^1bbf02d1]
+
+[^1bbf02d1]: Questo testo non è stato riportato nelle nuove linee guida, le quali fanno ora solo riferimento al demanio culturale e alla comunicazione della Commissione sul licensing degli open data (piuttosto assurdamente, in quanto tale comunicazione raccomanda appunto di usare le CC0, altre licenze più restrittive solo in caso ciò non sia possibile). <!-- FIXME check diff versioni --> 
 
 Mi si permetta una piccola nota polemica. L'affermazione citata contiene ben
 **due errori** di importanza capitale.
