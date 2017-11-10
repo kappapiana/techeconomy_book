@@ -136,7 +136,8 @@ pietoso velo sui brevetti che ricadono su "semplice" software che fa riferimento
 a computer generici, e lo fa sotto due speciali argomenti:
 
 a. il diritto di esprimere liberamente le proprie opinioni (Primo Emendamento
-alla Costituzione USA); b. una esenzione "per categoria" del software
+alla Costituzione USA);
+b. una esenzione "per categoria" del software
 dall'ambito della protezione brevettuale.
 
 La parte sul **diritto di parola** (*Freedom of Speech*, uno dei più sacri, non

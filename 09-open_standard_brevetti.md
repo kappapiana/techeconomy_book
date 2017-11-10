@@ -71,7 +71,7 @@ dell'arbitrio del monopolista. [^watt]
 sulla macchina a vapore. Per approfondimenti, si veda il lavoro di Michele
 Boldrin e David K Levine "Against Intellectual Monopoly" Cambridge University
 Press 978-0-521-87928-6. L'introduzione è disponibile tramite il MISES Blog
-^[Z<https://mises.org/library/james-watt-monopolist>]
+<https://mises.org/library/james-watt-monopolist>
 
 Il gioco concorrenziale che (teoricamente) si crea è anch'esso (sempre in
 teoria) semplice. Chi volesse fare concorrenza a Tizio ha due strategie
