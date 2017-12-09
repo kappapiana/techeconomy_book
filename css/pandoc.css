@@ -142,7 +142,8 @@ h1, h2, h3, h4, h5 {
   page-break-after: avoid;
 }
 
-h1 {page-break-before: always;} /*activate only if multi-chapter */
+/*activate only if multi-chapter */
+/*h1 {page-break-before: always;}*/
 
 /* end for prints */
 
